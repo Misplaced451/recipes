@@ -1,0 +1,51 @@
+/*
+Mihir Lele, 8/29/2022
+
+CSS file for recipes project
+*/
+
+:root {
+	--wisdom-blue: #041C2C;
+	--rebel-orange: #D86500;
+}
+
+/* indent and space out story paragraphs for readability */
+.story {
+	text-indent: 24px;
+	margin-bottom: 8px;
+}
+
+/* keep navbar stuck to top of page */
+nav.navbar {
+	position: sticky;
+	top: 0;
+	z-index: 2;
+}
+
+/* make recipe cards change color when hovering over them */
+.card.recipelink:hover {
+	cursor: pointer;
+	background-color: #eaeaea;
+}
+
+@media screen and (min-width: 1024px) {
+	.burger-item {
+		margin-left: 4.5rem;
+		margin-right: 4.5rem;
+		display: flex !important;
+	}
+}
+
+/* Adjust formatting for active link on breadcrumbs */
+li p {
+	color: #363636;
+	padding-left: 15px;
+}
+
+.wisdom-blue {
+	color: var(--wisdom-blue);
+}
+
+.rebel-orange {
+	color: var(--rebel-orange);
+}
