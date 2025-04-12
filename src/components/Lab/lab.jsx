@@ -1,55 +1,74 @@
-// import Link to change path when recipe is clicked
-import { Link } from 'react-router-dom';
-
-// import CSS
 import '../../recipes_style.css';
 import '../../bulma.css';
+import { Link } from 'react-router-dom';
 
-// import recipes of this category to export to App.js in one line
-import Cursed from './cursed';
-import ThanksgivingPie from './thanksgivingpie';
-import PineapplePizza from './pineapplepizza';
+import MugCake from './mugcake';
+import BananaCaramel from './bananacaramel';
+import Tikka from './tikka';
+import Gastrique from './gastrique';
+import PopcornChicken from './popcornchicken';
 
 const Lab = () => {
     return (
-        <div className="section has-text-centered tabcontent">
+        <div className="pt-6 section has-text-centered">
             <div className="has-text-centered section pt-0">
-                <h1 className="title">The Laboratory</h1>
-                <p className="subtitle">My best culinary experimentations</p>
+                <h1 className="has-text-weight-bold is-size-3">The Laboratory</h1>
+                <p className="subtitle">Experimental recipes I'm working on</p>
             </div>
-            
-            <div className="columns is-centered">
-                <Link to="cursed" className="card column is-one-quarter recipelink mx-2 mb-4">
+
+            <div className="columns is-centered fixed-grid has-4-cols-desktop">
+            <div className="column is-two-thirds grid">
+                <Link to="/mugcake" className="card cell is-one-quarter recipelink mx-2 mb-4">
                     <div className="card-image">
-                        <img src={process.env.PUBLIC_URL+"placeholder.jpg"} alt="cursed.jpg" />
+                        <img src={"placeholder.jpg"} alt="mugcake.jpg" />
                     </div>
                     <div className="card-content">
-                        <p className="is-4">Cursed Sandwich</p>
+                        <p className="has-text-weight-bold">Mug Cake</p>
                     </div>
                 </Link>
-                
-                <Link to="thanksgivingpie" className="card column is-one-quarter recipelink mx-2 mb-4">
+
+                <Link to="/bananacaramel" className="card cell is-one-quarter recipelink mx-2 mb-4">
                     <div className="card-image">
-                        <img src={process.env.PUBLIC_URL+"placeholder.jpg"} alt="thanksgivingpie.jpg" />
+                        <img src={"placeholder.jpg"} alt="bananacaramel.jpg" />
                     </div>
                     <div className="card-content">
-                        <p className="is-4">Thanksgiving Cottage Pie</p>
+                        <p className="has-text-weight-bold">Banana Caramel</p>
                     </div>
                 </Link>
-                
-                <Link to="pineapplepizza" className="card column is-one-quarter recipelink mx-2 mb-4">
+
+                <Link to="/tikka" className="card cell is-one-quarter recipelink mx-2 mb-4">
                     <div className="card-image">
-                        <img src={process.env.PUBLIC_URL+"placeholder.jpg"} alt="pineapplepizza.jpg" />
+                        <img src={"placeholder.jpg"} alt="tikka.jpg" />
                     </div>
                     <div className="card-content">
-                        <p className="is-4">Pineapple Upside-Down Deep-Dish Pizza</p>
+                        <p className="has-text-weight-bold">Chicken Tikka Masala</p>
                     </div>
                 </Link>
+
+                <Link to="/gastrique" className="card cell is-one-quarter recipelink mx-2 mb-4">
+                    <div className="card-image">
+                        <img src={"placeholder.jpg"} alt="gastrique.jpg" />
+                    </div>
+                    <div className="card-content">
+                        <p className="has-text-weight-bold">Apple Cider Gastrique</p>
+                    </div>
+                </Link>
+
+                <Link to="/popcornchicken" className="card cell is-one-quarter recipelink mx-2 mb-4">
+                    <div className="card-image">
+                        <img src={"placeholder.jpg"} alt="popcornchicken.jpg" />
+                    </div>
+                    <div className="card-content">
+                        <p className="has-text-weight-bold">Makeshift Popcorn Chicken</p>
+                    </div>
+                </Link>
+            </div>
             </div>
         </div>
     );
 }
 
-// export category and recipes
 export default Lab;
-export { Cursed, ThanksgivingPie, PineapplePizza };
+export {
+    MugCake, BananaCaramel, Tikka, Gastrique, PopcornChicken
+};

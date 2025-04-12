@@ -2,281 +2,205 @@ const RecipeData = {
     recipes: [
         {
             id:1,
-            name:"Pancakes",
-            path:"/breakfast/pancakes",
-            origin:"USA",
-            source:"Me"
+            name:"Apple Filling",
+            path:"/applefilling",
+            tags:['original', 'breakfast', 'dessert', 'beginner', 'vegetarian']
         },
 
         {
             id:2,
-            name:"French Toast",
-            path:"/breakfast/frenchtoast",
-            origin:"Roman Empire",
-            source:"Me"
+            name:"Cane's Sauce",
+            path:"/canes",
+            tags:['beginner', 'vegetarian']
         },
 
         {
             id:3,
-            name:"Tomato Sauce",
-            path:"/soup/tomatosauce",
-            origin:"Italy",
-            source:"Me"
+            name:"Chana Masala",
+            path:"/chana",
+            tags:['indian', 'vegetarian', 'vegan']
         },
 
         {
             id:4,
             name:"Chicken & Sausage Gumbo",
-            path:"/soup/gumbo",
-            origin:"USA",
-            source:"Internet"
+            path:"/gumbo",
+            tags:['favorite']
         },
 
         {
             id:5,
-            name:"Chicken Tikka Masala",
-            path:"/soup/tikka",
-            origin:"UK",
-            source:"Me"
+            name:"Cold Brew Coffee",
+            path:"/coffee",
+            tags:['breakfast', 'beginner', 'vegetarian', 'vegan']
         },
 
         {
             id:6,
-            name:"Rajma",
-            path:"/soup/rajma",
-            origin:"India",
-            source:"Family"
+            name:"Cranberry Sauce",
+            path:"/cranberry",
+            tags:['original', 'thanksgiving', 'beginner', 'vegetarian', 'vegan']
         },
 
         {
             id:7,
-            name:"Noodle Soup",
-            path:"/soup/noodlesoup",
-            origin:"Unknown",
-            source:"Me"
+            name:"Crepes Suzette",
+            path:"/suzette",
+            tags:['fancy', 'dessert', 'vegetarian']
         },
 
         {
             id:8,
-            name:"Cane's Sauce",
-            path:"/soup/canes",
-            origin:"USA",
-            source:"Internet"
+            name:"Cursed Sandwich",
+            path:"/cursed",
+            tags:['original', 'beginner', 'vegetarian', 'vegan']
         },
 
         {
             id:9,
-            name:"Green Chutney",
-            path:"/soup/chutney",
-            origin:"India",
-            source:"Family"
+            name:"Deviled Eggs",
+            path:"/deviledeggs",
+            tags:['fancy', 'beginner', 'vegetarian']
         },
 
         {
             id:10,
-            name:"Apple Cider Gastrique",
-            path:"/soup/gastrique",
-            origin:"France",
-            source:"Internet"
+            name:"French Toast",
+            path:"/frenchtoast",
+            tags:['original', 'fancy', 'favorite', 'breakfast', 'vegetarian']
         },
 
         {
             id:11,
-            name:"Cranberry Sauce",
-            path:"/soup/cranberry",
-            origin:"USA",
-            source:"Internet"
+            name:"Fried Egg Sandwich",
+            path:"/eggsandwich",
+            tags:['original', 'weeknight', 'vegetarian']
         },
 
         {
             id:12,
-            name:"Chana Masala",
-            path:"/soup/chana",
-            origin:"India",
-            source:"Family"
+            name:"Gajar Halwa",
+            path:"/gajarhalwa",
+            tags:['indian', 'dessert', 'vegetarian']
         },
 
         {
             id:13,
-            name:"Tomato Melt",
-            path:"/sandwiches/tomatomelt",
-            origin:"USA",
-            source:"Me"
+            name:"Gnocchi",
+            path:"/gnocchi",
+            tags:['italian', 'favorite', 'vegetarian']
         },
 
         {
             id:14,
-            name:"Fried Egg Sandwich",
-            path:"/sandwiches/eggsandwich",
-            origin:"USA",
-            source:"Me"
+            name:"Green Chutney",
+            path:"/chutney",
+            tags:['indian', 'beginner', 'vegetarian', 'vegan']
         },
 
         {
             id:15,
-            name:"SausagePeppers&Onions",
-            path:"/rice/sporice",
-            origin:"USA",
-            source:"Me"
+            name:"Lemon Meringue Pie",
+            path:"/lemonmeringue",
+            tags:['original', 'fancy', 'dessert', 'favorite', 'vegetarian']
         },
 
         {
             id:16,
-            name:"Gnocchi",
-            path:"/rice/gnocchi",
-            origin:"Italy",
-            source:"Internet"
+            name:"Meatballs",
+            path:"/meatballs",
+            tags:['italian', 'beginner', 'weeknight']
         },
 
         {
             id:17,
-            name:"Turkey Rice",
-            path:"/rice/turkeyrice",
-            origin:"USA",
-            source:"Me"
+            name:"Noodle Soup",
+            path:"/noodlesoup",
+            tags:['original', 'vegetarian']
         },
 
         {
             id:18,
-            name:"Chicken and Cola Stir-Fry",
-            path:"/rice/chickencola",
-            origin:"USA",
-            source:"Me"
+            name:"Orange Zabaglione",
+            path:"/zabaglione",
+            tags:['italian', 'fancy', 'dessert', 'vegetarian']
         },
 
         {
             id:19,
-            name:"Lemon Meringue Pie",
-            path:"/desserts/lemonmeringue",
-            origin:"USA",
-            source:"Me"
+            name:"Pancakes",
+            path:"/pancakes",
+            tags:['original', 'breakfast', 'favorite', 'vegetarian']
         },
 
         {
             id:20,
-            name:"Apple Filling",
-            path:"/desserts/applefilling",
-            origin:"USA",source:"Me"
+            name:"Pineapple Upside-Down Deep-Dish Pizza",
+            path:"/pineapplepizza",
+            tags:['original', 'favorite']
         },
 
         {
             id:21,
-            name:"Banana Caramel",
-            path:"/desserts/bananacaramel",
-            origin:"USA",
-            source:"Me"
+            name:"Pizza",
+            path:"/pizza",
+            tags:['italian']
         },
 
         {
             id:22,
-            name:"Gajar Halwa",
-            path:"/desserts/gajarhalwa",
-            origin:"India",
-            source:"Family"
+            name:"Rajma",
+            path:"/rajma",
+            tags:['indian', 'favorite', 'vegetarian', 'vegan']
         },
 
         {
             id:23,
-            name:"Orange Zabaglione",
-            path:"/desserts/zabaglione",
-            origin:"Italy",
-            source:"Internet"
+            name:"Ricotta",
+            path:"/ricotta",
+            tags:['italian', 'vegetarian']
         },
 
         {
             id:24,
-            name:"Crepes Suzette",
-            path:"/desserts/suzette",
-            origin:"France",
-            source:"Internet"
+            name:"SausagePeppers&Onions Over Rice",
+            path:"/sporice",
+            tags:['original', 'beginner', 'weeknight']
         },
 
         {
             id:25,
             name:"Sweet Potato Pie",
-            path:"/desserts/potatopie",
-            origin:"USA",
-            source:"Friends"
+            path:"/potatopie",
+            tags:['dessert', 'thanksgiving', 'vegetarian']
         },
 
         {
             id:26,
-            name:"Mug Cake",
-            path:"/desserts/mugcake",
-            origin:"USA",
-            source:"Me"
+            name:"Thanksgiving Cottage Pie",
+            path:"/thanksgivingpie",
+            tags:['original', 'thanksgiving', 'best']
         },
 
         {
             id:27,
-            name:"Cursed Sandwich",
-            path:"/lab/cursed",
-            origin:"USA",
-            source:"Me"
+            name:"Tomato Melt",
+            path:"/tomatomelt",
+            tags:['original', 'beginner', 'weeknight', 'best']
         },
 
         {
             id:28,
-            name:"Thanksgiving Cottage Pie",
-            path:"/lab/thanksgivingpie",
-            origin:"USA",
-            source:"Me"
+            name:"Tomato Sauce",
+            path:"/tomatosauce",
+            tags:['italian', 'original', 'beginner', 'best', 'vegetarian', 'vegan']
         },
 
         {
             id:29,
-            name:"Pineapple Upside-Down Deep-Dish Pizza",
-            path:"/lab/pineapplepizza",
-            origin:"USA",
-            source:"Me"
-        },
-
-        {
-            id:30,
-            name:"Makeshift Popcorn Chicken",
-            path:"/misc/popcornchicken",
-            origin:"Taiwan",
-            source:"Me"
-        },
-
-        {
-            id:31,
-            name:"Meatballs",
-            path:"/misc/meatballs",
-            origin:"Italy",
-            source:"Internet"
-        },
-
-        {
-            id:32,
-            name:"Deviled Eggs",
-            path:"/misc/deviledeggs",
-            origin:"Roman Empire",
-            source:"Internet"
-        },
-
-        {
-            id:33,
-            name:"Pizza",
-            path:"/misc/pizza",
-            origin:"Italy",
-            source:"Internet"
-        },
-
-        {
-            id:34,
-            name:"Cold Brew Coffee",
-            path:"/misc/coffee",
-            origin:"Japan",
-            source:"Internet"
-        },
-
-        {
-            id:35,
-            name:"Ricotta",
-            path:"/misc/ricotta",
-            origin:"Italy",
-            source:"Internet"
+            name:"Turkey Rice",
+            path:"/turkeyrice",
+            tags:['original', 'beginner', 'weeknight']
         }
     ]
 }
