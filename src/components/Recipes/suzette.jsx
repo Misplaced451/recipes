@@ -10,7 +10,7 @@ const Suzette = () => {
                 <p className="subtitle">Recipe from Binging with Babish. Eat as dessert. Or as breakfast. I don't care.</p>
             </div>
             
-            <div className="columns is-variable mb-6 has-background-light mx-5">
+            <div className="columns mb-6 has-background-light">
                 {/* Instructions */}
                 <div className="column">
                 <h4 className="subtitle has-text-centered-mobile">Instructions</h4>

@@ -10,7 +10,7 @@ const Chana = () => {
                 <p className="subtitle">My mom's recipe for chana masala.</p>
             </div>
 
-            <div className="columns is-variable mb-6 has-background-light mx-5">
+            <div className="columns mb-6 has-background-light">
                 {/* Instructions */}
                 <div className="column">
                 <h4 className="subtitle has-text-centered-mobile">Instructions</h4>

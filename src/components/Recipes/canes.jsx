@@ -10,7 +10,7 @@ const Canes = () => {
                 <p className="subtitle">The sauce from Raising Cane's. I don't think it's the exact recipe, but this circulated on the internet a little while ago.</p>
             </div>
             
-            <div className="columns is-variable mb-6 has-background-light mx-5">
+            <div className="columns mb-6 has-background-light">
                 {/* Instructions */}
                 <div className="column">
                 <h4 className="subtitle has-text-centered-mobile">Instructions</h4>

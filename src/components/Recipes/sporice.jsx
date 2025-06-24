@@ -6,11 +6,11 @@ const SPORice = () => {
         <div className="pt-6 section recipe">
             {/* Intro */}
             <div className="has-text-centered section pt-0">
-                <h1 className="has-text-weight-bold is-size-3">SausagePeppers&amp;Onions Over Rice</h1>
-                <p className="subtitle">Sausage. Peppers. Onions. SausagePeppers&amp;Onions.</p>
+                <h1 className="has-text-weight-bold is-size-3">Sausage, Peppers, &amp; Onions Over Rice</h1>
+                <p className="subtitle">An Italian classic with an Asian twist</p>
             </div>
             
-            <div className="columns is-variable mb-6 has-background-light mx-5">
+            <div className="columns mb-6 has-background-light">
                 {/* Instructions */}
                 <div className="column">
                 <h4 className="subtitle has-text-centered-mobile">Instructions</h4>

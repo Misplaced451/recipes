@@ -11,21 +11,21 @@ const Home = () => {
                 <p className="subtitle">A home for my favorite recipes</p>
             </div>
 
-            <div className="columns is-variable mb-6 has-background-light mx-5">
+            <div className="columns mb-6 has-background-light mx-5">
                 {/* About Me Section to explain motivations behind the site */}
                 <div className="column is-8">
                     <h4 className="has-text-weight-bold is-size-3 mb-4 has-text-centered">About Me</h4>
-                    <p className='is-size-4 px-5 story'>
+                    <p className='is-size-4 is-size-6-mobile px-5 story'>
                     Hi! I'm Mihir. This website is a compilation of recipes I've either created or collected from others. Cooking is a huge passion of mine, so I made this website to share 
                     that with you!
                     </p>
-                    <p className='is-size-4 px-5 story'>
+                    <p className='is-size-4 is-size-6-mobile px-5 story'>
                     This site started with a twofold purpose. First as a way for me to practice my JavaScript skills, since I'm a software engineer by trade. But also because after years 
                     of learning to make new dishes and inventing some of my own, the notes app on my phone became cluttered with a disorganized mess of recipes that became difficult to 
                     navigate and to share with my friends and family. If only there was a website where I could just post all my recipes, then things would be so much easier! That's the 
                     wonderful thing about being an engineer: if you can dream it, you can build it.
                     </p>
-                    <p className='is-size-4 px-5 story'>
+                    <p className='is-size-4 is-size-6-mobile px-5 story'>
                     I don't see cooking as that much different than science and engineering. To me, cooking is indeed an art. But it's also a place for experimentation, trial and error, 
                     optimizing, adapting, learning, and applying knowledge of physics and chemistry. I consider my kitchen to be my laboratory. I like finding out what works and what 
                     doesn't and why. I encourage you to take risks in the kitchen too. Have fun with it! Cooking is one of the greatest hobbies you can have. After all, it's the only 
@@ -63,7 +63,7 @@ const Home = () => {
             </div>
 
             <div className="section mb-6 mx-5">
-                <div className='columns is-mobile is-centered has-text-centered'>
+                <div className='columns is-centered has-text-centered'>
                     <Link to="/rajma" className="card column is-2-desktop recipelink mx-4 mb-4">
                         <div className="card-image">
                             <img src={"placeholder.jpg"} alt="rajma.jpg" />

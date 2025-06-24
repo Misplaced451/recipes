@@ -10,7 +10,7 @@ const Zabaglione = () => {
                 <p className="subtitle">A non-alcoholic, citrusy take on this custardy Italian dish. Recipe adapted from Food Wishes.</p>
             </div>
 
-            <div className="columns is-variable mb-6 has-background-light mx-5">
+            <div className="columns mb-6 has-background-light">
                 {/* Instructions */}
                 <div className="column">
                 <h4 className="subtitle has-text-centered-mobile">Instructions</h4>

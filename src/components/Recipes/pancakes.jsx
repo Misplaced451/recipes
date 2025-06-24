@@ -10,7 +10,7 @@ const Pancakes = () => {
                 <p className="subtitle">Here's my recipe for pancakes. And when I say pancakes, I mean pan CAKES. These bad boys are thick.</p>
             </div>
 
-            <div className="columns is-variable mb-6 has-background-light mx-5">	
+            <div className="columns mb-6 has-background-light">	
                 {/* Instructions */}
                 <div className="column">
                 <h4 className="subtitle has-text-centered-mobile">Instructions</h4>
