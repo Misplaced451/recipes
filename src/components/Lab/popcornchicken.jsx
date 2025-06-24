@@ -10,7 +10,7 @@ const PopcornChicken = () => {
                 <p className="subtitle has-text-danger">WORK IN PROGRESS - RECIPE INCOMPLETE</p>
             </div>
             
-            <div className="columns is-variable has-background-light mx-5">
+            <div className="columns has-background-light">
                 {/* Instructions */}
                 <div className="column">
                 <h4 className="subtitle has-text-centered-mobile">Instructions</h4>

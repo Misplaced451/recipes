@@ -39,7 +39,7 @@ const Links = () => {
                 <p className="subtitle">Links to my favorite cooking sites and videos</p>
             </div>
 
-            <div className="columns is-centered section pt-0 card">
+            <div className="columns is-centered section pt-0 px-3 box">
             <div className='column py-5'>
                 <div className="has-text-centered">
                     <h1 className="has-text-weight-bold is-size-4">Introductory</h1>

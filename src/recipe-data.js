@@ -29,6 +29,13 @@ const RecipeData = {
         },
 
         {
+            id:30,
+            name:"Chocolate Mug Cake",
+            path:"/mugcake",
+            tags:['dessert', 'beginner', 'vegetarian', 'original']
+        },
+
+        {
             id:5,
             name:"Cold Brew Coffee",
             path:"/coffee",
@@ -163,7 +170,7 @@ const RecipeData = {
 
         {
             id:24,
-            name:"SausagePeppers&Onions Over Rice",
+            name:"Sausage, Peppers, & Onions Over Rice",
             path:"/sporice",
             tags:['original', 'beginner', 'weeknight']
         },
@@ -201,7 +208,7 @@ const RecipeData = {
             name:"Turkey Rice",
             path:"/turkeyrice",
             tags:['original', 'beginner', 'weeknight']
-        }
+        },
     ]
 }
 export default RecipeData;
