@@ -30,10 +30,23 @@ const Searchbar = () => {
                 <p className="subtitle">Note: Results are listed in alphabetical order</p>
             </div>
             
-            <input className="is-large" type="text" onChange={event => setQuery(event.target.value)} />
+            
             <div className="columns is-centered mt-4">
                 <div className="column is-4">
-                    {filteredItems.map(value => <div className='box button my-2'><Link to={value.path} className="has-text-dark is-size-4">{value.name}</Link></div>)}
+                    <input 
+                        className="input mb-5" 
+                        type="text" 
+                        placeholder='Enter recipe name' 
+                        onChange={event => setQuery(event.target.value)} 
+                    />
+                    {filteredItems.map(value => 
+                        <div className='box button my-2 py-5'>
+                            <Link to={value.path} 
+                                className="has-text-dark has-text-weight-semibold">
+                                {value.name}
+                            </Link>
+                        </div>
+                    )}
                 </div>
             </div>
         </div>

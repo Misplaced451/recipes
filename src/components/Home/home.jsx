@@ -11,7 +11,7 @@ const Home = () => {
                 <p className="subtitle">A home for my favorite recipes</p>
             </div>
 
-            <div className="columns mb-6 has-background-light mx-5">
+            <div className="columns mb-6 has-background-light">
                 {/* About Me Section to explain motivations behind the site */}
                 <div className="column is-8">
                     <h4 className="has-text-weight-bold is-size-3 mb-4 has-text-centered">About Me</h4>

@@ -150,10 +150,10 @@ const Recipes = () => {
             </div>
             </div>
 
-            <div className="columns is-centered fixed-grid has-4-cols-desktop">
-            <div className="column is-two-thirds grid">
+            <div className="columns is-mobile is-centered fixed-grid has-4-cols-desktop has-1-cols-mobile">
+            <div className="column mt-5 is-two-thirds grid">
                 {filteredItems.map(value => 
-                    <Link to={value.path} className="card cell is-one-quarter recipelink mx-2 mb-4">
+                    <Link to={value.path} className="card cell recipelink mx-2 mb-4">
                         <div className="card-image">
                             <img src={"placeholder.jpg"} alt={`${value.path}.jpg`} />
                         </div>
@@ -163,7 +163,7 @@ const Recipes = () => {
                     </Link>
                 )}
 
-                <div className={`card cell is-one-quarter recipelink mx-2 mb-4 ${query ? "is-hidden" : ""}`} onClick={handlePizza}>
+                <div className={`card cell recipelink mx-2 mb-4 ${query ? "is-hidden" : ""}`} onClick={handlePizza}>
                     <div className="card-image">
                         <img src={"placeholder.jpg"} alt="nobake.jpg" />
                     </div>

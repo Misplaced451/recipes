@@ -29,6 +29,13 @@ const RecipeData = {
         },
 
         {
+            id:30,
+            name:"Chocolate Mug Cake",
+            path:"/mugcake",
+            tags:['dessert', 'beginner', 'vegetarian', 'original']
+        },
+
+        {
             id:5,
             name:"Cold Brew Coffee",
             path:"/coffee",
@@ -201,13 +208,6 @@ const RecipeData = {
             name:"Turkey Rice",
             path:"/turkeyrice",
             tags:['original', 'beginner', 'weeknight']
-        },
-
-        {
-            id:30,
-            name:"Chocolate Mug Cake",
-            path:"/mugcake",
-            tags:['dessert', 'beginner', 'vegetarian', 'original']
         },
     ]
 }
