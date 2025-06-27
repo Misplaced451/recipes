@@ -51,8 +51,7 @@ const EggSandwich = () => {
                 <p>* Grated low-moisture mozzarella works here as well.</p>
                 </div>
             </div>
-            
-            
+          
             {/* About the recipe */}
             <h4 className="subtitle has-text-centered is-4">Story Time</h4>
             <p className="story">
@@ -66,10 +65,10 @@ const EggSandwich = () => {
             whites and garlic powder on the yolk. The salt will help the whites set properly, and the garlic will pack the yolk with flavor. Flip over the egg, taking care not to break 
             the yolk. Immediately add cheese over it to ensure it melts as soon as possible. I like using a pre-shredded Mexican 4 cheese blend, but you can also use shredded low-moisture 
             mozzarella instead. Cover with a lid until the cheese melts and add some red pepper flakes over the cheese. You can cook your egg to desired doneness, but I prefer over medium. 
-            I like having a runny yolk, but thick enough that it doesn't feel raw.
+            I like having a jammy yolk that's not fully set, but still thick enough that it doesn't feel raw.
             </p>
             <p className="story">
-            When the egg is done, place the egg on one slice of bread, top with some leaves of baby spinach, and then close the sandwich. I always slice my sandwich in half before serving. 
+            When the egg is done, place it on one slice of bread, top with some leaves of baby spinach, and then close the sandwich. I always slice my sandwich in half before serving. 
             If you leave your eggs a little runny like me, you'll be fortunate enough to see the yolk oozing out as you cut into it. Marvelous.
             </p>
         </div>    

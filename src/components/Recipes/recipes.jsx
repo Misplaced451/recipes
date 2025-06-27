@@ -36,6 +36,8 @@ import DeviledEggs from './deviledeggs';
 import Pizza from './pizza';
 import Coffee from './coffee';
 import Ricotta from './ricotta';
+import PopcornChicken from './popcornchicken';
+import MugCake from './mugcake';
 
 import RecipeData from '../../recipe-data';
 
@@ -184,5 +186,5 @@ export {
     Chutney, Cranberry, Chana, TomatoMelt, EggSandwich, SPORice, Gnocchi, 
     TurkeyRice, LemonMeringue, AppleFilling, GajarHalwa, 
     Zabaglione, Suzette, PotatoPie, Cursed, ThanksgivingPie, PineapplePizza, 
-    Meatballs, DeviledEggs, Pizza, Coffee, Ricotta 
+    Meatballs, DeviledEggs, Pizza, Coffee, Ricotta, PopcornChicken, MugCake
 };

@@ -8,7 +8,7 @@ const BananaCaramel = () => {
             <div className="has-text-centered section pt-0">
                 <h1 className="has-text-weight-bold is-size-3">Banana Caramel</h1>
                 <p className="subtitle">Goes great on toast, French or otherwise.</p>
-                <p className="subtitle has-text-danger">WORK IN PROGRESS</p>
+                <p className="subtitle has-text-danger">WORK IN PROGRESS - RECIPE INCOMPLETE</p>
             </div>
             
             <div className="columns mb-6 has-background-light">

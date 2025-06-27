@@ -137,7 +137,7 @@ const RecipeData = {
             id:19,
             name:"Pancakes",
             path:"/pancakes",
-            tags:['original', 'breakfast', 'favorite', 'vegetarian']
+            tags:['original', 'breakfast', 'vegetarian']
         },
 
         {
@@ -174,6 +174,14 @@ const RecipeData = {
             path:"/sporice",
             tags:['original', 'beginner', 'weeknight']
         },
+        
+        {
+            id:31,
+            name:"Shortcut Popcorn Chicken",
+            path:"/popcornchicken",
+            tags:['original', 'beginner', 'weeknight', 'favorite']
+        },
+
 
         {
             id:25,
@@ -186,21 +194,21 @@ const RecipeData = {
             id:26,
             name:"Thanksgiving Cottage Pie",
             path:"/thanksgivingpie",
-            tags:['original', 'thanksgiving', 'best']
+            tags:['original', 'thanksgiving', 'favorite']
         },
 
         {
             id:27,
             name:"Tomato Melt",
             path:"/tomatomelt",
-            tags:['original', 'beginner', 'weeknight', 'best']
+            tags:['original', 'beginner', 'weeknight', 'favorite']
         },
 
         {
             id:28,
             name:"Tomato Sauce",
             path:"/tomatosauce",
-            tags:['italian', 'original', 'beginner', 'best', 'vegetarian', 'vegan']
+            tags:['italian', 'original', 'beginner', 'favorite', 'vegetarian', 'vegan']
         },
 
         {

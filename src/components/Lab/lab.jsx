@@ -2,11 +2,9 @@ import '../../recipes_style.css';
 import '../../bulma.css';
 import { Link } from 'react-router-dom';
 
-import MugCake from './mugcake';
 import BananaCaramel from './bananacaramel';
 import Tikka from './tikka';
 import Gastrique from './gastrique';
-import PopcornChicken from './popcornchicken';
 
 const Lab = () => {
     return (
@@ -16,17 +14,8 @@ const Lab = () => {
                 <p className="subtitle">Experimental recipes I'm working on</p>
             </div>
 
-            <div className="columns is-centered fixed-grid has-4-cols-desktop">
+            <div className="columns is-centered fixed-grid has-3-cols-desktop">
             <div className="column is-two-thirds grid">
-                <Link to="/mugcake" className="card cell is-one-quarter recipelink mx-2 mb-4">
-                    <div className="card-image">
-                        <img src={"placeholder.jpg"} alt="mugcake.jpg" />
-                    </div>
-                    <div className="card-content">
-                        <p className="has-text-weight-bold">Mug Cake</p>
-                    </div>
-                </Link>
-
                 <Link to="/bananacaramel" className="card cell is-one-quarter recipelink mx-2 mb-4">
                     <div className="card-image">
                         <img src={"placeholder.jpg"} alt="bananacaramel.jpg" />
@@ -53,15 +42,6 @@ const Lab = () => {
                         <p className="has-text-weight-bold">Apple Cider Gastrique</p>
                     </div>
                 </Link>
-
-                <Link to="/popcornchicken" className="card cell is-one-quarter recipelink mx-2 mb-4">
-                    <div className="card-image">
-                        <img src={"placeholder.jpg"} alt="popcornchicken.jpg" />
-                    </div>
-                    <div className="card-content">
-                        <p className="has-text-weight-bold">Makeshift Popcorn Chicken</p>
-                    </div>
-                </Link>
             </div>
             </div>
         </div>
@@ -70,5 +50,5 @@ const Lab = () => {
 
 export default Lab;
 export {
-    MugCake, BananaCaramel, Tikka, Gastrique, PopcornChicken
+    BananaCaramel, Tikka, Gastrique
 };

@@ -1,13 +1,32 @@
 Recipes Website v3.0 - Collection of recipes curated by Mihir Lele
 
+===== Release 3.1 =====
+TBD - "TBD"
+New Additions:
+- New recipes:
+    o Jerk Chicken Wings
+    o Chicken Stir Fry Over Rice
+    o Mexican Rice
+    o Power Smoothie
+    o Tofu Spinach Wraps
+    o Sam Gamgee's Coney Stew
+    o Mini Pork Pies
+- New lab experiments:
+    o Burger Meatballs
+    o Black Pepper Honey Ice Cream
+    o Spiced Orange Ice Cream
+    o Blue Chip Chicken Stock
+Changes:
+- Completed popcorn chicken recipe
+- Completed mug cake recipe
+o Removed banana caramel recipe
+o Updated all recipe storytimes
+
 ===== Release 3.0 =====
-6/25/25 - v3.0.1 Patch Notes
-- Fixed homepage width on mobile
-- Fixed column displays on mobile for Recipes
-- Fixed column width for recipes and homepage on mobile
-- Centered columns on mobile for Links
-- Put recipes back in alphabetical order
-- Resized Searchbar, improved responsiveness, and added a placeholder in the input element
+6/24/25 - v3.0.1 Patch Notes
+- Improved mobile responsiveness and layout for the Home and Recipes page
+- Adjusted alignment and spacing of columns across site
+- Improved Searchbar appearance
 
 4/11/25 - "The Great Sorting"
 New Additions:

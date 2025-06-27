@@ -76,7 +76,7 @@ const Gnocchi = () => {
             which will be great for clinging onto the sauce.
             </p>
             <p className="story">
-            Now for the brown butter sage sauce. Start boiling a pot of water and melt some butter in a separate pan. Cook the butter over medium-high until it becomes toasty and browned, 
+            Now for the brown butter sage sauce. Start boiling a pot of water and melt some butter in a separate pan. Cook the butter over medium heat until it becomes toasty and browned, 
             but not burnt. If you blacken it, you need to start the sauce over. Add some fresh sage leaves to the butter and turn down the heat to prevent burning. Cook until sage begins 
             to become crispy and turn off the heat. By now the pot of water should be boiling. Boil the gnocchi for a few minutes. They're done cooking when they begin to float. 
             Add the gnocchi to the brown butter sage sauce along with a splash of the cooking water. That water is now laden with starch, which will thicken the sauce and help it stick to 
