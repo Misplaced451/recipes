@@ -60,7 +60,7 @@ const TurkeyRice = () => {
             {/* About the recipe */}
             <h4 className="subtitle has-text-centered is-4">Story Time</h4>
             <p className="story">
-            I created this dish when I used to work out regularly to help me bulk. Heavy on protein, carbs, and fat to help you meet your macros. Heavy on flavor so you could eat 
+            I created this dish when I was working out in college to help me bulk. Heavy on protein, carbs, and fat to help you meet your macros. Heavy on flavor so you could eat 
             it every day and never tire of it. Of course, feel free to omit the eggs if you don't care for the taste or don't need the extra protein and fat. Don't be afraid to make it 
             your own. I sometimes add things like green bell pepper, carrots, or celery, depending on what's in the fridge.
             </p>
@@ -75,10 +75,9 @@ const TurkeyRice = () => {
             </p>
             <p className="story">
             Make 3 spaces in the pan and crack eggs into them. Scramble the eggs, mix everything together, and turn off the heat. The eggs should be fully cooked, but there should still 
-            be a lot of liquid in the pan from the tomato. Fold the contents of the pan into the rice until the turmeric stains every grain of rice yellow. I call this process reverse 
-            colonization, because we don't want any white remaining. Scoop into a plate or bowl and serve. This dish is very heavy in protein and carbs, making it a great 
-            option for people trying to gain muscle without eating just bland chicken and plain rice. This dish has nutrients. This dish has spices. This dish nourishes. This dish satisfies, 
-            guaranteed.
+            be a lot of liquid in the pan from the tomato. Fold the contents of the pan into the rice until the turmeric stains every grain of rice yellow. Scoop into a plate or bowl and serve. 
+            This dish is very heavy in protein and carbs, making it a great option for people trying to gain muscle without eating just bland chicken and plain rice. This dish has nutrients. 
+            This dish has spices. This dish nourishes. This dish satisfies, guaranteed.
             </p>
         </div>    
     );

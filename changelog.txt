@@ -1,7 +1,12 @@
 Recipes Website v3.0 - Collection of recipes curated by Mihir Lele
+===== Release 3.2 =====
+TBD - "The LOTR Feast Special"
+New Additions:
+    o Sam Gamgee's Coney Stew
+    o Mini Pork Pies
 
 ===== Release 3.1 =====
-TBD - "TBD"
+TBD - "The Catch-Up"
 New Additions:
 - New recipes:
     o Jerk Chicken Wings
@@ -9,8 +14,6 @@ New Additions:
     o Mexican Rice
     o Power Smoothie
     o Tofu Spinach Wraps
-    o Sam Gamgee's Coney Stew
-    o Mini Pork Pies
 - New lab experiments:
     o Burger Meatballs
     o Black Pepper Honey Ice Cream
@@ -19,8 +22,8 @@ New Additions:
 Changes:
 - Completed popcorn chicken recipe
 - Completed mug cake recipe
+- Updated all recipe storytimes
 o Removed banana caramel recipe
-o Updated all recipe storytimes
 
 ===== Release 3.0 =====
 6/24/25 - v3.0.1 Patch Notes

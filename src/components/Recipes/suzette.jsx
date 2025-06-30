@@ -67,7 +67,7 @@ const Suzette = () => {
             butter, and salt. Whisk flour into the wet mixture until smooth. Let the batter rest for 30 minutes. This will relax the gluten and allow the flour to finish hydrating properly. 
             When ready, ladle the batter onto a skillet over medium heat and spread it thin. Cook until slightly browned, then flip and cook again until slightly browned on the other side. 
             This recipe will make a lot of crepes, but you really only need to save the 4 best ones to make crepes suzette. But what to do with the rest? Eat them, of course. Fill them 
-            with Nutella, strawberries, condensed milk, sauteed mushrooms and cheese, I don't care.
+            with Nutella, strawberries, condensed milk, sauteed mushrooms and cheese, it's up to you!
             </p>
             <p className="story">
             Now that you have your 4 remaining crepes set aside, melt the butter in a pan and dissolve the sugar in it. Mix in the zest and juice of 1 orange. When it comes to a simmer, 

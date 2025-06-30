@@ -38,8 +38,10 @@ const ThanksgivingPie = () => {
                 <div className="content">
                     <p>For the Mince:</p>
                     <ul>
-                        <li>1 lb ground turkey</li>
+                        <li>2 lb ground turkey</li>
                         <li>2 cups chicken stock</li>
+                        <li>0.25 cups red wine</li>
+                        <li>2 tsp Worcestershire sauce</li>
                         <li>0.5 onions</li>
                         <li>4 stalks celery</li>
                         <li>1 spoon tomato paste</li>
@@ -55,12 +57,15 @@ const ThanksgivingPie = () => {
                     </ul>
                     <p>For the Potatoes:</p>
                     <ul>
-                        <li>2 potatoes</li>
+                        <li>3 lbs russet potatoes</li>
                         <li>2 tbsp butter</li>
                         <li>0.25 cup Milk</li>
                         <li>Cheddar cheese, grated</li>
+                        <li>2 egg yolks (optional)</li>
+                        <li>Parmigiano reggiano</li>
                         <li>Salt</li>
                         <li>Pepper</li>
+                        <li>Chives</li>
                     </ul>
                 </div>
                 </div>
