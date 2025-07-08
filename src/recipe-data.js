@@ -29,6 +29,13 @@ const RecipeData = {
         },
 
         {
+            id:33,
+            name:"Chicken Stir Fry",
+            path:"/stirfry",
+            tags:['weeknight', 'original']
+        },
+
+        {
             id:30,
             name:"Chocolate Mug Cake",
             path:"/mugcake",
@@ -106,6 +113,13 @@ const RecipeData = {
         },
 
         {
+            id:32,
+            name:"Jerk Chicken Wings",
+            path:"/jerkchicken",
+            tags:['original', 'favorite']
+        },
+
+        {
             id:15,
             name:"Lemon Meringue Pie",
             path:"/lemonmeringue",
@@ -117,6 +131,13 @@ const RecipeData = {
             name:"Meatballs",
             path:"/meatballs",
             tags:['italian', 'beginner', 'weeknight']
+        },
+
+        {
+            id:34,
+            name:"Mexican Rice",
+            path:"/mexicanrice",
+            tags:['beginner', 'weeknight', 'original']
         },
 
         {
@@ -179,7 +200,7 @@ const RecipeData = {
             id:31,
             name:"Shortcut Popcorn Chicken",
             path:"/popcornchicken",
-            tags:['original', 'beginner', 'weeknight', 'favorite']
+            tags:['original', 'beginner', 'weeknight']
         },
 
 
