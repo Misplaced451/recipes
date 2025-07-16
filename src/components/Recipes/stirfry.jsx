@@ -52,7 +52,7 @@ const StirFry = () => {
                     <li>White pepper</li>
                     <li>Salt</li>
                 </ul>
-                <p></p>
+                <p>Vegetables</p>
                 <ul>
                     <li>3 tbsp oil</li>
                     <li>0.5 yellow onion</li>
@@ -99,29 +99,24 @@ const StirFry = () => {
             chemical can sound scary and unhealthy, so when we notice ill health effects from eating certain foods, we tend to point to the unknown substance first. So let's take the 
             mystery out of it. Monosodium Glutamate (MSG) is a chemical that, when dissolved in water, breaks down into sodium ions and glutamate. Sodium is a necessary nutrient for 
             us and glutamate is a naturally occurring substance found in many foods such as kelp, tomatoes, mushrooms, meat, aged cheeses, and nutritional yeast. Basically, if you 
-            can eat parmesan cheese and not feel sick, you'll be fine to consume MSG. So what about the number of studies that claim that it's bad for you? A few people may notice 
-            headaches after eating 3g of pure MSG without any food. Most foods with MSG (including a serving of this recipe) have less than 0.5g and it's diluted with so much other 
-            food that it's not going to realistically affect you. Also, the studies linking it to obesity and heart disease fail to take into acccount that it's usually added to junk 
-            food and fast food, which are designed for high palatability and overconsumption, which cause the aforementioned conditions. Besides, the low nutritional value and high 
-            caloric density of those kinds of foods is what makes us feel ill after eating them, so it might not be the MSG that's causing people headaches. In other words, MSG's 
-            only crime is that it's so delicious, you might accidentally eat too much of the other stuff that you're actually going to get sick from. In short, MSG is (like everything 
-            else) perfectly safe in moderation, and the amount used in this recipe is plenty to improve the flavor and not nearly enough to cause any damage to your health.
+            can eat parmesan cheese and not feel sick, you'll be fine to consume MSG. So what about the number of studies that claim that it's bad for you? The only times when MSG is 
+            linked to negative health effects is if it's consumed by itself in large quantities or if it's used to flavor junk food that's already high in calories and low in nutrients. 
+            In short, MSG is (like everything else) perfectly safe in moderation, and the amount used in this recipe is plenty enough to improve the flavor and not nearly enough to 
+            cause any damage to your health.
             </p>
             <p className="story">
             Now that the MSG rant is over, let's finish the marinade. Add a tablespoon of soy sauce for flavor and saltiness, and season with a little extra salt to taste. Now add a 
             quarter cup of cornstarch to the mix. This will turn the marinade into almost a batter that will brown very nicely when fried. Mix with your hands, massaging the marinade 
             into the chicken until a homogenous liquid paste forms and coats every piece of chicken. You may need a couple tablespoons of water to dissolve all the cornstarch, but 
             don't add too much, as excess liquid will cling less to the chicken and crisp up slower. All this battering and seasoning is going to keep the chicken extremely tender 
-            and prevent it from being dry and flavorless.
-            </p>
-            <p className="story">
-            To finish the marinade, grate in a little garlic and ginger. In a pinch you can use powdered ginger and garlic, but the complexity and strength of the aromas from fresh 
-            ingredients will serve you much better here. Add a splash of rice wine vinegar for a little acidity and flavor and a tablespoon of oil to allow the pieces to separate 
-            more easily. Season generously with some white pepper. This is a staple spice in Chinese cooking and has a milder spiciness than black pepper, with some musty, earthy 
-            characteristics that I think elevate meat-based dishes to another level. Massage the new ingredients into the marinade and let the mixture sit for 20 minutes. Unlike 
-            other marinades which go for hours, the thin pieces mean we don't need much time at all for the flavors to do their work. Also, if meat is left in baking soda for too 
-            long, it stops being tender and starts getting rubbery, so it's best not to go any longer than 20-30 minutes. This is the perfect time to chop up all your vegetables, 
-            as stir-fry moves fast. The high heat means you won't have time to wash and slice each ingredient as you cook, so it's better to prep it all beforehand.
+            and prevent it from being dry and flavorless. To finish the marinade, grate in a little garlic and ginger. In a pinch you can use powdered ginger and garlic, but the 
+            complexity and strength of the aromas from fresh ingredients will serve you much better here. Add a splash of rice wine vinegar for a little acidity and flavor and a 
+            tablespoon of oil to allow the pieces to separate more easily. Season generously with some white pepper. This is a staple spice in Chinese cooking and has a milder 
+            spiciness than black pepper, with some musty, earthy characteristics that I think elevate meat-based dishes to another level. Massage the new ingredients into the marinade 
+            and let the mixture sit for 20 minutes. Unlike other marinades which go for hours, the thin pieces mean we don't need much time at all for the flavors to do their work. 
+            Also, if meat is left in baking soda for too long, it stops being tender and starts getting rubbery, so it's best not to go any longer than 20-30 minutes. This is the 
+            perfect time to chop up all your vegetables, as stir-fry moves fast. The high heat means you won't have time to wash and slice each ingredient as you cook, so it's better 
+            to prep it all beforehand.
             </p>
             <p className="story">
             Once the chicken is done marinating, heat up 1 tbsp of oil in a wok or a pot on high heat. Once the oil starts to shimmer, add in half the chicken. Stir the pieces as 

@@ -29,6 +29,13 @@ const RecipeData = {
         },
 
         {
+            id:36,
+            name:"Chicken Burrito",
+            path:"/chickenburrito",
+            tags:['weeknight', 'original', 'beginner']
+        },
+
+        {
             id:33,
             name:"Chicken Stir Fry",
             path:"/stirfry",
@@ -116,7 +123,7 @@ const RecipeData = {
             id:32,
             name:"Jerk Chicken Wings",
             path:"/jerkchicken",
-            tags:['original', 'favorite']
+            tags:['original']
         },
 
         {
@@ -216,6 +223,13 @@ const RecipeData = {
             name:"Thanksgiving Cottage Pie",
             path:"/thanksgivingpie",
             tags:['original', 'thanksgiving', 'favorite']
+        },
+
+        {
+            id:35,
+            name:"Tofu Spinach Wraps",
+            path:"/tofuwrap",
+            tags:['original', 'weeknight', 'vegetarian', 'vegan', 'beginner']
         },
 
         {

@@ -112,7 +112,14 @@ const TofuWrap = () => {
             <p className="story">
             There should be some residual sauce left in the pan at this point. Don't worry, we're going to get it all. Cook 1 cup of spinach until it releases most of its water and use it to 
             mop up the any remaining sauce before mixing with the tofu. I find that spinach spoils quickly, even in resealable bags, so I usually put my spinach in the freezer. It doesn't 
-            smell the best when it hits the pan, but it tastes and feels exactly the same.
+            smell the best when it hits the pan, but it tastes and feels exactly the same. Turn your pan back up to medium heat and warm your tortillas on each side. You don't want it to 
+            develop a crust or get brittle, rather the opposite. Warming the tortilla helps it become more pliable, less mealy, and less prone to tearing. This one little tip that many people 
+            skip will change the way you make tacos, burritos, and wraps for the rest of your life. Place the warmed tortillas on a plate, take a fourth of the tofu and spinach and place in 
+            a line in the middle of the tortilla. Wrap it by folding over the short ends, tucking one side over the long end, and rolling over. If that made no sense, just look up how to wrap 
+            a burrito and you should be fine. To finish, we want our wraps sealed so they don't fall apart. The easiest way is to get your pan up to medium-high and set the wraps seam-side-down 
+            on the hot surface. Once they become golden-brown, the tortilla should be sealed. I like to flip the wraps over and get them a little golden on the top side as well, just to get 
+            some color and ensure the center of the wrap receives warmth from both sides. These burritos can be eaten plain, with ketchup, hot sauce, or any condiment of your choosing. 
+            Honestly they taste pretty good on their own as well, so it's up to you how you eat your wraps. 
             </p>
         </div>    
     );

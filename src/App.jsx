@@ -69,6 +69,11 @@ function App() {
           <Route path='/ricotta' element={<Recipes.Ricotta />} />
           <Route path='/popcornchicken' element={<Recipes.PopcornChicken />} />
           <Route path='/mugcake' element={<Recipes.MugCake />} />
+          <Route path='/tofuwrap' element={<Recipes.TofuWrap />} />
+          <Route path='/chickenburrito' element={<Recipes.ChickenBurrito />} />
+          <Route path='/jerkchicken' element={<Recipes.JerkChicken />} />
+          <Route path='/stirfry' element={<Recipes.StirFry />} />
+          <Route path='/mexicanrice' element={<Recipes.MexicanRice />} />
         </Routes>
       </ScrollUp>
     </div>

@@ -24,7 +24,7 @@ const JerkChicken = () => {
                     <li>Bake in the center of your oven at 350F on a foil-lined baking sheet</li>
                     <li>Cook for 15 minutes, flip over, then cook for another 15 on the other side</li>
                     <li>While the wings cook, take the leftover marinade and cook it down in a skillet over medium heat</li>
-                    <li>Once the liquid is reduced and the paste is fully heated through to remove contamination and cook the spices, add the zest and juice of the other half of the lime</li>
+                    <li>Once the liquid is reduced and the paste is fully heated through, add the zest and juice of the other half of the lime</li>
                     <li>Once combined, turn the heat off and melt in butter half a tablespoon at a time until combined to finish the sauce</li>
                     <li>Remove wings from the oven when done and set the oven to broil</li>
                     <li>Flip the wings back over and broil for 2 mins on the highest rack in the oven</li>

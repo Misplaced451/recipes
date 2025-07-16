@@ -16,10 +16,10 @@ New Additions:
     - Jerk Chicken Wings
     - Chicken Stir Fry Over Rice
     - Mexican Rice
-    * Tofu Spinach Wraps
-    o Chicken Burritos
-    o Blue Chip Chicken Stock
+    - Tofu Spinach Wraps
+    - Chicken Burritos
 - New lab experiments:
+    o Blue Chip Chicken Stock
     o Burger Meatballs
     o Spiced Orange Ice Cream
 Changes:
