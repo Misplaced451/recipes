@@ -21,7 +21,7 @@ New Additions:
     - Chicken Burritos
 - New lab experiments:
     - Blue Chip Chicken Stock
-    o Burger Meatballs
+    - Burger Meatballs
     - Orange Ice Cream
 Changes:
 - Completed popcorn chicken recipe

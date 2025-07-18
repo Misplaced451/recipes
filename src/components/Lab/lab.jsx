@@ -6,6 +6,7 @@ import ChickenStock from './chickenstock';
 import Tikka from './tikka';
 import Gastrique from './gastrique';
 import OrangeIceCream from './orangeicecream';
+import BurgerMeatballs from './burgerballs';
 
 const Lab = () => {
     return (
@@ -52,6 +53,15 @@ const Lab = () => {
                         <p className="has-text-weight-bold">Spiced Orange Ice Cream</p>
                     </div>
                 </Link>
+
+                <Link to="/burgermeatballs" className="card cell is-one-quarter recipelink mx-2 mb-4">
+                    <div className="card-image">
+                        <img src={"placeholder.jpg"} alt="burgermeatballs.jpg" />
+                    </div>
+                    <div className="card-content">
+                        <p className="has-text-weight-bold">Burger Meatballs</p>
+                    </div>
+                </Link>
             </div>
             </div>
         </div>
@@ -60,5 +70,5 @@ const Lab = () => {
 
 export default Lab;
 export {
-    ChickenStock, Tikka, Gastrique, OrangeIceCream
+    ChickenStock, Tikka, Gastrique, OrangeIceCream, BurgerMeatballs
 };

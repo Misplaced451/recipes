@@ -24,7 +24,7 @@ const BurgerMeatballs = () => {
                     <li>Sear no more than 6 balls at a time, ensuring a brown crust forms on all sides</li>
                     <li>Once all the meatballs are seared, place them all back in the pan over medium high heat</li>
                     <li>Let the temperature of the pan drop slightly before adding the butter</li>
-                    <li>Let the butter melt and mix with the oil and tallow and baste the meatballs until they reach 155F internal</li>
+                    <li>Let the butter melt and mix with the oil and tallow and baste the meatballs until they reach 160F internal</li>
                     <li>Separate the leaves from the lettuce, then wash and dry thoroughly</li>
                     <li>Place a square of lettuce on the burger and secure it with a toothpick</li>
                     <li>Serve with burger sauce</li>
@@ -80,10 +80,26 @@ const BurgerMeatballs = () => {
             emulsion. Like any other food, it's fine in moderation despite having some ingredients on the label that you may not recognize.
             </p>
             <p className='story'>
-            
+            With the cheese rant over, let's get back to the meatballs. Using your hands, mush the ingredients together until they form a homogenous paste with a few solid chunks of 
+            cheese. Roll into evenly sized balls a little bigger than a golf ball. I usually get about 12 balls out of this recipe, but you can resize to whichever size and quantity 
+            you like. Make sure to roll each ball well so it doesn't fall apart and holds its shape when cooked. Next, get a stainless steel or cast iron pan up to ripping heat, 
+            then add a little oil. It may not be necessary because of all the fat in the meatballs, but I add it to ensure no sticking. Get a hard sear on all sides of the meatballs, 
+            cooking in batches to ensure you don't overcrowd the pan. Adding too many meatballs at once can drop the temperature of the pan too much at first and release too much 
+            water at once, preventing a quick and hard sear. We're not looking to cook them all the way through just yet, but just to brown the surface.
             </p>
             <p className='story'>
-            
+            Turn the pan to medium-low and add all the balls into the pan. Once it has the chance to cool slightly, add a few tablespoons of butter. The butter will brown because of 
+            the high heat, which will mimic the toastiness of buttered buns. Baste the butter over all the meatballs as they cook for a few more minutes, until the internal temp 
+            registers 160F internal. Serve the meatballs with burger sauce mixed with minced pickles. I like to skewer each meatball with a piece of lettuce to help add some crunch 
+            and contrast. 
+            </p>
+            <p className='story'>
+            This is a very strange recipe overall. It looks and feels like you're eating meatballs, but when you chew them, it basically just turns into a chewed-up burger in your 
+            mouth. It's like a magic trick: you put a meatball in your mouth and it turns into a burger by the time you swallow. I think this recipe would be a fun little twist at 
+            a barbecue or cookout to serve as appetizers or as a side dish. I'm thinking of changing up the recipe to have a little better plating by using the lettuce as ssam, 
+            which is a Korean food where you take lettuce and wrap some meat and other ingredients and eat it in a single bite. Maybe reducing the size of the meatballs and slicing 
+            the pickles into matchsticks would be ideal for this. In this way, you could get a really interesting Korean-American fusion and eat a burger like a ssam. I'll have to 
+            make it this way and try it out, see what happens.
             </p>
         </div>
     );

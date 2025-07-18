@@ -37,6 +37,7 @@ function App() {
           <Route path='/chickenstock' element={<Lab.ChickenStock />} />
           <Route path='/gastrique' element={<Lab.Gastrique />} />
           <Route path='/orangeicecream' element={<Lab.OrangeIceCream />} />
+          <Route path='/burgermeatballs' element={<Lab.BurgerMeatballs />} />
           
           {/* Recipe Routes */}
           <Route path='/pancakes' element={<Recipes.Pancakes />} />
