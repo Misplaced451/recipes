@@ -66,7 +66,7 @@ const GajarHalwa = () => {
             Cook the carrots in the ghee on medium heat for 4-5 minutes, coating every piece of carrot in it. Then add a cup and a half of whole milk. Don't use skim, you need the milkfat 
             in there. Milk boils over really fast and scorched milk is a big problem, so be sure to occasionally stir it. Eventually, the carrots will absorb the milk after about 
             15-20 minutes. When this happens, stir in the sugar and keep cooking for another 15 minutes. Stir in some milk powder and turn off the flame. I have no idea why we need 
-            milk powder despite adding over a cup of milk, maybe just to get more milk per unit of milk. I think I'm just milking the joke at this point.
+            milk powder despite adding over a cup of milk, maybe just to get more milk per milk. I think I'm just milking the joke at this point.
             </p>
             <p className="story">
             Crush up some cardamom pods into a powder and stir it in along with the fried cashews and raisins from the beginning. You didn't forget about those, did you? Refrigerate the 

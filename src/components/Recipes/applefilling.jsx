@@ -20,7 +20,7 @@ const AppleFilling = () => {
                     <li>Melt butter in pan over medium heat.</li>
                     <li>Add apples, sugar, and salt.</li>
                     <li>Stir until sugar dissolves.</li>
-                    <li>Cook until butter and sugar caramelize.</li>
+                    <li>Cook until butter and sugar start to caramelize.</li>
                     <li>Add water and lemon juice.</li>
                     <li>Cook until slightly thickened, then add vanilla and spices.</li>
                     <li>Continue cooking until reduced to syrupy consistency and apples are soft.</li>
@@ -33,10 +33,10 @@ const AppleFilling = () => {
                 <h4 className="subtitle has-text-centered-mobile">Ingredients</h4>
                 <div className="content">
                 <ul>
-                    <li>2 apples</li>
-                    <li>2-3 spoonfuls of sugar</li>
-                    <li>2-3 tbsp butter</li>
-                    <li>1 tbsp lemon juice</li>
+                    <li>2 apples (honeycrisp preferred)</li>
+                    <li>2 tbsp sugar</li>
+                    <li>2 tbsp butter</li>
+                    <li>1 tsp lemon juice</li>
                     <li>0.25 cup water</li>
                     <li>0.25 tsp vanilla extract</li>
                     <li>1 tsp cinnamon</li>
@@ -56,10 +56,10 @@ const AppleFilling = () => {
             apple filling that would go great with vanilla ice cream, French toast, etc.
             </p>
             <p className="story">
-            Peel and core the apples, then cut them into half-inch cubes. I like using honeycrisp apples for their sweetness, but you can use whatever you want. If you prefer a tart apple, 
-            granny smiths work very well, though you'll need to add more sugar to your taste. Melt the butter in a pan over medium heat. Make sure to keep the butter moving as you melt it, 
-            so as to avoid breaking the natural emulsion of fat and water in the butter. Add in your apple pieces along with some sugar and a pinch of salt. Stir until the sugar dissolves 
-            and continue to cook until the butter begins to brown and the sugar begins to caramelize.
+            Peel and core the apples, then cut them into half-inch cubes. I like using honeycrisp apples for their sweetness, but you can use whatever you want. If you prefer a more tart 
+            apple, granny smiths work very well, though you'll need to add more sugar to your taste. Melt the butter in a pan over medium heat. Make sure to keep the butter moving as you 
+            melt it, so as to avoid breaking the natural emulsion of fat and water in the butter. Add in your apple pieces along with some sugar and a pinch of salt. Stir until the sugar 
+            dissolves and continue to cook until the butter begins to brown and the sugar begins to caramelize.
             </p>
             <p className="story">
             Add the water along with a small squeeze of lemon juice. You can even add a bit of lemon zest if you like, but I find it unnecessary. Adding lemon juice will help the natural 

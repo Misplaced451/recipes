@@ -2,11 +2,11 @@ import '../../recipes_style.css';
 import '../../bulma.css';
 import { Link } from 'react-router-dom';
 
-import MugCake from './mugcake';
-import BananaCaramel from './bananacaramel';
+import ChickenStock from './chickenstock';
 import Tikka from './tikka';
 import Gastrique from './gastrique';
-import PopcornChicken from './popcornchicken';
+import OrangeIceCream from './orangeicecream';
+import BurgerMeatballs from './burgerballs';
 
 const Lab = () => {
     return (
@@ -16,23 +16,14 @@ const Lab = () => {
                 <p className="subtitle">Experimental recipes I'm working on</p>
             </div>
 
-            <div className="columns is-centered fixed-grid has-4-cols-desktop">
+            <div className="columns is-centered fixed-grid has-3-cols-desktop">
             <div className="column is-two-thirds grid">
-                <Link to="/mugcake" className="card cell is-one-quarter recipelink mx-2 mb-4">
+                <Link to="/chickenstock" className="card cell is-one-quarter recipelink mx-2 mb-4">
                     <div className="card-image">
-                        <img src={"placeholder.jpg"} alt="mugcake.jpg" />
+                        <img src={"placeholder.jpg"} alt="chickenstock.jpg" />
                     </div>
                     <div className="card-content">
-                        <p className="has-text-weight-bold">Mug Cake</p>
-                    </div>
-                </Link>
-
-                <Link to="/bananacaramel" className="card cell is-one-quarter recipelink mx-2 mb-4">
-                    <div className="card-image">
-                        <img src={"placeholder.jpg"} alt="bananacaramel.jpg" />
-                    </div>
-                    <div className="card-content">
-                        <p className="has-text-weight-bold">Banana Caramel</p>
+                        <p className="has-text-weight-bold">Blue-Chip Chicken Stock</p>
                     </div>
                 </Link>
 
@@ -54,12 +45,21 @@ const Lab = () => {
                     </div>
                 </Link>
 
-                <Link to="/popcornchicken" className="card cell is-one-quarter recipelink mx-2 mb-4">
+                <Link to="/orangeicecream" className="card cell is-one-quarter recipelink mx-2 mb-4">
                     <div className="card-image">
-                        <img src={"placeholder.jpg"} alt="popcornchicken.jpg" />
+                        <img src={"placeholder.jpg"} alt="orangeicecream.jpg" />
                     </div>
                     <div className="card-content">
-                        <p className="has-text-weight-bold">Makeshift Popcorn Chicken</p>
+                        <p className="has-text-weight-bold">Spiced Orange Ice Cream</p>
+                    </div>
+                </Link>
+
+                <Link to="/burgermeatballs" className="card cell is-one-quarter recipelink mx-2 mb-4">
+                    <div className="card-image">
+                        <img src={"placeholder.jpg"} alt="burgermeatballs.jpg" />
+                    </div>
+                    <div className="card-content">
+                        <p className="has-text-weight-bold">Burger Meatballs</p>
                     </div>
                 </Link>
             </div>
@@ -70,5 +70,5 @@ const Lab = () => {
 
 export default Lab;
 export {
-    MugCake, BananaCaramel, Tikka, Gastrique, PopcornChicken
+    ChickenStock, Tikka, Gastrique, OrangeIceCream, BurgerMeatballs
 };

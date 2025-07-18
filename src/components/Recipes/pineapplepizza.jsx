@@ -32,7 +32,7 @@ const PineapplePizza = () => {
                     <li>Add at least 0.5 lb mozzarella and top with slices of provolone cheese, taking care to make sure the final product is relatively flat (not domed) on top.</li>
                     <li>Put remaining circle of crust dough on top of the cheese and pinch it to the dough on the walls to properly attach it.</li>
                     <li>Sprinkle some extra parmesan on top and cut a few slits to vent steam.</li>
-                    <li>Bake at 425F for 30-45 mins.</li>
+                    <li>Bake at 425F for 30 mins.</li>
                     <li>Let rest outside of the oven for 10 minutes.</li>
                     <li>Invert onto a cutting board, cake stand, or whatever heat-safe platform you want.</li>
                 </ol>
@@ -75,24 +75,25 @@ const PineapplePizza = () => {
             upside-down pizza? If you think about it, pizza normally has sauce with cheese and toppings above it, whereas in deep-dish pizza, the cheese and toppings are under the sauce. 
             Even though the crust is always on the bottom, deep-dish pie is really the closest mainstream variant of pizza that could be considered “upside-down”. So what if you made a 
             pineapple upside-down cake, but instead of cake it was a deep-dish pizza? After hours of research, diagramming, and writing, I settled on a recipe for the first ever 
-            Pineapple Upside-Down Deep-Dish Pizza.
+            Pineapple Upside-Down Deep-Dish Pizza. I'm proud to say, this is not only an original recipe, but also the first recipe for pineapple upside-down deep dish pizza ever made. I've 
+            checked on Google, I've asked ChatGPT, there's nothing. I've seen pineapple on pizza, I've seen pineapple in deep-dish pizza, I've even seen a pineapple upside-down pizza! 
+            But I've never seen pineapple upside-down deep dish pizza. This is the only place you can find it. Enjoy!
             </p>
             <p className="story">
-            Basically, you take a pie dish (if you want straight edges on the crust, you should use a cake pan) and put down some pineapple rings in some melted butter with coins of 
-            Italian sausage in the holes. Take deep-dish crust dough and line the edges, then fill up the pie dish with tomato sauce, then a layer of toppings, and cheese on top. 
-            Cover the pie with a circle of dough and crimp the dough onto the dough around the sides to seal it. Create a couple steam vents on the top and bake it in the oven. The best 
-            part is, while in the oven, because there's crust on the top and sides of a pie dish, it looks like an ordinary pie to the casual observer. Wouldn't they be shocked to see 
-            that when you take it out of the oven and invert it, it was a deep-dish pizza all along! I know you're asking, why even bake it upside down at all? It seems much simpler to 
-            do it right side up. You're right, but where's the fun in that? Where's the adventure? The childlike whimsy that comes with making a cake that's actually a pizza that's 
-            actually a pie?
+            Here's how it works: you take a pie dish and put down some pineapple rings in some melted butter with round slices of Italian sausage in the holes. Take deep-dish crust dough and 
+            line the edges, then fill up the pie dish with tomato sauce, then a layer of toppings, and cheese on top. Cover the pie with a circle of dough and crimp the dough onto the dough 
+            around the sides to seal it. Create a couple steam vents on the top and bake it in the oven. The best part is, while in the oven, because there's crust on the top and sides of a 
+            pie dish, it looks like an ordinary pie to the casual observer. Wouldn't they be shocked to see that when you take it out of the oven and invert it, it was a deep-dish pizza all 
+            along! I know you're asking, why even bake it upside down at all? It seems much simpler to do it right side up. You're right, but where's the fun in that? Where's the adventure? 
+            The childlike whimsy that comes with making a cake that's actually a pizza that's actually a pie?
             </p>
             <p className="story">
             I already described more or less how to make it, but let's get more into specifics. Start by making the dough. Special thanks to Omnivorous Adam for his deep-dish pizza crust 
             recipe. Mix the dry ingredients in a large bowl. Then mix in the olive oil until it becomes crumbly. Similar to a pie crust, it's important to add the moisture last in as small 
             a quantity as possible. Add warm water (about body temperature) into the dough little by little until a shaggy dough forms. Cover the bowl with plastic wrap and let rest for 
-            20 minutes. The yeast will begin feeding on the sugars in the flour and farting up a storm of carbon dioxide, which will cause the dough to rise. Knead the dough in 4 minute 
-            intervals, resting for 4 minutes between intervals. By the end of 2 kneading intervals (12 mins) you should have a smooth dough. Turn it into a ball, return it to the bowl 
-            and let it rest for another 2 hours.
+            20 minutes. The yeast will begin feeding on the sugars in the flour and start farting up a storm of carbon dioxide, which will cause the dough to rise. Knead the dough for 4 mins, 
+            rest for 4 mins, then knead for another 4. By the end of those 12 minutes, you should have a smooth, supple dough. Turn it into a ball, return it to the bowl and let it rest for 
+            another 2 hours. Cover the top of the bowl with plastic wrap to prevent the dough from drying out.
             </p>
             <p className="story">
             While that's rising, chop up your vegetables. I used onion, green bell pepper, and baby bella mushrooms. You can use more vegetables or none at all, it's up to you. 
@@ -108,17 +109,8 @@ const PineapplePizza = () => {
             buildup in the pie. After putting in the sauce, add at least half a pound of low-moisture mozzarella (yes, that sounds like a lot. No, it is not too much cheese) and then a 
             layer of provolone slices. Make sure the cheese is flat on top, and not domed in the middle. Put the remaining circle of dough on top of the cheese and pinch it to the walls of 
             dough to attach them together. Sprinkle some extra parmesan on top and cut some vents in the top crust to let out steam. I'm not sure if that actually helps, considering the 
-            cheese would  probably just seal it back up, but there's no harm in doing it. Bake at 425F for 30-45 minutes. For me, the crust was a little burnt on the rim, so I would 
-            recommend not going the full 45 minutes and instead checking the doneness by the color of the top crust. If it's browned nicely, it should be about done. Let rest outside the 
-            oven for at least 10 minutes before inverting onto a cutting board.
-            </p>
-            <p className="story">
-            There's only one thing left to do before cutting a slice and eating. Take a moment to think about what you've done. Seriously, you spent hours on this, and for what? Not only 
-            have you committed the cardinal sin of putting pineapple on pizza, you have also baked a deep dish pizza upside-down for no reason. Is it even a pizza anymore? Is it cake? 
-            Is it pie? Is nothing sacred in the culinary realm? Are the boundaries that we use to define and distinguish food utterly meaningless? Look upon your unholy creation and 
-            realize you have two options. Either allow yourself to well up with regret until you are laden with self-hatred and fear for what you've become... or revel in the delectable 
-            mischief and chaos of your deeds. The forces of darkness have bestowed upon you the power to bend cuisine to your will and who are you to deny it? Be without bounds, shape, 
-            form, or order. Transcend the meaning of creation through deconstruction. You are God now.
+            cheese would probably just seal it back up when it melts, but there's no harm in doing it. Bake at 425F for 30 minutes. Keep a baking tray in the rack below in case any juice 
+            drips out. Once the top crust is browned nicely, it should be about done. Let rest outside the oven for at least 10 minutes before inverting onto a cutting board.
             </p>
         </div>    
     );

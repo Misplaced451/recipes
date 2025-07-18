@@ -17,15 +17,15 @@ const TomatoSauce = () => {
                 <p><u>NOTE:</u> If using San Marzano tomatoes, ignore steps 1-3.</p>
                 <div className="content">
                 <ol>
-                    <li>Score an X on the end of the tomatoes.</li>
-                    <li>Blanch for 30-60 seconds and place them in cold water.</li>
-                    <li>Peel tomatoes and dice them (or blend them after peeling).</li>
-                    <li>Mince the onion very finely and cook with basil, oregano, and red pepper flakes in enough olive oil to coat the bottom of the pan. Cook until the onions brown.</li>
-                    <li>Thinly slice the garlic and cook in the oil until blond.</li>
-                    <li>Flip bread to soak other side and warm up a skillet over medium heat.</li>
-                    <li>Add the tomatoes.</li>
+                    <li>Score an X on the end of the tomatoes</li>
+                    <li>Blanch for 30-60 seconds and place them in cold water</li>
+                    <li>Peel tomatoes and dice them (or blend them after peeling)</li>
+                    <li>Mince the onion very finely cook with red pepper flakes in enough olive oil to coat the bottom of the pan. Cook until the onions brown</li>
+                    <li>Thinly slice the garlic and add it to the pan with oregano, cook in the oil until the garlic turns blond</li>
+                    <li>Add the tomatoes and basil</li>
                     <li>Simmer over high heat, smashing tomatoes against side of pot. Reduce until it holds a line through the middle of the sauce.</li>
                     <li>Adjust seasoning as necessary.</li>
+                    
                 </ol>
                 </div>
                 </div>
@@ -38,7 +38,7 @@ const TomatoSauce = () => {
                     <li>2 cloves garlic</li>
                     <li>0.25 yellow onion</li>
                     <li>3 Roma tomatoes, or 1 can whole, peeled San Marzano tomatoes</li>
-                    <li>Basil</li>
+                    <li>Basil (optional)</li>
                     <li>Oregano</li>
                     <li>Red pepper flakes</li>
                     <li>Olive oil</li>
@@ -58,23 +58,22 @@ const TomatoSauce = () => {
             <p className="story">
             The recipe starts with tomatoes. I recommend using a large can of whole, peeled San Marzano tomatoes. These are really good quality and absolutely worth it. 
             The reason why I prefer them whole is so I can control the texture of the sauce a little better. If you don't have these, or don't want to spring for them, 
-            that's totally fine, I've got you covered. Just use 3 Roma tomatoes and you should be fine (though keep in mind that the texture and taste are going to be very different, 
-            but still good). If you're using the fresh tomatoes, you don't want the skin on there, so use a knife to make an X on one end of each tomato and let them sit in boiling 
+            that's totally fine, I've got you covered. Just use 3 Roma tomatoes and you should be good (though keep in mind that the texture and taste are going to be very different). 
+            If you're using the fresh tomatoes, you don't want the skin on there, so use a knife to make an X on one end of the skin of each tomato and let them sit in boiling 
             water for about a minute. Fish out the tomatoes and cool off in cold water. This process allows the skin to come off easily without overcooking the tomato. 
             Once you peel them, dice them up into small cubes. You could blend them, but that incorporates a lot of air into the tomatoes, changing the color and texture, which is fine, 
             but I personally prefer the dicing method.
             </p>
             <p className="story">
-            Now that the tomatoes are prepared, mince the onion as finely as you possibly can and cook with basil, dried oregano, and red pepper flakes in olive oil over medium heat. 
-            You can use fresh basil or even fresh oregano if you want, but you don't have to. Keep in mind that overcooking fresh basil makes it bitter, so you want to keep this mixture 
-            moving. Using a lot of olive oil (enough to coat the bottom of the pan) is important, because it's going to pick up all the little flavors from the aromatics and seasonings 
-            make the sauce very flavorful. In the meantime, chop the garlic into paper-thin slices. I saw it in a scene in Goodfellas while they were making sauce, and that's how I cut 
-            garlic for my sauces ever since. It's not just to try to look cool, the thin slices have a high surface area to volume ratio, making the shape ideal for leaching out the 
-            aromatic compounds of the garlic into the sauce. Mincing them has a similar effect, but slicing allows you to see the garlic in the final product, and until you've had a 
-            slice of garlic melt in your mouth, you haven't lived. Okay fine, maybe I just do it so I can pretend to be a cool Italian mobster, but the other stuff is still true. 
-            You'll notice I limit myself to 2 cloves of garlic in this recipe. You can add more if you want, but if you're making Italian food, just remember that Italians don't 
-            actually add that much garlic to their dishes at all, as that's more of an Italian-American thing. Add the garlic to the pan when the onions begin to brown. 
-            If they seem a little too dark, that's okay too. The point of cutting them that finely is to get them to caramelize. The onion doesn't add a lot of onion flavor 
+            Now that the tomatoes are prepared, mince the onion as finely as you possibly can and cook red pepper flakes in olive oil over medium heat. 
+            Using a lot of olive oil (enough to coat the bottom of the pan) is important, because it's going to pick up all the little flavors from the aromatics and seasonings that
+            make the sauce so flavorful. In the meantime, cut the garlic into paper-thin slices. I saw that technique in a scene in Goodfellas while they were making 
+            sauce in prison, and that's how I cut garlic for my sauces ever since. It's not just to try to look cool, the thin slices have a high surface area to volume ratio, making 
+            the shape ideal for leaching out the aromatic compounds of the garlic into the sauce. Mincing them has a similar effect, but slicing allows you to see the garlic in 
+            the final product, and until you've had a slice of garlic melt in your mouth, you haven't lived. Okay fine, maybe I just do it so I can pretend to be a cool Italian mobster, 
+            but the other stuff is still true. You'll notice I limit myself to 2 cloves of garlic in this recipe. You can add more if you want, but if you're making Italian food, just 
+            remember that Italians don't actually add that much garlic to their dishes at all, as that's more of an Italian-American thing. Add the garlic to the pan when the onions 
+            begin to brown. If they seem a little too dark, that's okay too. The point of cutting them that finely is to get them to caramelize. The onion doesn't add a lot of onion flavor 
             because of this, but it does add a gentle sweetness which is good to balance the acidity of the tomatoes. Once the garlic goes from a stark white to a gentler blond color, 
             it's tomato time.
             </p>

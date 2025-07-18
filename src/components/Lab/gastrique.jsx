@@ -7,6 +7,7 @@ const Gastrique = () => {
             {/* Intro */}
             <div className="has-text-centered section pt-0">
                 <h1 className="has-text-weight-bold is-size-3">Apple Cider Gastrique</h1>
+                <p className="subtitle">A fancy name for sweet and sour sauce</p>
                 <p className="subtitle has-text-danger">WORK IN PROGRESS - RECIPE INCOMPLETE</p>
             </div>
            

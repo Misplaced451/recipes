@@ -34,10 +34,10 @@ function App() {
           
           {/* Lab Routes */}
           <Route path='/tikka' element={<Lab.Tikka />} />
-          <Route path='/mugcake' element={<Lab.MugCake />} />
-          <Route path='/bananacaramel' element={<Lab.BananaCaramel />} />
+          <Route path='/chickenstock' element={<Lab.ChickenStock />} />
           <Route path='/gastrique' element={<Lab.Gastrique />} />
-          <Route path='/popcornchicken' element={<Lab.PopcornChicken />} />
+          <Route path='/orangeicecream' element={<Lab.OrangeIceCream />} />
+          <Route path='/burgermeatballs' element={<Lab.BurgerMeatballs />} />
           
           {/* Recipe Routes */}
           <Route path='/pancakes' element={<Recipes.Pancakes />} />
@@ -69,6 +69,13 @@ function App() {
           <Route path='/pizza' element={<Recipes.Pizza />} />
           <Route path='/coffee' element={<Recipes.Coffee />} />
           <Route path='/ricotta' element={<Recipes.Ricotta />} />
+          <Route path='/popcornchicken' element={<Recipes.PopcornChicken />} />
+          <Route path='/mugcake' element={<Recipes.MugCake />} />
+          <Route path='/tofuwrap' element={<Recipes.TofuWrap />} />
+          <Route path='/chickenburrito' element={<Recipes.ChickenBurrito />} />
+          <Route path='/jerkchicken' element={<Recipes.JerkChicken />} />
+          <Route path='/stirfry' element={<Recipes.StirFry />} />
+          <Route path='/mexicanrice' element={<Recipes.MexicanRice />} />
         </Routes>
       </ScrollUp>
     </div>

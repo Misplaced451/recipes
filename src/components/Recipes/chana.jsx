@@ -60,14 +60,12 @@ const Chana = () => {
             </p>
             <p className="story">
             Start by adding cumin seeds and a bay leaf to a pot with hot oil. This will wake up the flavor compounds in these ingredients. Of course, if you leave your spices frying too 
-            long, you risk burning them, so make sure to add some finely diced onion when the cumin becomes fragrant and slightly toasted.
-            </p>
-            <p className="story">
-            The onion is going to need to cook for a little while so you can mince your garlic, peel your ginger, and dice your tomato in the meantime. Make sure the onion doesn't burn by 
-            stirring the pot occasionally. You'll know the onion is fully cooked when it becomes translucent and shrinks a bit due to water loss. You don't want to caramelize or sear the 
-            onion, just make sure they're fully cooked. Once they're at that stage, grate in some ginger, add the minced garlic with the tomatoes, then sprinkle in a pinch of salt. The 
-            salt will help release moisture and break down the vegetables faster. Once all the ingredients are well-mixed, Add all the rest of the spices. The coriander, cumin, cinnamon, 
-            and cloves are common ingredients in garam masala that will give a lot of flavor and warmth to the chana. Then add a bit of paprika for color and cayenne powder to taste.
+            long, you risk burning them, so make sure to add some finely diced onion when the cumin becomes fragrant and slightly toasted. The onion is going to need to cook for a little 
+            while so you can mince your garlic, peel your ginger, and dice your tomato in the meantime. Make sure the onion doesn't burn by stirring the pot occasionally. You'll know the 
+            onion is fully cooked when it becomes translucent and shrinks a bit due to water loss. You don't want to caramelize or sear the onion, just make sure they're fully cooked. 
+            Once they're at that stage, grate in some ginger, add the minced garlic with the tomatoes, then sprinkle in a pinch of salt. The salt will help release moisture and break down 
+            the vegetables faster. Once all the ingredients are well-mixed, Add all the rest of the spices. The coriander, cumin, cinnamon, and cloves are common ingredients in garam 
+            masala that will give a lot of flavor and warmth to the chana. Then add a bit of paprika for color and cayenne powder to taste.
             </p>
             <p className="story">
             Mix the ingredients together well, making sure to mash the tomato up as much as possible. The spices will combine with the tomato and create a paste-like substance that will act 
@@ -78,11 +76,11 @@ const Chana = () => {
             technique, you'll unlock the ability to make a plethora of Indian dishes and even make your own curry recipe if you want.
             </p>
             <p className="story">
-            Add 2 cups of chickpeas and half as much water once the spices are done cooking. I like using drained, canned chickpeas for this recipe, despite the reduction in flavor. I find 
+            Add 2 cups of chickpeas and half as much water once the spices are done cooking. I like using canned, drained chickpeas for this recipe, despite the reduction in flavor. I find 
             that it's far easier than soaking the chickpeas overnight and having to cook them for longer. Plus, the can is a great way to measure out the amount of water you need as well. 
             Mix and bring up to a simmer. Continue to simmer with the lid on for 5-10 minutes. You want the chickpeas to soften and absorb as much flavor as possible. Take off the lid and 
             mash some of the chickpeas against the sides of the pot to help thicken the gravy. Adjust for seasoning, then serve with bhature, naan, or rice. Top with chopped cilantro 
-            leaves, raw red onion slices, or both.
+            leaves, thin slices of raw red onion, or both.
             </p>
         </div>    
     );

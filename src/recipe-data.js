@@ -29,6 +29,20 @@ const RecipeData = {
         },
 
         {
+            id:36,
+            name:"Chicken Burrito",
+            path:"/chickenburrito",
+            tags:['weeknight', 'original', 'beginner']
+        },
+
+        {
+            id:33,
+            name:"Chicken Stir Fry",
+            path:"/stirfry",
+            tags:['weeknight', 'original']
+        },
+
+        {
             id:30,
             name:"Chocolate Mug Cake",
             path:"/mugcake",
@@ -106,6 +120,13 @@ const RecipeData = {
         },
 
         {
+            id:32,
+            name:"Jerk Chicken Wings",
+            path:"/jerkchicken",
+            tags:['original']
+        },
+
+        {
             id:15,
             name:"Lemon Meringue Pie",
             path:"/lemonmeringue",
@@ -117,6 +138,13 @@ const RecipeData = {
             name:"Meatballs",
             path:"/meatballs",
             tags:['italian', 'beginner', 'weeknight']
+        },
+
+        {
+            id:34,
+            name:"Mexican Rice",
+            path:"/mexicanrice",
+            tags:['beginner', 'weeknight', 'original']
         },
 
         {
@@ -137,7 +165,7 @@ const RecipeData = {
             id:19,
             name:"Pancakes",
             path:"/pancakes",
-            tags:['original', 'breakfast', 'favorite', 'vegetarian']
+            tags:['original', 'breakfast', 'vegetarian']
         },
 
         {
@@ -174,6 +202,14 @@ const RecipeData = {
             path:"/sporice",
             tags:['original', 'beginner', 'weeknight']
         },
+        
+        {
+            id:31,
+            name:"Shortcut Popcorn Chicken",
+            path:"/popcornchicken",
+            tags:['original', 'beginner', 'weeknight']
+        },
+
 
         {
             id:25,
@@ -186,21 +222,28 @@ const RecipeData = {
             id:26,
             name:"Thanksgiving Cottage Pie",
             path:"/thanksgivingpie",
-            tags:['original', 'thanksgiving', 'best']
+            tags:['original', 'thanksgiving', 'favorite']
+        },
+
+        {
+            id:35,
+            name:"Tofu Spinach Wraps",
+            path:"/tofuwrap",
+            tags:['original', 'weeknight', 'vegetarian', 'vegan', 'beginner']
         },
 
         {
             id:27,
             name:"Tomato Melt",
             path:"/tomatomelt",
-            tags:['original', 'beginner', 'weeknight', 'best']
+            tags:['original', 'beginner', 'weeknight', 'favorite']
         },
 
         {
             id:28,
             name:"Tomato Sauce",
             path:"/tomatosauce",
-            tags:['italian', 'original', 'beginner', 'best', 'vegetarian', 'vegan']
+            tags:['italian', 'original', 'beginner', 'favorite', 'vegetarian', 'vegan']
         },
 
         {

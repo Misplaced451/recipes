@@ -27,7 +27,7 @@ const Chutney = () => {
                 <h4 className="subtitle has-text-centered-mobile">Ingredients</h4>
                 <div className="content">
                 <ul>
-                    <li>6-8 bird's eye chilis</li>
+                    <li>6-8 Thai chilis</li>
                     <li>Big handful of cilantro</li>
                     <li>1/4 yellow onion</li>
                     <li>4 cloves garlic</li>
@@ -45,7 +45,7 @@ const Chutney = () => {
             but this one is very easy, versatile, and is packed with flavor.
             </p>
             <p className="story">
-            Put 6-8 bird's eye chilis (depending on how much spice you like) in a blender along with a big handful of cilantro (make sure to use the leaves and stems), a quarter of a 
+            Put 6-8 Thai chilis (depending on how much spice you like) in a blender along with a big handful of cilantro (make sure to use the leaves and stems), a quarter of a 
             yellow onion, 4 cloves of garlic, and about 2 teaspoons of salt. Add just enough water to ensure the blender won't get stuck. Blend it until smooth. That's it. Easy. 
             The uses of chutney aren't limited to Indian food either. It goes great with hotdogs, sandwiches, French fries, nachos, tacos, etc.
             </p>

@@ -67,11 +67,11 @@ const NoodleSoup = () => {
             {/* About the recipe */}
             <h4 className="subtitle has-text-centered is-4">Story Time</h4>
             <p className="story">
-            Sometimes I have trouble falling asleep at night. When that happens, I get bored. Usually I just watch YouTube until I get tired, but one night, for whatever reason, 
-            I stayed up and wrote a recipe for vegetable noodle soup from scratch. I just wrote it for kicks, it wasn't until months later that I found it in my notes and decided to make it. 
-            And somehow, without ever needing to tweak the recipe through trial and error, I managed to write a perfect soup recipe in that one sleepless night. Soup is an incredibly 
-            versatile group of dishes, so this recipe will show you not only the technique for making a good soup base that can be used for chicken noodle or veggie noodle soup, 
-            but also how to make fresh pasta in your kitchen from scratch.
+            Sometimes I have trouble falling asleep at night. When that happens, I get bored. Usually I just watch YouTube until I get tired, but sometimes I just write up a recipe for 
+            something in my notes app just to pass the time. This was the first recipe I wrote in this way. I just wrote it for kicks, it wasn't until months later that I found it in my 
+            notes and decided to make it. And somehow, without ever needing to tweak the recipe through trial and error, I managed to write a perfect vegetable noodle soup recipe in that 
+            one sleepless night. Soup is an incredibly diverse category of dishes, so this recipe will show you not only the technique for making a good soup base that can be used for 
+            chicken noodle or veggie noodle soup, but also how to make fresh pasta in your kitchen from scratch.
             </p>
             <p className="story">
             Start by making the noodles. This recipe doesn't use many measurements, because this is something that is best learned with practice and made with instinct. 
@@ -93,7 +93,7 @@ const NoodleSoup = () => {
             some pieces of dough may dry out sooner than others, so you'll have to work quickly. Sprinkle down some bench flour (that's the fancy term for putting flour on a surface so the 
             dough doesn't stick) and put some flour on your rolling pin as well. Roll out slightly and fold the dough lengthwise in thirds. This is known as laminating the dough and it 
             creates layers in the dough which give it a better texture. Roll out the folded rectangle, making sure it's as even as possible, until it's so thin that it becomes translucent. 
-            They say you should “be able to read a love letter through it”, but since nobody writes me those, I roll it out until I can see my fingers through it when I hold the dough under 
+            They say you should “be able to read a love letter through it”, but since nobody writes me those, I just roll it out until I can see my fingers through it when I hold the dough under 
             the light. At this stage, the pasta is ready to cut. Fold it gently, so as not to crease it, then cut thin strips. Unfold the strips and dust with some extra flour. 
             Bunch them in a nest and make strips out of the rest of the dough and let them dry out on the counter. The advantage to making noodles from scratch is not only flavor, 
             but you could theoretically make whatever shape you wanted, not just noodles. Try mixing it up by cutting the sheets of dough into small rectangles and pinching the middle to 
@@ -113,28 +113,34 @@ const NoodleSoup = () => {
             </p>
             <p className="story">
             Whether or not you are using meat, the next steps are the same. Melt the butter in the pot over medium heat and add the mirepoix. Use the vegetables to try and pick up the fond 
-            from the bottom of the pot if you seared meat in it earlier. Once the vegetables become fragrant, sprinkle in a spoonful of flour and season with cayenne powder and thyme. 
-            When mixed with butter, the flour will become a roux. This paste-like substance is often used to thicken soups and sauces. The more flour, the more starch, the thicker the soup. 
-            Roux must be cooked through unless you want your soup tasting like raw flour. For this recipe, let the roux come to a blond color. The darker the roux gets, the less thick the 
-            soup, but the more flavor it adds. In Cajun cooking, it is common to cook roux until it reaches the color of peanut butter or even chocolate to add an earthy, nutty flavor. 
-            However, when making bechamel sauce, the roux should remain white in order to keep the sauce as thick and creamy as possible. For a soup, you want it thicker than water but 
-            thinner than a sauce. Because we want to get some of that nutty flavor, we slightly toast the roux until it becomes blond. but we don't go further, since we want to retain its 
-            thickening power when using such a small amount of flour.
+            from the bottom of the pot if you seared meat in it earlier. If you're adding mushrooms in your soup, you can add them in at this stage to draw out some moisture and deepen their flavor. 
+            Once the vegetables become fragrant, sprinkle in a spoonful of flour and season with cayenne powder and thyme. When mixed with butter, the flour will become a roux. This paste-like 
+            substance is often used to thicken soups and sauces. The more flour, the more starch, the thicker the soup. Roux must be cooked through unless you want your soup tasting like raw flour. 
+            For this recipe, let the roux come to a blond color. The darker the roux gets, the less thick the soup, but the more flavor it adds. In Cajun cooking, it is common to cook roux until it 
+            reaches the color of peanut butter or even chocolate to add an earthy, nutty flavor. However, when making something like bechamel sauce, the roux should remain white in order to keep the 
+            sauce as thick and creamy as possible. For a soup, you want it thicker than water but thinner than a sauce. Because we want to get some of that nutty flavor, we slightly toast the roux 
+            until it becomes blond. but we don't go further, since we want to retain its thickening power when using such a small amount of flour.
             </p>
             <p className="story">
-            Once the roux is blond and has taken on a toasted smell, the thyme should be fragrant and the mirepoix should be cooked properly. That's the time to add the water. 
-            There's a saying I heard from Chef John from Food Wishes: hot roux, cold milk, no lumps. Of course, in this case, we're using water instead of milk, but the principle stands. 
-            To avoid your soup from becoming lumpy, stream in cold water slowly, stirring as you go to dissolve the roux. The amount of water depends entirely on how much soup you want. 
-            If any fond still remains on the pot, take this opportunity to make sure it gets dissolved into the soup. Bring it to a boil and add the meat or other vegetables you wanted to 
-            add. Cover, turn down the heat, and simmer for about 10-15 minutes to cook the newly added ingredients. Go at least 15 minutes if using meat to ensure it cooks fully. 
-            This will also allow the starch molecules in the roux to take on the water and thicken the soup.
+            Once the roux is blond and has taken on a toasted smell, the thyme should be fragrant and the mirepoix should be cooked properly. That's the time to add the water. You can impart more 
+            flavor by adding a stock or broth of your choice, but this recipe is meant to illustrate that it's not necessary. You can make a perfectly delicious soup with just water, vegetables, 
+            and a roux when using the right technique. When adding the water, there's a saying I heard from Chef John from Food Wishes: hot roux, cold milk, no lumps. Of course, in this case, we're 
+            using water instead of milk, but the principle stands. To prevent your soup from becoming lumpy, stream in cold water slowly, stirring as you go to dissolve the roux. The amount of water 
+            depends entirely on how much soup you want in proportion to the ingredients you've added. If any fond still remains on the pot, take this opportunity to make sure it gets dissolved into 
+            the soup. If you want, you can also deglaze with something acidic before adding the water as well. I recommend adding a large glug of dry white wine, then cooking out the alcohol and 
+            scraping up all the fond and bits of roux before introducing the water. If you're averse to the use of alcohol at all, a small splash of white vinegar will do the same. Bring it to a boil 
+            and add the meat or other vegetables you wanted to add. Cover, turn down the heat, and simmer for about 10-15 minutes to cook the newly added ingredients. Go at least 15 minutes if using 
+            meat to ensure it cooks fully. Go longer than 90 minutes if you want the meat to reach a "falling apart" stage. Vegetables require very little time to become tender, so the recommended 15 
+            mins from before will do just fine. This will also allow the starch molecules in the roux to take on the water and thicken the soup a little.
             </p>
             <p className="story">
-            At this point, uncover the soup and bring back up to a boil. Shake off as much excess flour from the noodles as possible and add them to the pot along with the minced garlic. 
-            I like adding garlic at the end of a soup to get a fresher flavor, but some people like the sauteed garlic flavor better. If that's the case, add the garlic with the mirepoix 
-            instead. Or if you're a serious garlic-head, double the amount of garlic and add one half at the beginning and one at the end. Boil for 1-2 minutes until the pasta comes to 
-            an al dente stage. Because the pasta is fresh, it won't need to cook longer. Taste the soup, season with salt and pepper to taste, and turn off the heat. Keep in mind that 
-            you'll need a lot of salt, since we didn't use any thus far. Soup is often best seasoned closer to the end to get the amount of salt just right.
+            At this point, uncover the soup and season to taste with salt. You may need a lot, especially if you used water instead of stock, so be generous and taste as you go. Keep in mind that soup is 
+            often best seasoned closer to the end to get the amount of salt just right after the other flavors get a chance to develop and infuse their flavors into the liquid. Bring up to a boil again 
+            to cook the noodles. Shake off as much excess flour from the noodles as possible and add them to the pot along with the minced garlic. I like adding garlic at the end of a soup to get a fresher 
+            flavor, but some people like the sauteed garlic flavor better as it's gentler and more developed. If that's the case, add the garlic with the mirepoix instead. Or if you're a serious garlic-head, 
+            double the amount of garlic and add one half at the beginning and one at the end. If you like peas in your soup, I would add frozen peas at this stage so they're tender but not overcooked by the 
+            time they're served. Boil for 1-2 minutes until the pasta comes to an al dente stage. Because the pasta is fresh, it won't need to cook longer. Taste the soup, season with salt and pepper as 
+            needed, and turn off the heat. 
             </p>
             <p className="story">
             Serve the soup, making sure to get a little bit of everything in each bowl. Drizzle a glug of olive oil over the top and enjoy. The only ingredients I listed are a mirepoix, roux, 

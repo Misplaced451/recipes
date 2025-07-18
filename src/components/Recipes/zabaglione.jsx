@@ -16,7 +16,7 @@ const Zabaglione = () => {
                 <h4 className="subtitle has-text-centered-mobile">Instructions</h4>
                 <div className="content">
                 <ol>
-                    <li>Dice strawberries and toss with .5tbsp of sugar. Let sit for 1 hour covered, tossing occasionally.</li>
+                    <li>Dice strawberries and toss with 0.5 tbsp of sugar. Let sit for 1 hour covered, tossing occasionally.</li>
                     <li>Zest and juice the orange.</li>
                     <li>Whisk yolk, sugar, and juice in a bowl.</li>
                     <li>Set over double boiler and keep whisking until ribbony.</li>
@@ -46,7 +46,7 @@ const Zabaglione = () => {
             <p className="story">
             I got this recipe while binging a bunch of Food Wishes videos on YouTube. I decided to make it, since it looked fancy, but I didn't have any marsala wine. At the time, I was 
             underage, so I had no way to buy a bottle anyway. Determined to make the dish regardless, I found that citrus juice could be an acceptable substitute. So I made this 
-            non-alcoholic zabaglione, and I must say, it is as wonderful to eat as it is to say.
+            non-alcoholic zabaglione, and it's as wonderful to eat as it is to say.
             </p>
             <p className="story">
             First prepare the strawberries that will sit under your zabaglione by dicing them up and tossing them in a bowl with a bit of sugar. By tossing it in sugar and letting it sit, 

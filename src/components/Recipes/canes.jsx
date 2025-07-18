@@ -46,8 +46,9 @@ const Canes = () => {
             </p>
             <p className="story">
             Mix half a cup of mayo, a quarter cup of ketchup, half a teaspoon of garlic salt, half a teaspoon of black pepper, and a quarter teaspoon of Worcestershire sauce in a bowl. 
-            I like going a little heavy on the garlic and adding a pinch of cayenne. That's the advantage of making it at home: you get to customize it to your liking. I've heard that 
-            leaving it covered and refrigerated for 24 hours gives best results, but I can never wait longer than 10 minutes.
+            I like going a little heavy on the garlic and adding a pinch of cayenne. That's the advantage of making it at home: you get to customize it to your liking. If you want to add 
+            a splash of pickle juice, some hot sauce, mustard, barbecue sauce or anything else you want to experiment with, go for it! Make it your own. I've heard that leaving this sauce 
+            covered and refrigerated for 24 hours gives optimal results by letting the flavors meld together fully, but I can never wait longer than 10 minutes.
             </p>
         </div>
     );

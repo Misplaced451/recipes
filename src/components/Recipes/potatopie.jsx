@@ -49,7 +49,7 @@ const PotatoPie = () => {
             <h4 className="subtitle has-text-centered is-4">Story Time</h4>
             <p className="story">
             I remember telling my friend about how I made a recipe for lemon meringue pie. He wanted to learn to make it, and in exchange for my recipe, he told me his mom's special recipe 
-            for sweet potato pie. Thank you George, and many thanks to your mom as well.
+            for sweet potato pie. Thank you George, and many thanks to your mom as well for this delicious recipe.
             </p>
             <p className="story">
             First start by boiling and peeling your sweet potato. You'll know when it's done boiling because you'll be able to insert a fork or paring knife with no resistance. 
@@ -57,8 +57,8 @@ const PotatoPie = () => {
             medium speed. Pour it into an unbaked pie crust and bake at 350F in the center of an oven for an hour or until a toothpick comes out clean.
             </p>
             <p className="story">
-            I love sweet potato pie. I wish it was more popular, but even on Thanksgiving, most people overlook it in favor of pumpkin pie. Do give this dessert a chance, 
-            it certainly deserves one.
+            A final piece of advice: don't just wait around for Thanksgiving to make this. Sweet potato pie is amazing and deserves more love all year round. Besides, if you plan to have this 
+            on your holiday menu, you should probably practice it a few times before the big day.
             </p>
         </div>    
     );

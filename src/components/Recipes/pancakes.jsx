@@ -61,7 +61,7 @@ const Pancakes = () => {
             <h4 className="subtitle has-text-centered is-4">Story Time</h4>
             <p className="story">
             I feel like it's important for everyone to know a few basic recipes, and one recipe everyone should know is buttermilk pancakes. 
-            Pancakes are a staple breakfast food in the US and if you ever have guests over in the morning, you can wow them easily by serving them up a homemade short stack. 
+            Pancakes are a staple breakfast food in the U.S. and if you ever have guests over in the morning, you can wow them easily by serving them up a homemade short stack. 
             It's fun and delicious too! I wanted to be able to make the perfect thick and fluffy buttermilk pancakes from scratch, so I looked up a few recipes and tried them out. 
             The first was fine, but not thick enough. The second was certainly fluffy enough, but was lacking in sweetness and flavor. 
             By combining elements of both recipes, as well as experimenting with different ingredient amounts, I was able to create my very own recipe! 
@@ -86,14 +86,14 @@ const Pancakes = () => {
             If you can't be bothered to put that much effort into making pancakes it is totally understandable, as long as you work in plenty of air you should be fine. 
             Now pour the sugar over the yolks. I don't know why, but I love the look of sugar poured on top of an intact egg yolk. Whisk it together, then stream in your choice of fat here. 
             I tend to go for melted butter, but if you want a slight coconut flavor, you can use coconut oil too. I've done it and it tastes great! 
-            Be careful using different oils though, as when I was experimenting with this recipe I tried using olive oil. Big mistake. The texture was fine, 
+            Be careful using different oils though, as when I was experimenting with this recipe I tried using olive oil once. Big mistake. The texture was fine, 
             but you can really taste the choice of fat you use at this stage, and the flavor of olive oil belongs nowhere near pancakes. The point of adding the fat and sugar to the 
             yolks is to help dissolve them in the wet mixture, so when you add the buttermilk, you're not left with any loose bits of sugar or butter floating around. 
             Now add in the vanilla extract. Even though it isn't much, it has a huge impact on the flavor to the pancake. If you're trying to make a holiday version of this recipe, 
             you can try adding a teaspoon of cinnamon and a quarter teaspoon each nutmeg and allspice at this stage as well. Don't be afraid to experiment with the flavorings! 
-            Now it's finally time for the buttermilk. I tend to use my mother's recipe for making buttermilk at home which is mixing equal parts yogurt and water until fully homogenous. 
-            Buttermilk is like regular milk but far more acidic, which will help activate the baking powder, giving you a taller, fluffier pancake. Gently stream buttermilk into the yolk 
-            mixture, whisking constantly until fully combined.
+            Now it's finally time for the buttermilk. I tend to use my mother's recipe for making Indian-style buttermilk at home which is mixing equal parts yogurt and water until fully 
+            homogenous. Buttermilk is like regular milk but far more acidic, which will help activate the baking powder, giving you a taller, fluffier pancake. Gently stream buttermilk 
+            into the yolk mixture, whisking constantly until fully combined.
             </p>
             <p className="story">
             Now you have 3 bowls of stuff: your dry mixture, your wet mixture, and your airy egg whites. Despite all the leavening agents, one of the best ways to get air into the 
@@ -102,16 +102,17 @@ const Pancakes = () => {
             adding in one half of the egg at a time until just barely incorporated. Then add that mixture to your dry ingredients in the same manner, gently folding in one half of the wet 
             mixture at a time. Do not overmix here! By adding moisture to the flour, it encourages gluten development, which is necessary to hold the pancake together, but overmixing can 
             cause too much gluten development, which makes the batter very tight and the end product very chewy. Because I enjoy a tender texture to my pancakes, I recommend folding the 
-            batter together until just combined. It's okay if the mixture isn't very smooth, as long as there are no big chunks of flour left. Leave the batter to rest in the fridge for 
-            30-60 minutes. Resting will allow the gluten to relax and the flour to hydrate properly, which will improve the texture of the batter. I know it's hard to wait, but you can 
-            use this time to put away the ingredients you don't need anymore, and you'll still have spare time to clean up the flour you spilled everywhere as well. 
+            batter together until just combined. Overmixing also risks knocking out air from the batter, which you've worked so hard to develop. It's okay if the batter isn't very smooth, 
+            as long as there are no big chunks of flour left. Leave the batter to rest in the fridge for 30-60 minutes. Resting will allow the gluten to relax and the flour to hydrate properly, 
+            which will improve the texture of the batter. I know it's hard to wait, but you can use this time to put away the ingredients you don't need anymore, and you'll still have spare 
+            time to clean up the flour you spilled everywhere as well. 
             </p>
             <p className="story">
             Once ready, scoop a half-ladle of batter (adjust amount to your liking) onto a pan heated over medium heat and greased with butter. Do NOT touch that batter once it's on there. 
             Don't try and make the edges perfectly round, don't try and peek underneath it or jiggle it around. Just let it cook. Let those bubbles do their job undisturbed. 
             Bubbles really are the key to this whole recipe. They're the reason we added buttermilk, baking soda, and baking powder, and the reason we so meticulously fold in those 
             egg whites that took so much effort to whisk. Now watch as bubbles begin to form and burst slowly on the surface of the pancake. Now is the time to add your blueberries, 
-            chocolate chips, or whatever topping you want Once you see bubbles begin to pop in the middle of the pancake, it's time to gently flip it over with your most trusted spatula. 
+            chocolate chips, or whatever topping you want. Once you see bubbles begin to pop in the middle of the pancake, it's time to gently flip it over with your most trusted spatula. 
             Cook on the other side for 30-60 seconds until the bottom is browned and you can't see any raw batter from the sides. Don't get discouraged if the first pancake isn't great. 
             It might be a little underdone in the middle, in which case you should let the next one cook longer. It might not brown properly or rise evenly. Whatever the case is, it's 
             really good for learning what you need to adjust for the following pancakes, so just remember the Golden Rule of Pancakes: the first pancake is always sacrificial. 

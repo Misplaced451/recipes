@@ -56,8 +56,8 @@ const Meatballs = () => {
             </p>
             <p className="story">
             If you don't want to use sauce at all to simmer them, put all the meatballs back in the pan and cook them on medium-low for 15 minutes with the lid on. You can always check 
-            if they're done by cutting a sacrificial one open. If it's still pink, keep going. Medium-rare is unsafe if you're using ground meat. When they're ready, eat them however you 
-            prefer, just don't attempt to fit them all in your mouth at once like a chipmunk.
+            if they're done with an instant read thermometer or by cutting a sacrificial one open. If it's still pink or registers below 155F at the center of the meatball, keep going. 
+            Medium-rare is unsafe if you're using ground meat. When they're ready, eat them however you prefer: with pasta, in a sub, or just by themselves.
             </p>
         </div>    
     );

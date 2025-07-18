@@ -1,13 +1,39 @@
-Recipes Website v3.0 - Collection of recipes curated by Mihir Lele
+Recipes Website v3.1 - Collection of recipes curated by Mihir Lele
+===== Planned Release 3.2 =====
+TBD - "The LOTR Feast Special"
+New Additions:
+    o Sam Gamgee's Coney Stew
+    o Mini Pork Pies
+    o Seed cake
+    o Baked Beans
+    o Blackberry Tart
+    o Lemon Vinaigrette
+    o LOTR feast blog post
+
+===== Release 3.1 =====
+7/18/25 - "The Catch-Up"
+New Additions:
+- New recipes:
+    - Jerk Chicken Wings
+    - Chicken Stir Fry Over Rice
+    - Mexican Rice
+    - Tofu Spinach Wraps
+    - Chicken Burritos
+- New lab experiments:
+    - Blue Chip Chicken Stock
+    - Burger Meatballs
+    - Orange Ice Cream
+Changes:
+- Completed popcorn chicken recipe
+- Completed mug cake recipe
+- Updated all recipe storytimes
+o Removed banana caramel recipe
 
 ===== Release 3.0 =====
-6/25/25 - v3.0.1 Patch Notes
-- Fixed homepage width on mobile
-- Fixed column displays on mobile for Recipes
-- Fixed column width for recipes and homepage on mobile
-- Centered columns on mobile for Links
-- Put recipes back in alphabetical order
-- Resized Searchbar, improved responsiveness, and added a placeholder in the input element
+6/24/25 - v3.0.1 Patch Notes
+- Improved mobile responsiveness and layout for the Home and Recipes page
+- Adjusted alignment and spacing of columns across site
+- Improved Searchbar appearance
 
 4/11/25 - "The Great Sorting"
 New Additions:
