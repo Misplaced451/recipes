@@ -34,8 +34,9 @@ function App() {
           
           {/* Lab Routes */}
           <Route path='/tikka' element={<Lab.Tikka />} />
-          <Route path='/bananacaramel' element={<Lab.BananaCaramel />} />
+          <Route path='/chickenstock' element={<Lab.ChickenStock />} />
           <Route path='/gastrique' element={<Lab.Gastrique />} />
+          <Route path='/orangeicecream' element={<Lab.OrangeIceCream />} />
           
           {/* Recipe Routes */}
           <Route path='/pancakes' element={<Recipes.Pancakes />} />

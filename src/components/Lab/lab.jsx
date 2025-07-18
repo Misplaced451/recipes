@@ -2,9 +2,10 @@ import '../../recipes_style.css';
 import '../../bulma.css';
 import { Link } from 'react-router-dom';
 
-import BananaCaramel from './bananacaramel';
+import ChickenStock from './chickenstock';
 import Tikka from './tikka';
 import Gastrique from './gastrique';
+import OrangeIceCream from './orangeicecream';
 
 const Lab = () => {
     return (
@@ -16,12 +17,12 @@ const Lab = () => {
 
             <div className="columns is-centered fixed-grid has-3-cols-desktop">
             <div className="column is-two-thirds grid">
-                <Link to="/bananacaramel" className="card cell is-one-quarter recipelink mx-2 mb-4">
+                <Link to="/chickenstock" className="card cell is-one-quarter recipelink mx-2 mb-4">
                     <div className="card-image">
-                        <img src={"placeholder.jpg"} alt="bananacaramel.jpg" />
+                        <img src={"placeholder.jpg"} alt="chickenstock.jpg" />
                     </div>
                     <div className="card-content">
-                        <p className="has-text-weight-bold">Banana Caramel</p>
+                        <p className="has-text-weight-bold">Blue-Chip Chicken Stock</p>
                     </div>
                 </Link>
 
@@ -42,6 +43,15 @@ const Lab = () => {
                         <p className="has-text-weight-bold">Apple Cider Gastrique</p>
                     </div>
                 </Link>
+
+                <Link to="/orangeicecream" className="card cell is-one-quarter recipelink mx-2 mb-4">
+                    <div className="card-image">
+                        <img src={"placeholder.jpg"} alt="orangeicecream.jpg" />
+                    </div>
+                    <div className="card-content">
+                        <p className="has-text-weight-bold">Spiced Orange Ice Cream</p>
+                    </div>
+                </Link>
             </div>
             </div>
         </div>
@@ -50,5 +60,5 @@ const Lab = () => {
 
 export default Lab;
 export {
-    BananaCaramel, Tikka, Gastrique
+    ChickenStock, Tikka, Gastrique, OrangeIceCream
 };

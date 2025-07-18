@@ -8,6 +8,7 @@ New Additions:
     o Baked Beans
     o Blackberry Tart
     o Lemon Vinaigrette
+    o LOTR feast blog post
 
 ===== Release 3.1 =====
 TBD - "The Catch-Up"
@@ -19,9 +20,9 @@ New Additions:
     - Tofu Spinach Wraps
     - Chicken Burritos
 - New lab experiments:
-    o Blue Chip Chicken Stock
+    - Blue Chip Chicken Stock
     o Burger Meatballs
-    o Spiced Orange Ice Cream
+    - Orange Ice Cream
 Changes:
 - Completed popcorn chicken recipe
 - Completed mug cake recipe
