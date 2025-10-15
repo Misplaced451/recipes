@@ -8,7 +8,6 @@ const ChickenStock = () => {
             <div className="has-text-centered section pt-0">
                 <h1 className="has-text-weight-bold is-size-3">Blue-Chip Chicken Stock</h1>
                 <p className="subtitle">Outperforms any stock you get in the market</p>
-                <p className="subtitle has-text-danger">WORK IN PROGRESS - RECIPE INCOMPLETE</p>
             </div>
             
             <div className="columns mb-6 has-background-light">
@@ -43,6 +42,7 @@ const ChickenStock = () => {
                     <li>1 yellow onion</li>
                     <li>0.5 large carrots</li>
                     <li>2 stalks celery</li>
+                    <li>8 oz crimini mushrooms</li>
                     <li>1 bay leaf</li>
                     <li>1 small bunch thyme</li>
                     <li>1 small bunch parsley</li>
@@ -51,7 +51,7 @@ const ChickenStock = () => {
                     <li>1 tsp MSG</li>
                     <li>Pinch salt</li>
                 </ul>
-                <p>* I use scraps like wing bones. If it doesn't come out to 2 lbs, I add chicken breast until the weight is correct</p>
+                <p>* I use scraps like wing bones. If it doesn't come out to exactly 2 lbs, I add chicken breast until the weight is correct</p>
                 </div>
                 </div>
             </div>
@@ -97,8 +97,9 @@ const ChickenStock = () => {
             which had a ton of collagen, but little flavor. I think makes for a good compromise, as this way the wings will give plenty of body, but the breast meat will enhance the chicken flavor 
             greatly. If you want, you could just buy 2 lbs of raw wings and use them right away, meat and all, but I think that can get quite expensive. This method will have you buy twice as many 
             wings plus a breast, but you also get about 32 wings out of it in addition to your stock, so it pays for itself. Literally, 32 wings will cost you about $35 or more at a fast food joint, 
-            but you can get that amount from the grocery store for about the same price. So, by eating the wings, you get your money's worth, leaving the bones as a bonus! Now that you've got your 
-            chicken, let's make the stock.
+            but you can get that amount from the grocery store for about the same price. So, by eating the wings, you get your money's worth, leaving the bones as a bonus! The only issue with this 
+            method is that a hint of the flavor of the wings will leach into the stock, but that could also be a positive, as it adds a hint of personality and complexity without being too prominent. 
+            Now that you've got your chicken, let's make the stock.
             </p>
             <p className="story">
             In order to reduce the simmering time, I use a pressure cooker. These work by trapping steam in the pot, which increases the pressure to increase the boiling point. This way, you can get 
@@ -112,17 +113,18 @@ const ChickenStock = () => {
             </p>
             <p className="story">
             With the chicken blanched, we can prepare the vegetables. This won't take long, so you can heat up 2 quarts of filtered water in your pressure cooker while you do this. I like using a 
-            traditional mirepoix (onion, celery, carrot) plus some garlic, pepper, parsley, thyme, and bay leaf. I find that this combination gives a subtle sweet and savory aroma that's highly versatile 
-            and helps add some color to the stock. Wash all the vegetables, but don't bother peeling them. You can cut the root of the onion off, or any dirty parts of the vegetables, but the skins add 
-            color and a little pectin to help with the texture, so leave them on. Quarter the onions and cut the celery and carrot in half. These pieces are big enough to easily fish out, but small 
-            enough to easily fit in the pot. I would chop them smaller if I were making vegetable stock, as flavor extraction is better with smaller pieces, but since we don't want to overpower the 
-            chicken, this will suffice. Give the garlic cloves a whack with the flat of your knife to crack them open, but don't chop them. We want the garlic flavor to be subtle, but we still want to 
+            traditional mirepoix (onion, celery, carrot) plus some mushrooms, garlic, pepper, parsley, thyme, and bay leaf. I find that this combination gives a subtle sweet and savory aroma that's 
+            highly versatile and helps add some color to the stock. I like to add less carrot, since I don't want it getting too sweet, and I include mushrooms to punch it up with a bit of earthy 
+            umami flavor. Wash all the vegetables, but don't bother peeling them. You can cut the root of the onion off, or any dirty parts of the vegetables, but the skins add color and a little 
+            pectin to help with the texture, so leave them on. Quarter the onions and cut the celery and carrot in half. These pieces are big enough to easily fish out, but small enough to easily 
+            fit in the pot. I would chop the mushrooms more if I were making vegetable stock, as flavor extraction is better with smaller pieces, but since we don't want to overpower the chicken, 
+            this will suffice. Give the garlic cloves a whack with the flat of your knife to crack them open, but don't chop them. We want the garlic flavor to be subtle, but we still want to 
             activate the allicin in the garlic by bruising it and exposing the inside to the water. The herbs and spices are best left whole, so they can easily be fished out later. 
             </p>
             <p className="story">
             Once the water reaches a simmer, add the chicken, vegetables, herbs, and spices to the pot. I like to add a tablespoon of white vinegar and a teaspoon of MSG at this stage as well. The vinegar 
-            helps break down the bones to extract more minerals and collagen, while the MSG punches up the umami flavor of the chicken. I also add a pinch of salt to help extract flavors, but I keep the 
-            amount small to avoid over-seasoning the stock. Remember, stock is not a food, it's an ingredient. We add it to soups, stews, and sauces for flavor and texture, but we don't typically drink it 
+            helps break down the bones to extract more minerals and collagen, while the MSG adds an extra umami boost and a gentle saltiness without risking overseasoning it. I do also add a pinch of salt
+            to help extract flavors, but I keep the amount small. Remember, stock is not a dish, it's an ingredient. We add it to soups, stews, and sauces for flavor and texture, but we don't typically drink it 
             straight. What this means is that since many applications of stock will involve reducing the liquid, it will concentrate the flavor (including the saltiness), so we want to keep the seasoning 
             light to avoid potentially over-salting our food. Adding all the ingredients will cool the water down, so let it come back up to a simmer before sealing the lid. Once the lid is sealed, let it 
             build steam inside until fully pressurized, then turn the heat to low and let it cook for an hour. After an hour, take it off the heat and let it depressurize naturally. You can also use the quick 
@@ -138,10 +140,11 @@ const ChickenStock = () => {
             ice and bring the water up to room temperature within a few minutes, so change out the water as needed to keep it ice cold. 
             </p>
             <p className="story">
-            Once the stock gets to around room temperature (in about 15-20 minutes), you can filter it through a fine-mesh sieve lined with cheesecloth into airtight containers and place it in the fridge 
+            Once the stock cools down and stops releasing any steam when stirred, you can filter it through a fine-mesh sieve lined with cheesecloth into airtight containers and place it in the fridge 
             overnight. The cheesecloth will help catch any small debris that the sieve misses, resulting in a stock that's as clear as possible. If you don't have cheesecloth, coffee filters will work. 
             Paper towels may work in a pinch, but are often treated with chemicals that aren't safe to be leached into food, so I wouldn't recommend it. The following morning, any remaining fat will have 
-            congealed on the top, making it easy to spoon off along with any other residual foam or scum that would have risen to the top. This will last you about 3 more days in the fridge, but freezing 
+            congealed on the top, making it easy to spoon off along with any other residual foam or scum that would have risen to the top. Generally, there's not enough fat to really form a solid layer, 
+            but there will be noticeable wisps of fat or scum that can be carefully spooned off the top before refrigerating again. This will last you about 3 more days in the fridge, but freezing 
             will keep it good for a couple months. Use it to make chicken noodle soup, risotto, veloute, gumbo, Mexican rice, chicken demi-glace, or any other recipe that calls for stock. The possibilities 
             are endless.
             </p>
@@ -149,8 +152,10 @@ const ChickenStock = () => {
             As a proof of concept, I could only assert that this was indeed a blue-chip stock by comparing it to the other stocks in the market. I did a color comparison and blind taste test between this stock 
             and two others. The first contender we'll call the "Penny Stock". This is a $2/qt, store-brand, cheap stock you can get anywhere. It's highly cost-effective, but due to the added flavoring agents, 
             the quality is speculative at best. The second contender we'll call the "Growth Stock". This is a $5/qt, organic, high-quality stock from a recognizable brand. It's more expensive, but the ingredients 
-            are of better quality, so it's less of a risk. Last but not least is our very own "Blue-Chip Stock". This comes out to about $10/qt if you factor in the savings from eating the wings, so it's quite a 
-            big investment. It also requires more patience to get returns (takes several hours while the others are ready to go), but the reliability is unmatched. Or at least, that's the theory. So how did they compare?
+            are of better quality, so it's less of a risk. I also bought a fancy-looking chicken bone broth that retailed at about $14/qt, which we'll call the "Large Cap Stock". I guess the focus on more collagen 
+            extraction and a more varied base of vegetables is meant to justify the price. Last but not least is our very own "Blue-Chip Stock". This comes out to about $11/qt if you factor in the savings from 
+            eating the wings, so it's quite a big investment. It also requires more patience to get returns (takes several hours while the others are ready to go), but the reliability is unmatched. Or at least,
+            that's the theory. So how did they compare?
             </p>
             <p className="story">
             In terms of appearance, the Penny Stock was pretty bad. It had a rich, yellow-gold hue which seemed promising, but it was noticeably muddy in appearance as well due to how dark and cloudy it was. Upon 
@@ -166,16 +171,20 @@ const ChickenStock = () => {
             the Penny Stock in a chicken noodle soup than the Growth Stock. For other applications, the Growth Stock would suffice and it fits the criteria for a good quality stock better, but I was a little 
             disappointed overall.
             </p>
+            <p className="story">
+            The appearance of the Large Cap Stock was pretty much perfect. Good clarity, nice golden color, and no visible impurities. The problem was the flavor (or lack thereof). None of the complex vegetable base 
+            came through, and although there was some savoriness and bone-like flavor, but it was completely overshadowed by that awful plasticky taste. It looks like its biggest strength in its clarity of flavor was also 
+            its biggest downfall: the plastic taste had nothing to hide behind, so it came through front and center. It was barely edible, and I almost gagged trying to sip it on its own. Maybe it would taste better in a soup, 
+            but if other stocks taste better at a lower cost, there's no reason to buy this.
+            </p>
             <p className='story'>
-            Now for the Blue-Chip. This one was a pale gold/amber color that was a bit darker and slightly less cloudy than the Growth Stock. This is the ideal look for a chicken stock to me in terms of color 
-            and clarity. Although I would've liked it to have a bit more clarity, it wasn't the highest on my list of priorities. For the flavor, it was the clearest flavor of the three, and had virtually no 
-            saltiness interfering with it. Despite the clarity, the flavor was deeply complex on the palate. It had a prominent (but not robust) chicken flavor at first that gave way to the sweetness of the 
-            aromatics, with a lingering umami at the end that had the quietest flourish of parsley and pepper at the end. If I could fix some things, I would want the chicken flavor to last a little longer and 
-            reduce the amount of carrots, as I felt they dominated the aromatics and made it a bit too sweet. I've revised the recipe above to have half a carrot instead of the full carrot I used originally. I 
-            also tried using mushroom stems to add more umami without affecting the color, but I hardly picked up any of that flavor, leading me to believe it's not worth it. But if you have mushroom stems left 
-            over and you want to use them up here, I don't see why not. I also ended up using way fewer bones than I thought, so I wonder how a split closer to 1:1 or 3:1 wing to breast would yield a better body 
-            while still maintaining the right color and flavor. Pleased as I was with the results, I need to make it again with the revisions before committing it as a finished recipe. After all, how could I 
-            claim that a stock is a "blue-chip" unless I've seen a reliable performance from it?
+            Now for the Blue-Chip. This one was a pale gold/amber color that was a bit darker and slightly less cloudy than the Growth Stock. It was nearly indistinguishable from the Large Cap stock in appearance. 
+            This is the ideal look for a chicken stock to me in terms of color and clarity. It wasn't consomme-clear, but it was pretty good for pressure-cooked stock. As for the flavor, it had excellent clarity 
+            as well. Not too salty, no plasticky taste, and not too strong. Despite the clarity, the flavor was deeply complex on the palate. It had a prominent (but not robust) chicken flavor at first that gave 
+            way to the sweetness of the aromatics, with a lingering umami flavor that had a gentle flourish of parsley and pepper at the end. So, is it worth the investment? For me, I'd say yes. If you need to make 
+            a soup or gravy in a pinch, opt for the cheap stuff, it'll do just fine. If you're aiming for high quality and you want a way to reuse chicken scraps, this is perfect. This recipe left me with a ton of 
+            stock which I turned into the savoriest, richest gravy I've ever made, and a delicious chicken stew as well. That kind of quality and versatility has made it more than worth the effort for me, and I 
+            encourage you to give it a try as well.
             </p>
         </div>    
     );

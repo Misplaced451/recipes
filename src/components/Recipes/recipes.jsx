@@ -43,7 +43,11 @@ import ChickenBurrito from './chickenburrito';
 import JerkChicken from './jerkchicken';
 import StirFry from './stirfry';
 import MexicanRice from './mexicanrice';
-
+import ChickenStock from './chickenstock';
+import ConeyStew from './coneystew';
+import PorkPie from './porkpie';
+import SeedCake from './seedcake';
+import BakedBeans from './bakedbeans';
 import RecipeData from '../../recipe-data';
 
 const Recipes = () => {
@@ -192,5 +196,6 @@ export {
     TurkeyRice, LemonMeringue, AppleFilling, GajarHalwa, 
     Zabaglione, Suzette, PotatoPie, Cursed, ThanksgivingPie, PineapplePizza, 
     Meatballs, DeviledEggs, Pizza, Coffee, Ricotta, PopcornChicken, MugCake,
-    TofuWrap, ChickenBurrito, JerkChicken, StirFry, MexicanRice
+    TofuWrap, ChickenBurrito, JerkChicken, StirFry, MexicanRice, ChickenStock, 
+    ConeyStew, PorkPie, SeedCake, BakedBeans
 };

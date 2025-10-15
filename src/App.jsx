@@ -34,7 +34,6 @@ function App() {
           
           {/* Lab Routes */}
           <Route path='/tikka' element={<Lab.Tikka />} />
-          <Route path='/chickenstock' element={<Lab.ChickenStock />} />
           <Route path='/gastrique' element={<Lab.Gastrique />} />
           <Route path='/orangeicecream' element={<Lab.OrangeIceCream />} />
           <Route path='/burgermeatballs' element={<Lab.BurgerMeatballs />} />
@@ -76,6 +75,11 @@ function App() {
           <Route path='/jerkchicken' element={<Recipes.JerkChicken />} />
           <Route path='/stirfry' element={<Recipes.StirFry />} />
           <Route path='/mexicanrice' element={<Recipes.MexicanRice />} />
+          <Route path='/chickenstock' element={<Recipes.ChickenStock />} />
+          <Route path='/coneystew' element={<Recipes.ConeyStew />} />
+          <Route path='/porkpie' element={<Recipes.PorkPie />} />
+          <Route path='/seedcake' element={<Recipes.SeedCake />} />
+          <Route path='/bakedbeans' element={<Recipes.BakedBeans />} />
         </Routes>
       </ScrollUp>
     </div>

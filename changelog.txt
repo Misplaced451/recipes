@@ -1,14 +1,27 @@
-Recipes Website v3.1 - Collection of recipes curated by Mihir Lele
-===== Planned Release 3.2 =====
+Recipes Website v3.2 - Collection of recipes curated by Mihir Lele
+===== Planned Release 3.3 =====
+TBD - "Blogs Unblocked"
+New Additions:
+    o Eating with 5 Senses post
+    o Steak mythology post
+    o LOTR feast blog post
+    o How to start cooking post
+    o Cooking YouTube playlist
+    o I'm Feeling Lucky feature on Recipes page
+
+===== Release 3.2 =====
 TBD - "The LOTR Feast Special"
 New Additions:
-    o Sam Gamgee's Coney Stew
-    o Mini Pork Pies
-    o Seed cake
-    o Baked Beans
+    - Sam Gamgee's Coney Stew
+    - Mini Pork Pies
+    - Seed cake
+    - Baked Beans
     o Blackberry Tart
     o Lemon Vinaigrette
-    o LOTR feast blog post
+Changes:
+    - Write new notes for Spiced Orange Ice Cream
+    - Write new notes for Blue Chip Stock
+    - Moved Blue Chip Chicken Stock to Finished Recipes
 
 ===== Release 3.1 =====
 7/18/25 - "The Catch-Up"
@@ -27,7 +40,7 @@ Changes:
 - Completed popcorn chicken recipe
 - Completed mug cake recipe
 - Updated all recipe storytimes
-o Removed banana caramel recipe
+- Removed banana caramel recipe
 
 ===== Release 3.0 =====
 6/24/25 - v3.0.1 Patch Notes

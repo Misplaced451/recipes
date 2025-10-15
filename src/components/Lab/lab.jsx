@@ -2,7 +2,6 @@ import '../../recipes_style.css';
 import '../../bulma.css';
 import { Link } from 'react-router-dom';
 
-import ChickenStock from './chickenstock';
 import Tikka from './tikka';
 import Gastrique from './gastrique';
 import OrangeIceCream from './orangeicecream';
@@ -18,14 +17,6 @@ const Lab = () => {
 
             <div className="columns is-centered fixed-grid has-3-cols-desktop">
             <div className="column is-two-thirds grid">
-                <Link to="/chickenstock" className="card cell is-one-quarter recipelink mx-2 mb-4">
-                    <div className="card-image">
-                        <img src={"placeholder.jpg"} alt="chickenstock.jpg" />
-                    </div>
-                    <div className="card-content">
-                        <p className="has-text-weight-bold">Blue-Chip Chicken Stock</p>
-                    </div>
-                </Link>
 
                 <Link to="/tikka" className="card cell is-one-quarter recipelink mx-2 mb-4">
                     <div className="card-image">
@@ -70,5 +61,5 @@ const Lab = () => {
 
 export default Lab;
 export {
-    ChickenStock, Tikka, Gastrique, OrangeIceCream, BurgerMeatballs
+    Tikka, Gastrique, OrangeIceCream, BurgerMeatballs
 };

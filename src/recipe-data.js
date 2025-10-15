@@ -8,6 +8,20 @@ const RecipeData = {
         },
 
         {
+            id:41,
+            name:"Baked Beans",
+            path:"/bakedbeans",
+            tags:['breakfast', 'beginner', 'original']
+        },
+
+        {
+            id:37,
+            name:"Blue-Chip Chicken Stock",
+            path:"/chickenstock",
+            tags:['original']
+        },
+
+        {
             id:2,
             name:"Cane's Sauce",
             path:"/canes",
@@ -39,7 +53,7 @@ const RecipeData = {
             id:33,
             name:"Chicken Stir Fry",
             path:"/stirfry",
-            tags:['weeknight', 'original']
+            tags:['weeknight', 'beginner', 'original']
         },
 
         {
@@ -148,6 +162,13 @@ const RecipeData = {
         },
 
         {
+            id:39,
+            name:"Mini Pork Pies",
+            path:"/porkpie",
+            tags:[]
+        },
+
+        {
             id:17,
             name:"Noodle Soup",
             path:"/noodlesoup",
@@ -197,6 +218,21 @@ const RecipeData = {
         },
 
         {
+            id:38,
+            name:"Sam Gamgee's Coney Stew",
+            path:"/coneystew",
+            tags:['beginner', 'original']
+        },
+
+        {
+            id:40,
+            name:"Seed Cake",
+            path:"/seedcake",
+            tags:['beginner', 'dessert', 'vegetarian']
+        },
+
+
+        {
             id:24,
             name:"Sausage, Peppers, & Onions Over Rice",
             path:"/sporice",
@@ -209,7 +245,6 @@ const RecipeData = {
             path:"/popcornchicken",
             tags:['original', 'beginner', 'weeknight']
         },
-
 
         {
             id:25,

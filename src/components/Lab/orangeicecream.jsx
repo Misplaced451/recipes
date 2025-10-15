@@ -154,7 +154,11 @@ const OrangeIceCream = () => {
             <p className="story">
             I liked the flavor, but I feel that it needs a blind taste test from someone who doesn't know what I've added. Is it too subtle? Does it need more spices? Is the texture off? How 
             does it hold up over extended periods in the freezer? I need a second opinion before I finalize the recipe. Also, since the ice cream is missing the orange's tang, I'm thinking 
-            about using sour cream instead of evaporated milk to maybe add some acidity back in without risking the curdling.
+            about using sour cream instead of evaporated milk to maybe add some acidity back in without risking the curdling. Also, the brown sugar didn't seem to make a difference, so dark 
+            brown sugar may be a bit better. I probably won't specify the type of sugar in the final recipe, as I thought the sweetness was right even with the light brown sugar. Creating an 
+            oleosaccharum with the zest and sugar may also be better than the infused cream, but I'm not sure how much of a difference it would make. I might split the next attempt into 2 
+            batches and add a tiny bit of orange extract, just to really hone in that orange flavor. Also, keeping the bowl this cold may be unnecessary, I'm thinking of just whipping the 
+            chilled cream in a bowl, then adding the milk mixture gently and whipping until combined. This seems to work fine based on what I've seen online. 
             </p>
         </div>    
     );
