@@ -54,7 +54,10 @@ const PotatoPie = () => {
             <p className="story">
             First start by boiling and peeling your sweet potato. You'll know when it's done boiling because you'll be able to insert a fork or paring knife with no resistance. 
             Add the sweet potato to a bowl and mash slightly. Then add butter and mix well. Once that all comes together, stir in the rest of the ingredients and beat until smooth on 
-            medium speed. Pour it into an unbaked pie crust and bake at 350F in the center of an oven for an hour or until a toothpick comes out clean.
+            medium speed. Pour it into an unbaked pie crust and bake at 350F in the center of an oven for an hour or until a toothpick comes out clean. Be careful not to overbake it, or it will 
+            end up dry. For custard pies like this, the jiggle will tell you everything you need to know. If you give the pie a gentle shake and the whole thing moves, it's all liquid and needs 
+            more time in the oven. If nothing moves, it's overcooked and dry. The perfect pie will have a slight jiggle in the center, but the edges will be set. Once the pie comes out of the 
+            oven, the center will gently set without overbaking, retaining a luxurious, moist filling throughout.
             </p>
             <p className="story">
             A final piece of advice: don't just wait around for Thanksgiving to make this. Sweet potato pie is amazing and deserves more love all year round. Besides, if you plan to have this 

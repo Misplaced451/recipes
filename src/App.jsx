@@ -80,6 +80,8 @@ function App() {
           <Route path='/porkpie' element={<Recipes.PorkPie />} />
           <Route path='/seedcake' element={<Recipes.SeedCake />} />
           <Route path='/bakedbeans' element={<Recipes.BakedBeans />} />
+          <Route path='/blackberrytart' element={<Recipes.BlackberryTart />} />
+          <Route path='/vinaigrette' element={<Recipes.Vinaigrette />} />
         </Routes>
       </ScrollUp>
     </div>

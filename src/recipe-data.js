@@ -15,6 +15,14 @@ const RecipeData = {
         },
 
         {
+            id:42,
+            name:"Blackberry Tart",
+            path:"/blackberrytart",
+            tags:['dessert', 'vegetarian']
+        },
+
+
+        {
             id:37,
             name:"Blue-Chip Chicken Stock",
             path:"/chickenstock",
@@ -145,6 +153,13 @@ const RecipeData = {
             name:"Lemon Meringue Pie",
             path:"/lemonmeringue",
             tags:['original', 'fancy', 'dessert', 'favorite', 'vegetarian']
+        },
+
+        {
+            id:43,
+            name:"Lemon Vinaigrette",
+            path:"/vinaigrette",
+            tags:['original', 'vegetarian', 'vegan', 'beginner', 'weeknight']
         },
 
         {
