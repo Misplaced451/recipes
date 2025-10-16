@@ -8,6 +8,28 @@ const RecipeData = {
         },
 
         {
+            id:41,
+            name:"Baked Beans",
+            path:"/bakedbeans",
+            tags:['breakfast', 'beginner', 'original']
+        },
+
+        {
+            id:42,
+            name:"Blackberry Tart",
+            path:"/blackberrytart",
+            tags:['dessert', 'vegetarian']
+        },
+
+
+        {
+            id:37,
+            name:"Blue-Chip Chicken Stock",
+            path:"/chickenstock",
+            tags:['original']
+        },
+
+        {
             id:2,
             name:"Cane's Sauce",
             path:"/canes",
@@ -39,7 +61,7 @@ const RecipeData = {
             id:33,
             name:"Chicken Stir Fry",
             path:"/stirfry",
-            tags:['weeknight', 'original']
+            tags:['weeknight', 'beginner', 'original']
         },
 
         {
@@ -134,6 +156,13 @@ const RecipeData = {
         },
 
         {
+            id:43,
+            name:"Lemon Vinaigrette",
+            path:"/vinaigrette",
+            tags:['original', 'vegetarian', 'vegan', 'beginner', 'weeknight']
+        },
+
+        {
             id:16,
             name:"Meatballs",
             path:"/meatballs",
@@ -145,6 +174,13 @@ const RecipeData = {
             name:"Mexican Rice",
             path:"/mexicanrice",
             tags:['beginner', 'weeknight', 'original']
+        },
+
+        {
+            id:39,
+            name:"Mini Pork Pies",
+            path:"/porkpie",
+            tags:[]
         },
 
         {
@@ -197,6 +233,21 @@ const RecipeData = {
         },
 
         {
+            id:38,
+            name:"Sam Gamgee's Coney Stew",
+            path:"/coneystew",
+            tags:['beginner', 'original']
+        },
+
+        {
+            id:40,
+            name:"Seed Cake",
+            path:"/seedcake",
+            tags:['beginner', 'dessert', 'vegetarian']
+        },
+
+
+        {
             id:24,
             name:"Sausage, Peppers, & Onions Over Rice",
             path:"/sporice",
@@ -209,7 +260,6 @@ const RecipeData = {
             path:"/popcornchicken",
             tags:['original', 'beginner', 'weeknight']
         },
-
 
         {
             id:25,

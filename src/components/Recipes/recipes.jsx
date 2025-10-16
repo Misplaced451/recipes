@@ -43,8 +43,14 @@ import ChickenBurrito from './chickenburrito';
 import JerkChicken from './jerkchicken';
 import StirFry from './stirfry';
 import MexicanRice from './mexicanrice';
-
+import ChickenStock from './chickenstock';
+import ConeyStew from './coneystew';
+import PorkPie from './porkpie';
+import SeedCake from './seedcake';
+import BakedBeans from './bakedbeans';
+import BlackberryTart from './blackberrytart';
 import RecipeData from '../../recipe-data';
+import Vinaigrette from './vinaigrette';
 
 const Recipes = () => {
     const handlePizza = () => {
@@ -140,7 +146,7 @@ const Recipes = () => {
                     className={`cell button py-2 ${query === 'thanksgiving' ? 'is-active' : ''}`}
                     onClick={() => setQuery("thanksgiving")}
                 >
-                    <h3>Thanksgiving Meals</h3>
+                    <h3>Thanksgiving</h3>
                 </div>
                 <div 
                     className={`cell button py-2 ${query === 'vegetarian' ? 'is-active' : ''}`}
@@ -192,5 +198,6 @@ export {
     TurkeyRice, LemonMeringue, AppleFilling, GajarHalwa, 
     Zabaglione, Suzette, PotatoPie, Cursed, ThanksgivingPie, PineapplePizza, 
     Meatballs, DeviledEggs, Pizza, Coffee, Ricotta, PopcornChicken, MugCake,
-    TofuWrap, ChickenBurrito, JerkChicken, StirFry, MexicanRice
+    TofuWrap, ChickenBurrito, JerkChicken, StirFry, MexicanRice, ChickenStock, 
+    ConeyStew, PorkPie, SeedCake, BakedBeans, BlackberryTart, Vinaigrette
 };

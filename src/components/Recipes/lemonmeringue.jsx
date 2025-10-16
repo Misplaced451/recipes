@@ -96,8 +96,6 @@ const LemonMeringue = () => {
             When you have layers of these little crispy air pockets, that's what makes a flaky crust. It's a similar principle to making croissants. In addition, by keeping the crust cold, you 
             prevent water in the dough from evaporating too quickly in the oven, which would otherwise cause the crust to shrink as it bakes. I prefer making my dough the night before I want pie. 
             This allows me to work in a cool environment and give me plenty of time to rest the dough while I sleep.
-            
-            Together, this culinary rhetorical triangle works to create a harmonious, delicious experience. Now, enough about rhetoric, let's make some pie.
             </p>
             <p className="story">
             Because we want everything to be cold, start by refrigerating your flour and salt in a mixing bowl. In the meantime, cube up some cold butter and put it in the freezer. When 
