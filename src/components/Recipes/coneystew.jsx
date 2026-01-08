@@ -1,6 +1,8 @@
 import '../../recipes_style.css';
 import '../../bulma.css';
 
+import {Link} from 'react-router-dom';
+
 const ConeyStew = () => {
     return (
         <div className="pt-6 section recipe">
@@ -40,7 +42,7 @@ const ConeyStew = () => {
                 <div className="content">
                 <ul>
                     <li>1 lb rabbit meat (or chicken thighs)</li>
-                    <li>2 cups chicken stock</li>
+                    <li>2 cups <Link to={'/chickenstock'} className='is-underlined'>chicken stock</Link></li>
                     <li>0.5 turnips</li>
                     <li>0.5 onions</li>
                     <li>1 carrot</li>
@@ -51,7 +53,7 @@ const ConeyStew = () => {
                     <li>4 tbsp whole milk</li>
                     <li>Salt</li>
                     <li>2 bay leaves</li>
-                    <li>Rosemary</li>
+                    <li>Dried sage</li>
                     <li>Thyme</li>
                     <li>Pinot Noir (optional)</li>
                 </ul>

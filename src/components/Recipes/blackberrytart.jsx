@@ -18,7 +18,7 @@ const BlackberryTart = () => {
                 <h4 className="subtitle has-text-centered-mobile">Instructions</h4>
                 <div className="content">
                 <ol>
-                    <li>Make pie dough (store bought tart shells/pie crusts are fine in a pinch)</li>
+                    <li>Follow my <Link to={'/piecrust'} className='is-underlined'>Pie Crust Recipe</Link>, stopping after Step 6. You don't need to crimp or dock the dough.</li>
                     <li>Press into pie tin and put into freezer</li>
                     <li>Use 200g blackberries, the juice and zest of the lemon, and the sugar to make a compote</li>
                     <li>When the blackberries start to soften add the cornstarch slurry</li>
@@ -27,20 +27,25 @@ const BlackberryTart = () => {
                 </ol>
                 </div>
                 </div>
-                
+
                 {/* Ingredients */}
                 <div className="column is-4-desktop has-background-grey-lighter">
                 <h4 className="subtitle has-text-centered-mobile">Ingredients</h4>
                 <div className="content">
+                <p>For the Crust:</p>
+                <ul>
+                    <li>2.5 cups all-purpose flour, chilled</li>
+                    <li>1 tsp salt</li>
+                    <li>1 cup butter, cold, cubed</li>
+                    <li>0.33 cups ice-cold water</li>
+                </ul>
+                <p>For the Filling:</p>
                 <ul>
                     <li>500g blackberries</li>
                     <li>0.5 lemon</li>
                     <li>100g sugar</li>
                     <li>2 tbsp cornstarch</li>
-                    <li>Pie Dough *</li>
                 </ul>
-                <p>* For the pie dough, follow the first 5 steps of my <Link to={'/lemonmeringue'} className='is-underlined'>Lemon Meringue Pie</Link> recipe 
-                and use half the amount of ingredients needed for the crust </p>
                 </div>
                 </div>
             </div>
@@ -50,8 +55,8 @@ const BlackberryTart = () => {
             <p className="story">
             What's the difference between a pie and a tart? A pie will sometimes have a top crust, while a tart always has an open face. A tart also usually has a more crumbly, 
             sweet crust while pie crusts are flakier and take fewer ingredients. This recipe was adapted from <em>Recipes from the World of Tolkien</em>, a cookbook that takes inspiration 
-            from the food mentioned in Tolkien's books. However, where I've deviated is that rather than bothering to learn how to make a proper tart shell, I instead used half the 
-            recipe for pie crust that I use for lemon meringue pie. Although you can dispute whether this makes it a proper tart or not, I think it still tastes good, especially since 
+            from the food mentioned in Tolkien's books. However, where I've deviated is that rather than bothering to learn how to make a proper tart shell, I instead used the recipe for 
+            pie crust that I made to use for lemon meringue pie. Although you can dispute whether this makes it a proper tart or not, I think it still tastes good, especially since 
             the delicate, buttery flakiness of the crust contrasts nicely with the tart, soft blackberries.
             </p>
             <p className="story">
