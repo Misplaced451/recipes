@@ -13,7 +13,7 @@ import Searchbar from './components/Searchbar/searchbar';
 // import recipe categories and the associated recipes of each category
 import * as Recipes from './components/Recipes/recipes';
 
-import Posts from './components/Posts/posts';
+import * as Posts from './components/Posts/posts';
 
 import * as Lab from './components/Lab/lab';
 
@@ -26,17 +26,26 @@ function App() {
       <ScrollUp>
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='/posts' element={<Posts />} />
+          <Route path='/posts' element={<Posts.default />} />
           <Route path='/recipes' element={<Recipes.default />} />
           <Route path='/lab' element={<Lab.default />} />
           <Route path='/links' element={<Links />} />
           <Route path='/search' element={<Searchbar />} />
+
+          {/* Blog Post Routes */}
+          <Route path='/steakmyths' element={<Posts.SteakMyths />} />
+          <Route path='/lotr' element={<Posts.Lotr />} />
+          <Route path='/howtocook' element={<Posts.StartCooking />} />
+          <Route path='/plantbasedrant' element={<Posts.PlantRant />} />
+          <Route path='/sciencebased' element={<Posts.ScienceBased />} />
           
           {/* Lab Routes */}
           <Route path='/tikka' element={<Lab.Tikka />} />
           <Route path='/gastrique' element={<Lab.Gastrique />} />
           <Route path='/orangeicecream' element={<Lab.OrangeIceCream />} />
           <Route path='/burgermeatballs' element={<Lab.BurgerMeatballs />} />
+          <Route path='/milkcookiepie' element={<Lab.MilkCookiePie />} />
+          <Route path='/smoresmousse' element={<Lab.SmoresMousse />} />
           
           {/* Recipe Routes */}
           <Route path='/pancakes' element={<Recipes.Pancakes />} />
@@ -82,6 +91,10 @@ function App() {
           <Route path='/bakedbeans' element={<Recipes.BakedBeans />} />
           <Route path='/blackberrytart' element={<Recipes.BlackberryTart />} />
           <Route path='/vinaigrette' element={<Recipes.Vinaigrette />} />
+          <Route path='/piecrust' element={<Recipes.PieCrust />} />
+          <Route path='/arayes' element={<Recipes.Arayes />} />
+          <Route path='/mushroomparfait' element={<Recipes.MushroomParfait />} />
+          <Route path='/autumnchops' element={<Recipes.AutumnPorkChops />} />
         </Routes>
       </ScrollUp>
     </div>

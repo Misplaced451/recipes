@@ -99,7 +99,8 @@ const BurgerMeatballs = () => {
             a barbecue or cookout to serve as appetizers or as a side dish. I'm thinking of changing up the recipe to have a little better plating by using the lettuce as ssam, 
             which is a Korean food where you take lettuce and wrap some meat and other ingredients and eat it in a single bite. Maybe reducing the size of the meatballs and slicing 
             the pickles into matchsticks would be ideal for this. In this way, you could get a really interesting Korean-American fusion and eat a burger like a ssam. I'll have to 
-            make it this way and try it out, see what happens.
+            make it this way and try it out, see what happens. Note: try smaller balls so basting isn't required and they can be eaten in one bite, then make a glaze with brown butter 
+            and homemade bbq sauce/aioli?
             </p>
         </div>
     );

@@ -1,6 +1,8 @@
 import '../../recipes_style.css';
 import '../../bulma.css';
 
+import { Link } from 'react-router-dom';
+
 const LemonMeringue = () => {
     return (
         <div className="pt-6 section recipe">
@@ -16,15 +18,7 @@ const LemonMeringue = () => {
                 <h4 className="subtitle has-text-centered-mobile">Instructions</h4>
                 <div className="content">
                 <ol>
-                    <li>Mix salt and flour in a large bowl and refrigerate</li>
-                    <li>Cut butter into flour until butter is in pea-sized, flour-coated chunks.</li>
-                    <li>Add water little by little until the mixture can be clumped. Use as little water as possible.</li>
-                    <li>Form into a ball of dough, wrap, and freeze overnight.</li>
-                    <li>Take half of dough, roll out 2 inches wider than pie dish.</li>
-                    <li>Butter and flour the pie dish and put in dough. Trim, crimp, dock, and refrigerate for at least 30 minutes.</li>
-                    <li>Preheat oven to 350F.</li>
-                    <li>Place in pie weights (you can use nuts or dry beans in aluminum foil instead).</li>
-                    <li>Bake at 350F for 20 minutes, remove pie weights, then put it back in oven until golden brown.</li>
+                    <li>Follow my <Link to={'/piecrust'} className='is-underlined'>Pie Crust Recipe</Link> to make a fully-baked pie crust</li>
                     <li>Juice and zest lemons into a bowl.</li>
                     <li>Add 2 yolks and 1 whole egg, store 2 remaining whites at room temperature in a clean, dry, cool, glass or metal bowl.</li>
                     <li>Add cornstarch and sugar to lemon mixture, then whisk over double boiler until smooth.</li>
@@ -91,38 +85,11 @@ const LemonMeringue = () => {
             <p className="story">
             The crust is like Ethos: it provides definition and stability. Without it, the pie wouldn't hold up and people would question if it even counts as a pie anymore. That's why 
             it's important to make a solid crust. It should be flaky, buttery, and tender, but still be sturdy enough to hold the filling. This recipe makes enough dough for 2 pie crusts 
-            on a standard 9-inch pie dish. The most important thing when making pie crust is to keep it COLD. Warmth will melt the butter, which is bad because we want little chunks of butter 
+            on a standard 9-inch pie dish. The most important thing when making pie crust is to keep it COLD. Warmth will melt the butter, which is bad because we want little bits of solid butter 
             in the dough that melt in the oven. That way, the water in the butter evaporates and creates little steam pockets, while the fat in the butter crisps up the edges of those pockets. 
             When you have layers of these little crispy air pockets, that's what makes a flaky crust. It's a similar principle to making croissants. In addition, by keeping the crust cold, you 
             prevent water in the dough from evaporating too quickly in the oven, which would otherwise cause the crust to shrink as it bakes. I prefer making my dough the night before I want pie. 
             This allows me to work in a cool environment and give me plenty of time to rest the dough while I sleep.
-            </p>
-            <p className="story">
-            Because we want everything to be cold, start by refrigerating your flour and salt in a mixing bowl. In the meantime, cube up some cold butter and put it in the freezer. When 
-            everything is cooled down, after about 30 minutes, take out the dry mixture and butter. Put the butter in the flour and begin using your hands to coat the cubes and break them 
-            apart (if you have a handheld pastry blender, refrigerate ahead of time and use that instead). The idea here is not to fully mix the butter and flour together. We want to 
-            instead break the butter up into pea-sized chunks and coat them in the flour. Make sure to use your fingers and not palms, as the warmth of your hands may melt the butter too 
-            much. When the butter is cut into the flour properly, that's the time to start adding the water.
-            </p>
-            <p className="story">
-            Just like everything else, the water should be ice cold and refrigerated ahead of time. I even keep a few ice cubes in there for good measure. Add a small amount of water at a 
-            time and mix it into the dough. Avoid kneading the dough as much as possible, as kneading will develop the gluten and form a chewy crust. Stop adding water when you are able to 
-            clump the dough into a shaggy mass. Use as little water as possible. You may not even need all the water, depending on the moisture in the air. All these steps are to ensure that 
-            the dough shrinks as little as possible and produces a tender yet dry crust. Work the dough gently until you can just shape it into a ball. You'll notice that the dough is dry, 
-            held weakly together, has visible bits of butter streaking through, and it cracks easily when squished. That's exactly what you want. Cover the dough tightly in plastic wrap and 
-            freeze overnight.
-            </p>
-            <p className="story">
-            The next day, thaw the dough, cut it in half, wrap up the half you aren't going to use and place back in the freezer. This should be good for at least another 4 months. When thawing 
-            the dough, don't leave it out too long. You want it to remain cold, but still be more workable than a block of ice. It's an excellent all-purpose crust dough, you can use it in pies, 
-            tarts, quiches, etc. Keep the half you are using on a clean work surface. Dust the surface and a rolling pin with flour and roll out the dough evenly until it is about 2 inches wider 
-            than the outside rim of the pie dish. Now grease your pie dish with some butter and dust with a thin layer of flour. This will ensure an easy release from the dish every single time 
-            without fail. Place the dough in the dish and gently fit it into all the edges, taking care not to stretch out or squish the dough too much. Trim off any excess hanging off the side 
-            and crimp the edges of the dough by pinching with your fingers so it rests nicely on the rim of the pie dish. Now take a fork and stab a whole bunch of holes all over the sides and 
-            bottom of the dough. This is called "docking" and it will prevent any large air bubbles from puffing up the dough too much. Place the pie dish in the freezer for at least 30 minutes 
-            while you heat up the oven to 350F. When the oven is ready, place pie weights in your pie crust. If you don't have pie weights, you can just use nuts or dry beans on a layer of 
-            tinfoil instead. These will ensure that the pie doesn't puff up, in the event that the docking doesn't do the trick. Place in the center of the oven, take it out after 20 minutes, 
-            remove the foil and pie weights, and resume baking until golden brown (maybe another 15-30 minutes). Let the finished crust cool by the windowsill whle you prepare the lemon curd.
             </p>
             <p className="story">
             The lemon curd is like the Logos of our rhetorical pie, because people mistakenly assume it's more essential than the other components. Much like how we put lemon first in our minds 
