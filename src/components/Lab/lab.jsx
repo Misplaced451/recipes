@@ -6,6 +6,8 @@ import Tikka from './tikka';
 import Gastrique from './gastrique';
 import OrangeIceCream from './orangeicecream';
 import BurgerMeatballs from './burgerballs';
+import MilkCookiePie from './milkcookiepie';
+import SmoresMousse from './smoresmousse';
 
 const Lab = () => {
     return (
@@ -53,6 +55,23 @@ const Lab = () => {
                         <p className="has-text-weight-bold">Burger Meatballs</p>
                     </div>
                 </Link>
+
+                <Link to="/milkcookiepie" className="card cell is-one-quarter recipelink mx-2 mb-4">
+                    <div className="card-image">
+                        <img src={"placeholder.jpg"} alt="milkcookiepie.jpg" />
+                    </div>
+                    <div className="card-content">
+                        <p className="has-text-weight-bold">Milk & Cookie Pie</p>
+                    </div>
+                </Link>
+                <Link to="/smoresmousse" className="card cell is-one-quarter recipelink mx-2 mb-4">
+                    <div className="card-image">
+                        <img src={"placeholder.jpg"} alt="smoresmousse.jpg" />
+                    </div>
+                    <div className="card-content">
+                        <p className="has-text-weight-bold">S'mores Mousse</p>
+                    </div>
+                </Link>
             </div>
             </div>
         </div>
@@ -61,5 +80,6 @@ const Lab = () => {
 
 export default Lab;
 export {
-    Tikka, Gastrique, OrangeIceCream, BurgerMeatballs
+    Tikka, Gastrique, OrangeIceCream, BurgerMeatballs, 
+    MilkCookiePie, SmoresMousse
 };

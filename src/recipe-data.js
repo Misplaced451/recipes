@@ -8,10 +8,24 @@ const RecipeData = {
         },
 
         {
+            id:47,
+            name:"Autumn Pork Chops",
+            path:"/autumnchops",
+            tags:['original']
+        },
+
+        {
             id:41,
             name:"Baked Beans",
             path:"/bakedbeans",
             tags:['breakfast', 'beginner', 'original']
+        },
+        
+        {
+            id:45,
+            name:"Beef Arayes",
+            path:"/arayes",
+            tags:['beginner', 'original', 'weeknight']
         },
 
         {
@@ -20,7 +34,6 @@ const RecipeData = {
             path:"/blackberrytart",
             tags:['dessert', 'vegetarian']
         },
-
 
         {
             id:37,
@@ -181,6 +194,13 @@ const RecipeData = {
             name:"Mini Pork Pies",
             path:"/porkpie",
             tags:[]
+        },
+
+        {
+            id:46,
+            name:"Mushroom Parfait",
+            path:"/mushroomparfait",
+            tags:['original', 'fancy']
         },
 
         {

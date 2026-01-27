@@ -52,6 +52,9 @@ import BlackberryTart from './blackberrytart';
 import RecipeData from '../../recipe-data';
 import Vinaigrette from './vinaigrette';
 import PieCrust from './piecrust';
+import Arayes from './arayes';
+import MushroomParfait from './mushroomparfait';
+import AutumnPorkChops from './autumnchops';
 
 const Recipes = () => {
     const handlePizza = () => {
@@ -202,9 +205,10 @@ export default Recipes;
 export { 
     Pancakes, FrenchToast, TomatoSauce, Gumbo, Rajma, NoodleSoup, Canes,
     Chutney, Cranberry, Chana, TomatoMelt, EggSandwich, SPORice, Gnocchi, 
-    TurkeyRice, LemonMeringue, AppleFilling, GajarHalwa, 
-    Zabaglione, Suzette, PotatoPie, Cursed, ThanksgivingPie, PineapplePizza, 
-    Meatballs, DeviledEggs, Pizza, Coffee, Ricotta, PopcornChicken, MugCake,
-    TofuWrap, ChickenBurrito, JerkChicken, StirFry, MexicanRice, ChickenStock, 
-    ConeyStew, PorkPie, SeedCake, BakedBeans, BlackberryTart, Vinaigrette, PieCrust
+    TurkeyRice, LemonMeringue, AppleFilling, GajarHalwa, Zabaglione, Suzette, 
+    PotatoPie, Cursed, ThanksgivingPie, PineapplePizza, Meatballs, DeviledEggs, 
+    Pizza, Coffee, Ricotta, PopcornChicken, MugCake, TofuWrap, ChickenBurrito, 
+    JerkChicken, StirFry, MexicanRice, ChickenStock, ConeyStew, PorkPie, 
+    SeedCake, BakedBeans, BlackberryTart, Vinaigrette, PieCrust, Arayes, 
+    MushroomParfait, AutumnPorkChops
 };

@@ -19,7 +19,6 @@ const BlackberryTart = () => {
                 <div className="content">
                 <ol>
                     <li>Follow my <Link to={'/piecrust'} className='is-underlined'>Pie Crust Recipe</Link>, stopping after Step 6. You don't need to crimp or dock the dough.</li>
-                    <li>Press into pie tin and put into freezer</li>
                     <li>Use 200g blackberries, the juice and zest of the lemon, and the sugar to make a compote</li>
                     <li>When the blackberries start to soften add the cornstarch slurry</li>
                     <li>Once thickened, let cool, then pour into pie crust and add the rest of the blackberries on top</li>

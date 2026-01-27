@@ -44,6 +44,8 @@ function App() {
           <Route path='/gastrique' element={<Lab.Gastrique />} />
           <Route path='/orangeicecream' element={<Lab.OrangeIceCream />} />
           <Route path='/burgermeatballs' element={<Lab.BurgerMeatballs />} />
+          <Route path='/milkcookiepie' element={<Lab.MilkCookiePie />} />
+          <Route path='/smoresmousse' element={<Lab.SmoresMousse />} />
           
           {/* Recipe Routes */}
           <Route path='/pancakes' element={<Recipes.Pancakes />} />
@@ -90,6 +92,9 @@ function App() {
           <Route path='/blackberrytart' element={<Recipes.BlackberryTart />} />
           <Route path='/vinaigrette' element={<Recipes.Vinaigrette />} />
           <Route path='/piecrust' element={<Recipes.PieCrust />} />
+          <Route path='/arayes' element={<Recipes.Arayes />} />
+          <Route path='/mushroomparfait' element={<Recipes.MushroomParfait />} />
+          <Route path='/autumnchops' element={<Recipes.AutumnPorkChops />} />
         </Routes>
       </ScrollUp>
     </div>

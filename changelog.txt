@@ -9,6 +9,13 @@ New Additions:
     - The Plant-Based Rant
     - science vs engineering post
     - I'm Feeling Lucky feature on Recipes page
+    - New recipes:
+        - Mushroom Parfait
+        - Perfect Pie Crust
+        - Autumn Porkchops
+    - New lab experiments added
+        - Milk & Cookie Pie
+        - S'mores Mousse
 Changes:
     - Link to Pie Crust from LMP, Blackberry Tart, and Sweet Potato Pie recipes
 
