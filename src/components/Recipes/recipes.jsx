@@ -168,7 +168,7 @@ const Recipes = () => {
                     className={'cell button py-2 has-background-link has-text-white'}
                     to={filteredItems[Math.floor(Math.random() * filteredItems.length)].path}
                 >
-                    <h3>I'm Feeling Lucky</h3>
+                    <h3>Random</h3>
                 </Link>
             </div>
             </div>
