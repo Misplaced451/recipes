@@ -16,7 +16,7 @@ const StartCooking = () => {
             <p className='story'>
             Cooking is the best hobby. As I always say, it's the only hobby you're allowed to eat. Besides, it's an important survival skill in general. When people talk abotut "eating healthy", 
             your options for things you can heat up from frozen or microwave in a package are limited. I've found that in my fitness journey, learning to cook properly allowed me to meal prep, 
-            letting me control my macros efficienty and taking the guesswork out of healthy eating. And it was never just bland chicken and plain rice like most bodybuilders are known for eating. 
+            letting me control my macros efficienty and take the guesswork out of healthy eating. And it was never just bland chicken and plain rice like most bodybuilders are known for eating. 
             My experience with cooking let me know how to spice up my meals to make them more palatable. That way, I would never dread a healthy meal, I'd be looking forward to them. Even if you're 
             not cooking for health and fitness, learning to cook at home is cheaper than eating out, and you get more control over how your food tastes. Of course, the reason why it's cheaper is 
             because you're paying the restaurant for labor and atmosphere, which are difficult to maintain. Still, becoming more comfortable and confident in your cooking skills can allow you more 
@@ -25,9 +25,9 @@ const StartCooking = () => {
             <p className='story'>
             Even without all the utility of cooking, cuisine is an art form. It's an art that engages all the senses. Vibrant colors, sharp sizzles, a bouquet of aromas, satisfying textures, and 
             mouth-watering tastes. A good cook combines scientific knowledge with artistic creativity to create something that makes them happy. Food has a very unique property, in that our experience 
-            is guided strongly by smell and taste, two senses that evoke very powerful, emotional memories. When you take a bite of something that reminds you of a dish you had on vacation years ago, 
-            and you briefly get transported there again. When you drink something that makes you nauseous because you recall a time when you drank too much. When you're cooking some stew, and the smells 
-            that flood your kitchen warm your heart, and you realize it's because it's the smell of your mother's kitchen when you were young.
+            is guided strongly by smell and taste, two senses that evoke very powerful, emotional memories. It's what happens when you take a bite of something that reminds you of a dish you had on 
+            vacation years ago, and you briefly get transported there again. Or when the smell of a drink makes you nauseous because you recall a time when you drank too much. Or maybe even when you're 
+            cooking some stew, and the smells that flood your kitchen warm your heart, and you realize it's because it's the smell of your mother's kitchen when you were young.
             </p>
             <p className='story'>
             In the film <em>Ratatouille</em>, they say "Anyone can cook". That doesn't mean everybody's good at cooking, or that cooking is easy, but a great cook can come from anywhere. I got good at cooking 
@@ -36,7 +36,7 @@ const StartCooking = () => {
             just not their strong suit, or they just had no time, motivating their kids to learn to make things for themselves. In other words, it doesn't matter what culture you come from, how much money you have, 
             what your gender is, or how good your parents were at cooking. As long as you have food and some instruments with which to prepare it in some way, you can cook well enough to keep yourself or your 
             loved ones nourished and happy. This is what it means to be a good cook. A good cook isn't someone with the most technical proficiency or the most expensive ingredients. All it takes is getting enough 
-            knowledge and experience with handling ingredients to create food that makes people happy. 
+            experience with handling ingredients to create food that makes people happy. 
             </p>
             <p className='has-text-centered subtitle is-4 mt-6'>What Do You Need in Your Kitchen?</p>
             <p className='story'>
@@ -55,9 +55,10 @@ const StartCooking = () => {
             <p className='story'>
             Having quality knives is important, but the last thing you want is to score your nice countertops with them. Cutting boards are great for this reason. Wooden cutting boards are the gold standard, but they can be 
             expensive, need to be washed quickly, and require careful maintenance with things like mineral oil. Plastic cutting boards are much more cheap, versatile, light, and easy to clean. However, they do allow some 
-            microplastics to end up in your food. For this reason, it's best to get a nice wooden cutting board or two if you can afford it, but it's nice to have a couple plastic ones as well just in case. I like to buy cutting 
-            boards that come in sets with varying sizes. Do I really need a massive board to mince 2 cloves of garlic? Come on. Having different sized boards is so helpful for saving on space and cleanup time. Either way, you 
-            should definitely get more than one cutting board, as cutting raw meats and vegetables on the same board leads to cross-contamination.
+            microplastics to end up in your food (not a significant health concern, but a lot of people still avoid them when possible). For this reason, it's best to get a high quality wood/bamboo cutting board or two if 
+            you can afford them, but it's also nice to have a couple plastic ones for the convenience. I like to buy cutting boards that come in sets with varying sizes. Big boards are nice to have for a lot of vegetable prep, 
+            but do you really need a massive board to mince 2 cloves of garlic? Come on. Having different sized boards is so helpful for saving on space and cleanup time. Either way, you should definitely get more than one 
+            cutting board, as cutting raw meats and vegetables on the same board leads to cross-contamination.
             </p>
             <p className='story'>
             Knives are best when sharp, but a sharp edge is thin and prone to chipping and dulling with repeated use. Which is exactly why you need a whetstone. It's basically sandpaper for knives. I like getting a double-sided 
@@ -79,10 +80,10 @@ const StartCooking = () => {
             <p className='story'>
             The last category I want to mention are measuring tools. A lot of cuisines rely on eyeballing ingredients and going by feel, as do many recipes on this website. However, cultures that emphasize instinctive measurements often 
             pass on recipes within the family. You absorb the recipes as a child by watching your parents in the kitchen, and helping them if they ask. However, not everyone learns to cook the same way. And nobody is exposed to the 
-            authentic, home-cooked cuisines of every culture in their house. When learning new recipes, you need to be able to communicate quantities remotely with some standard of consistency. Plus, for certain recipes (especially 
+            authentic, home-cooked cuisines of every culture in the world. When learning new recipes, you need to be able to communicate quantities remotely with some standard of consistency. Plus, for certain recipes (especially 
             in baking), precision is key for the necessary chemical reactions to occur. I recommend getting three kinds of measuring tools: volume, weight, and temperature. For volume, get measuring spoons and cups. You want the full 
             spectrum of sizes between 1/4 teaspoon to 1 cup. For weight, get a digital kitchen scale with a tare function that can convert between ounces and grams as needed. For temperature, get a digital instant-read thermometer. This 
-            is a lifesaver from so many dishes, from chicken breast to swiss meringues. You can also get a candy thermometer if you plan on deep frying foods or making caramels, as most instant-read thermometers can't handle heat much 
+            is a lifesaver for so many dishes, from chicken breast to swiss meringues. You can also get a candy thermometer if you plan on deep frying foods or making caramels, as most instant-read thermometers can't handle heat much 
             higher than 200F. 
             </p>
             <p className='story'>
@@ -105,22 +106,22 @@ const StartCooking = () => {
             playlist for good channels to browse through, or check out the Links tab on this website for a list of all my favorite cooking blogs and food YouTubers. The worst thing you can do is think you're not good enough to 
             cook something. I always tell people "food smells fear". You want to be careful, yet confident. Make sure to keep your fingers out of reach from blades and flames, keep your hands and cooking surfaces sanitized, and clean 
             your kitchen as you go. At the same time, too much caution can hurt. When people drop food into boiling water, they get scared and try and throw it in from above. This causes the food to hit the water with more force, 
-            making the boiling water splash around and increasing your injury risk. Instead, get up close to the water (don't touch it) and release the food gently and confidently. Or better yet, just use a ladle to lower it in. 
-            In this way, you'll be safe, as you're not touching the water, but you're still confident enough to approach the water without fear and prevent accidental splashing. Also, don't be afraid to try recipes that are out of your 
+            making the boiling water splash around and increasing your injury risk. Instead, get up close to the water (don't touch it) and release the food swiftly and confidently. Or better yet, just use a ladle to lower it in. 
+            This way, you'll be safe, as you're not touching the water, but you're still confident enough to approach the water without fear and prevent accidental splashing. Also, don't be afraid to try recipes that are out of your 
             league. The first dessert I learned to make was Lemon Meringue Pie. Very tricky to get right, and an absolute failure the first time I made it. But I didn't let that stop me. I figured out what went wrong, made 
             changes to the recipe based on what I liked and what I didn't, and created a recipe that I absolutely love. It was a learning process, but it made me a better cook in the end. Try and get a wide variety of recipes. The 
             goal isn't to aim for memorizing every recipe, but to learn the techniques and how to handle a wide range of foods to make the most of their unique flavors and textures.
             </p>
             <p className='story'>
-            At the end of the day, once you've got down the basic techniques like whisking, folding, kneading, chopping, simmering, blanching, baking, broiling, and sauteeing, you're pretty much set. There's a few things you absolutely 
-            should know to make for yourself: breakfast, lunch, snack, dinner, dessert. Get yourself some diverse options in your repertoire for each meal, like a couple easy weekday preparations and at least one fancy option to 
+            At the end of the day, once you've got down the basic techniques like whisking, folding, kneading, chopping, simmering, blanching, baking, broiling, and sauteeing, you're pretty much set. There's a few things you should 
+            absolutely know how to make for yourself: breakfast, lunch, snack, dinner, and dessert. Get yourself some diverse options in your repertoire for each meal, like a couple easy weekday preparations and at least one fancy option to 
             impress guests (or just to push your boundaries). At that point, you'll have developed both competence and comfort with multiple different food groups and techniques. From there, let your curiosity take the wheel. As 
             Miles Davis once said, "First you imitate, then you innovate." Recipes will always be a good starting point and they'll teach you all sorts of new things, but once you've got the fundamentals down, you'd be surprised at 
             just how easy it is to make good food with whatever random ingredients are in your fridge in a pinch. I also like to improvise even when I do have a recipe in hand. I like making little changes and adding my own flair to 
             things as I go. It makes me feel like I'm adding a dimension of my personality into the dish, giving it a bit of love and soul.
             </p>
             <p className='story'>
-            In order to really nail the fundamentals and learn more about not just <em>what</em> to do, but <em>why</em> it works, cookbooks can be an invaluable resources of information. In my opinion, there are only 2 cookbooks you 
+            In order to really nail the fundamentals and learn more about not just <em>what</em> to do, but <em>why</em> it works, cookbooks can be invaluable resources of information. In my opinion, there are only 2 cookbooks you 
             need: <em>Salt, Fat, Acid, Heat</em> by Samin Nosrat and <em>The Food Lab</em> by J. Kenji Lopez-Alt. The first book explains the four essential elements (salt, fat, acid, and heat) for cooking most dishes and the author 
             explains it from a very basic level, so it's great for cooks of all expertise levels. Simply reading the first half of this book will get you from 0% to 50% of the way to being a good cook without ever setting foot in the 
             kitchen. The second book is full of Kenji's home experiments and tricks for getting your food to be as good as it can be through principles of food science. Both books are also overflowing with incredible recipes that 

@@ -21,7 +21,7 @@ const Lotr = () => {
             I remember thinking how cool Aragorn looked while fighting wraiths and orcs. I remember how much I loved the dialogues between Sam and Frodo. The elves felt breathlessly 
             ethereal and magical, and the dwarves impressed their pride and power on me through their awesome feats of engineering. For three hours, I wasn't a kid watching a movie. 
             I was living in Middle Earth. It wasn't my first exposure to the fantasy genre, but it felt meaningful in developing the sense of love and wonder I have for mythical and 
-            magical worlds. I was much older, well into adulthood, when I finished the trilogy, but it occurred to me that despite how much I loved reading, fantasy, and specifically 
+            magical worlds. I was much older, well into adulthood, when I finished watching the trilogy, but it occurred to me that despite how much I loved reading, fantasy, and specifically 
             the world of Middle Earth, I had never read the books. For my birthday, I decided to treat myself to a high-quality hardcover box set 
             of <em>The Hobbit</em> and <em>The Lord of the Rings</em>. It was a labor of over a year to finish all of the books (as I took hiatuses between some of the books to read 
             others), but I enjoyed every page.
@@ -37,9 +37,9 @@ const Lotr = () => {
             </p>
             <p className='has-text-centered subtitle is-4 mt-6'>An Expected Party</p>
             <p className='story'>
-            So, you want to plan a <em>Lord of the Rings</em> move marathon (or any, for that matter). You think you can just invite people over and turn on the TV? No, proper marathoning 
-            involves good hosting, good timing, prep work, and to some degree, even contingency planning. It's a logistical puzzle, and I'm here to let you know how it's done. Here's the 
-            most important things to remember:
+            So, you want to plan a <em>Lord of the Rings</em> movie marathon (or any movie marathon, for that matter). You think you can just invite people over and turn on the TV? No, 
+            proper marathoning requires good hosting, good timing, prep work, and to some degree, even contingency planning. It's a logistical puzzle, and I'm here to let you know how 
+            it's done. Here's the most important things to remember:
             </p>
             <ol>
                 <li className='has-text-weight-bold'>Establish the list, runtime, and services you need</li>
@@ -137,10 +137,10 @@ const Lotr = () => {
                 everyone's dietary needs. If it's a potluck, collaborate to decide what each person is bringing. If you're the only one in charge of food, communicate your menu clearly with 
                 your guests. For snacks, variety is key. Keep a combination of sweet things (baked goods, candy, ice cream, dried fruit, kettle corn), salty things (chips, popcorn, pretzels), fresh 
                 things (charcuterie, fruits and veggies with appropriate seasonings/dips), and drinks (water [mandatory], alcohol, soda, juice, punch). You don't need all of these, but make sure to 
-                have at least one item from each category. An easy snack selection spread would be to bake chocolate-chip cookies, make movie-theater popcorn, set some freshly diced watermelon and mango with 
-                Tajin, and Diet Coke. It's the little details like the Tajin on the fruit and the homemade chocolate chip cookies that really stand out with your guests and make the experience better. 
-                If your marathon lasts several hours and goes past a standard mealtime or two, you want to have those prepared. If you want to take the stress out of it, ordering in a pizza isn't a 
-                bad idea. However, I recommend making food that fits the theme of what you're watching. For a <em>Psych</em> marathon, have something with pineapple on the menu. For 
+                have at least one item from each category. An easy snack spread would be to bake chocolate-chip cookies, make movie-theater popcorn, prep some freshly diced watermelon and mango with 
+                Tajin, and have Diet Coke in the fridge. It's the little details like the Tajin on the fruit and the homemade chocolate chip cookies that really stand out with your guests and make 
+                the experience better. If your marathon lasts several hours and encompasses a meal or two, you want to have those meals prepared. If you want to take the stress out of it, ordering 
+                in a pizza isn't a bad idea. However, I recommend making food that fits the theme of what you're watching. For a <em>Psych</em> marathon, have something with pineapple on the menu. For 
                 an <em>Avengers</em> marathon, try making some shawarma. Binging with Babish is a great resource on YouTube for finding recipes from shows or movies if you're out of ideas. Regardless, 
                 it's best to do all the food prep in advance, so you're not scrambling on the day of the party. Cookies can be made ahead. Lasagna can be reheated without losing quality. Plan out all 
                 the things you can make ahead of time to reduce the headache and to give you enough time to course correct if something goes wrong. For my marathon, I read the books and wrote down 
@@ -162,54 +162,45 @@ const Lotr = () => {
             like this and put your own spin on it.
             </p>
             <ul>
-                <li>Savory</li>
-                <ul>
-                    <li>Cold Chicken and Pickles</li>
-                    <li>Mince Pie with Cheese</li>
-                    <li>Pork Pie with Salad</li>
-                    <li>Fried Eggs and Ham</li>
-                    <li>Bacon and Eggs</li>
-                    <li>Mutton</li>
-                    <li>Nuts</li>
-                    <li>Cram (fictional: similar in description to hardtack)</li>
-                    <li>Mushrooms</li>
-                    <li>Beans (most likely scarlet runner beans, but it's unspecified)</li>
-                    <li>Hot Soup and Cold Meat</li>
-                    <li>Loaves with Butter and Ripe Cheese</li>
-                    <li>Lembas (fictional: a wafer-like bread, very filling, long shelf-life)</li>
-                    <li>Rabbit Stew</li>
-                    <li>Fish and Chips (by mention only)</li>
-                    <li>Salted Meat</li>
-                </ul>
-                <li>Sweet</li>
-                <ul>
-                    <li>Seed Cakes</li>
-                    <li>
-                    Raspberry Jam and Apple Tart (not sure if Tolkien meant a tart with both raspberry jam and apples in it, or raspberry jam served alongside an 
-                    apple tart. Interpret as you wish)
-                    </li>
-                    <li>Buttered Scones (note: This refers to English Scones, which are different from American Scones)</li>
-                    <li>Bread with Honey, Butter, and Clotted Cream</li>
-                    <li>Dried Fruits</li>
-                    <li>Honey Cakes</li>
-                    <li>Blackberry Tart</li>
-                    <li>White Cakes</li>
-                    <li>Apples</li>
-                </ul>
-                <li>Drinks</li>
-                <ul>
-                    <li>Tea</li>
-                    <li>Beer/Porter/Ale</li>
-                    <li>Coffee</li>
-                    <li>Wine</li>
-                    <li>Mead</li>
-                    <li>Miruvor (fictional: a medicinal alcoholic drink made from honey. As it is a cordial, it might be steeped with medicinal herbs/spices)</li>
-                    <li>
-                    Ent-Draught (fictional: a refreshing drink that smells like a distant wood in the night breeze. Could be replicated by making pine needle 
-                    tea with a hint of peppermint/maple syrup and serving cold)
-                    </li>
-                    <li>Thin Milk (I think this is just skim milk)</li>
-                </ul>
+                <li>Cold Chicken and Pickles</li>
+                <li>Mince Pie with Cheese</li>
+                <li>Pork Pie with Salad</li>
+                <li>Fried Eggs and Ham</li>
+                <li>Bacon and Eggs</li>
+                <li>Mutton</li>
+                <li>Nuts</li>
+                <li>Cram (fictional: similar in description to hardtack)</li>
+                <li>Mushrooms</li>
+                <li>Beans (most likely scarlet runner beans, but it's unspecified)</li>
+                <li>Hot Soup and Cold Meat</li>
+                <li>Loaves with Butter and Ripe Cheese</li>
+                <li>Lembas (fictional: a wafer-like bread, very filling, long shelf-life)</li>
+                <li>Rabbit Stew</li>
+                <li>Fish and Chips (by mention only)</li>
+                <li>Salted Meat</li>
+                <li>Seed Cakes</li>
+                <li>
+                Raspberry Jam and Apple Tart (not sure if Tolkien meant a tart with both raspberry jam and apples in it, or raspberry jam served alongside an 
+                apple tart. Interpret as you wish)
+                </li>
+                <li>Buttered Scones (note: This refers to English scones, which are different from American scones)</li>
+                <li>Bread with Honey, Butter, and Clotted Cream</li>
+                <li>Dried Fruits</li>
+                <li>Honey Cakes</li>
+                <li>Blackberry Tart</li>
+                <li>White Cakes</li>
+                <li>Apples</li>
+                <li>Tea</li>
+                <li>Beer/Porter/Ale</li>
+                <li>Coffee</li>
+                <li>Wine</li>
+                <li>Mead</li>
+                <li>Miruvor (fictional: a medicinal alcoholic drink made from honey. As it is a cordial, it might be steeped with medicinal herbs/spices)</li>
+                <li>
+                Ent-Draught (fictional: a refreshing drink that smells like a distant wood in the night breeze. Could be replicated by making pine needle 
+                tea with a hint of peppermint/maple syrup and serving cold)
+                </li>
+                <li>Thin Milk (I think this is just skim milk)</li>
             </ul>
             <p className='story'>
             At first, I was frustrated at how vague the descriptions were. What does he mean "white cakes"? Like pound cake, tea cake, sponge cake? How do I interpret that? Of course, it's a ridiculous frustration to 
@@ -259,12 +250,12 @@ const Lotr = () => {
             <p className='story'>
             I have never once heard of elevenses outside of the books, but apparently it's a British term for some light refreshments, usually eaten around 11 am. This is basically a mid-morning tea/coffee/snack break taken a couple 
             hours into the work day. For this meal, I decided to replicate what Pippin has when Denethor calls him for tea to discuss Boromir's fate in <em>The Return of the King</em>. While they talk, they have tea and white cakes. 
-            It's not clear what kind of cakes, as there are many small, white cakes that can be eaten with tea, and the word cake is fairly vague as well. I decided to interpret this as a couple slices of an iced vanilla loaf, which I 
+            It's not clear what kind of cakes, as there are many small, white cakes that can be eaten with tea, and the word "cake" is fairly vague as well. I decided to interpret this as a couple slices of an iced vanilla loaf, which I 
             bought from the store as I absolutely could not be bothered to make them myself. I'm not much of a baker and I already had too much to cook by myself. I know store-bought cake isn't quite up to the standards of a cooking blog, 
             but hey, there's seven meals. They're not all going to be winners. For the tea, I had a second cup of Earl Grey, but I added some milk to make it a London Fog. You could say I made it this way to represent Denethor's foggy 
             state of mind, but really I just wanted some variety. A real London Fog has a touch of vanilla extract, is often sweetened with a bit of syrup or honey, and uses steamed milk, but I just used hot milk for convenience and I didn't 
-            add any flavorings as I felt that it would've been too sweet when paired with the vanilla cake. You could say I cut corners throughout making this meal as a metaphor for Denethor cutting corners in his parenting by only loving 
-            one child, but really I was just lazy.
+            add any flavorings as I felt that it would've been too sweet when paired with the vanilla cake. You could say I cut corners throughout making this meal as a metaphor for Denethor cutting corners in his parenting, but really 
+            I was just lazy.
             </p>
             <p className='has-text-weight-bold'>Luncheon ("A Dwarven Feast")</p>
             <p className='story'>

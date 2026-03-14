@@ -10,7 +10,7 @@ const AppleFilling = () => {
                 <p className="subtitle">Applie pie filling without the pie.</p>
             </div>
 
-            <div className="columns mb-6 has-background-light">
+            <div className="columns mb-5 has-background-light">
                 {/* Instructions */}
                 <div className="column">
                 <h4 className="subtitle has-text-centered-mobile">Instructions</h4>
@@ -47,6 +47,12 @@ const AppleFilling = () => {
                 </ul>
                 </div>
                 </div>
+            </div>
+            
+            <div className='container mb-6 has-text-centered'>
+                <button className="button is-info" onClick={() => window.print()}>
+                    Download/Print Recipe
+                </button>
             </div>
             
             {/* About the recipe */}

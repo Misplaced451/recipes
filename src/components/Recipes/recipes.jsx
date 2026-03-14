@@ -55,6 +55,7 @@ import PieCrust from './piecrust';
 import Arayes from './arayes';
 import MushroomParfait from './mushroomparfait';
 import AutumnPorkChops from './autumnchops';
+import SmoresMousse from './smoresmousse';
 
 const Recipes = () => {
     const handlePizza = () => {
@@ -210,5 +211,5 @@ export {
     Pizza, Coffee, Ricotta, PopcornChicken, MugCake, TofuWrap, ChickenBurrito, 
     JerkChicken, StirFry, MexicanRice, ChickenStock, ConeyStew, PorkPie, 
     SeedCake, BakedBeans, BlackberryTart, Vinaigrette, PieCrust, Arayes, 
-    MushroomParfait, AutumnPorkChops
+    MushroomParfait, AutumnPorkChops, SmoresMousse
 };
