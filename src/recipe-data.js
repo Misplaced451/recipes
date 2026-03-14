@@ -267,18 +267,17 @@ const RecipeData = {
         },
 
         {
-            id:40,
-            name:"Seed Cake",
-            path:"/seedcake",
-            tags:['beginner', 'dessert', 'vegetarian']
-        },
-
-
-        {
             id:24,
             name:"Sausage, Peppers, & Onions Over Rice",
             path:"/sporice",
             tags:['original', 'beginner', 'weeknight']
+        },
+
+        {
+            id:40,
+            name:"Seed Cake",
+            path:"/seedcake",
+            tags:['beginner', 'dessert', 'vegetarian']
         },
         
         {
@@ -286,6 +285,13 @@ const RecipeData = {
             name:"Shortcut Popcorn Chicken",
             path:"/popcornchicken",
             tags:['original', 'beginner', 'weeknight']
+        },
+
+        {
+            id:48,
+            name:"S'mores Mousse",
+            path:"/smoresmousse",
+            tags:['dessert', 'fancy', 'original']
         },
 
         {

@@ -14,74 +14,75 @@ const ScienceBased = () => {
             <div className="section pt-0 columns">
             <div className="column is-2-desktop"></div>
             <div className='column is-8-desktop content'>
-            <p className='has-text-centered subtitle is-4'>The Rise of Science-Based Thinking</p>
+            <p className='has-text-centered subtitle is-4'>The Traditional Mindset</p>
             <p className='story'>
-            In many circles of online discourse, particularly those pertaining to self-improvement (i.e., fitness, nutrition, productivity, etc.), there has been a growing body of influencers 
-            using the term "science-based" in their content. These fields have had such a history of rich tradition behind developing best practices that some techniques are borderline 
-            mythological in nature. In the weightlifting community, they said that squeezing your muscle at the top of the movement gets you the most growth. However, exercise studies tend 
-            to show that it's controlling the eccentric (lowering) half of the movement that gets you better results. Although the biggest bodybuilders may have done something one way, that 
-            doesn't necessarily mean it'll work for everyone. Worse, if someone is peddling some kind of supplement or training program, they might make money off of misinformation, because 
-            people don't know better than to follow anecdotal evidence of someone who may not have their best interests at heart. Science-based lifting, in contrast, cites actual studies 
-            published in peer-reviewed journals. The same approach has been taken in cooking as well. Although peer-reviewed studies about cooking steaks are rare (if you'll pardon the pun), 
-            I've seen many chefs and food writers use everything from thermodynamic equations to chemistry lab equipment to find the best route to better food. And of course, this approach 
-            is second-to-none. After all, science is founded in empirical evidence and is often our best means of discerning the truth. If you wanted to adopt a science-based approach to 
-            cooking, or even life in general, what could go wrong?
+            Although cooking (like everything else) works based on scientific laws and principles, the idea of a "science-based" home cook is relatively recent. Many recipes were made in households 
+            by mothers and grandmothers and passed on through families. Others were made for courts or wealthy homeowners by professional chefs, then passed down to apprentices. Whether from family 
+            tradition or pedagogy, the art of cooking was steeped in a respect for one's culture and predecessors. Obviously innovation existed, but it was always based on personal preference or 
+            dictated by supply and demand. There was little investigation into the <em>why</em> of cooking, you just kind of had to accept sometimes that this is the way that things were done.
             </p>
             <p className='story'>
-            I'm less concerned about things going wrong than I am about things not going right. "Science-based" has become more of a buzzword for engagement than an actual pursuit of scientific 
-            inquiry. The gripe that many people have with science-based thinking is that it hyperfixates on the minutiae of a given goal. Sure, maybe the omega-6 fatty acids in seed oils could 
-            possibly have a role in an inflammatory response, but isn't focusing on that little detail overshadowing the fact that omega-6's are essential fatty acids that we need to live? Also, not 
-            all inflammation is a net negative for our health. Pointing out one potential implication from one study doesn't mean that it's a scientific or medical consensus. Even if a finding of 
-            a study proves to be significant, maybe it's just a statistically significant improvement of just 1%. If that's the case, is it worth making a trend out of something like that? Turns out, 
-            because of how much science has become a buzzword, we're resorting to the same kind of misinformed myths that science is meant to avoid just to farm engagement. At worst, it's 
-            misrepresenting data, but usually it just results in marginal improvements with diminishing returns. Some people go too far in their stance against science-based thinking and throw the 
-            baby out with the bathwater. They get so frustrated with the granularity of science-based thinkers that they just embrace traditional thinking without any room for questioning <em>why</em> things 
-            work the way they do (or if they even work at all). Science-based thinkers are usually well-intentioned. I don't necessarily think it's wrong to want the best information out there 
-            to make better decisions. Even if the improvements are small, little changes can compound over time. However, not everyone has the time and energy to really overthink things, and they 
-            would be better suited to a system built around the practical aspects of their hobbies rather than the theoretical ones.
-            </p>
-            <p className='has-text-centered subtitle is-4 mt-6'>The Scientific Home Cook</p>
-            <p className='story'>
-            So how does cooking fit into all this? Like I said before, principles and materials from physics and chemistry have become more popular with many cooks to help them make certain dishes 
-            the best they can be. Maybe you want to find out how to make your porkchops as tender and succulent as possible. Maybe you have some wacky culinary concept you want to try out that 
-            requires a specific pH and certain ingredients used only in molecular gastronomy. Whatever your metric for success is, a lot of people turn toward science for answers. And influencers are 
-            no exception. The internet is full of cooks who want to find the "best" way of achieving a certain result, and conduct home experiments as a proof of concept. However, most "cooking 
-            experiment" videos you see online often aren't repeated over enough trials or samples to get a statistically significant result, nor do the influencers often control for variables like 
-            weight, exact cooking temperature, or double-blind testing amongst a large enough panel of subjects. To be fair, there's very few YouTubers that actually have science degrees or know how 
-            to conduct a study with any kind of scientific rigor. Most of what they do is for entertainment, a sort of "hey, let's see what happens if I do this" approach to cooking. And while I 
-            absolutely love an experimental approach, it's important for viewers to note the difference between scientifically rigorous labortatory experimentation and curious, at-home experimentation. 
-            It's fun to try out new things, and you might even see that some techniques clearly work, especially when backed by scientific principles (like how chopping vegetables produces a more 
-            flavorful vegetable stock than leaving them whole due to the higher surface-area to volume ratio). So while a lot of influencers are piggybacking on the scientific label without conducting 
-            anything very scientific, their videos can still be informative and entertaining as well.
+            I think tradition can be a powerful thing, and it unites people across time and space beautifully, but I also think traditional thinking can sometimes hold us back. For instance, washing 
+            chicken before cooking it is a common household practice around the world. It makes sense intuitively: raw meat contains pathogens, so rinse the meat and remove the pathogens. You still 
+            need to cook your meat thoroughly, especially poultry, but it should theoretically lower your risk of infection, right? Wrong. Water isn't enough to kill bacteria. If you're washing raw 
+            chicken under your tap, all you're doing is spreading that salmonella all over the inside of your sink, and maybe your counter too, if the water splashes on there as well. This actually 
+            might <em>increase</em> your risk of infection in the long-run, so it's best to throw that tradition out the window. Just wash your hands with soap before and after cooking, disinfect 
+            anything that has been touched by raw meat, and use separate surfaces for cutting meat and vegetables, and you should be just fine. 
             </p>
             <p className='story'>
-            The other side to this coin is chefs who have all kinds of fancy molecular gastronomy or chemistry lab equipment. I've seen people use everything from centrifuges to liquid nitrogen 
-            to literal molten metal. To be clear, these videos are awesome to watch. But those kind of techniques are great for a Michelin-star kitchen or a YouTuber trying out a novel concept on 
-            camera. You do not need to know how convection currents work to boil pasta. You do not need to cultivate your own varietal of potato to get a good French fry. You can, but it's 
-            just not practical. You can make perfectly good food (showstopping food, even) with equipment that comes in most kitchens and ingredients you can find in most grocery stores. I'm 
-            usually in favor of pioneering new and better ways of doing things, but not at the cost of practicality.
+            Other traditions, however, like blooming spices in hot oil before adding other ingredients, allows for flavors to spread evenly, develop some depth, and meld together well with each 
+            other. In cuisines (e.g., Indian cuisine) that add lots of spices in a single dish, this technique allows those spices to meld together in a symphony of aroma. There's no way that ancient 
+            Indians understood the chemistry of how volatile active compounds react to heat and bond to nonpolar molecules more easily than polar molecules. But through some trial and error, they 
+            developed a tradition that worked well with their own style of cuisine and helped make Indian food what it is today: delicious.
+            </p>
+            <p className='story'>
+            
+            </p>
+            <p className='has-text-centered subtitle is-4 mt-6'>The Science-Based Mindset</p>
+            <p className='story'>
+            Food science is not a new concept. People have been applying the principles of physics and chemistry to food for hundreds of years. However, there has been a recent surge online in 
+            "science-based" content. I've seen it in everything from workout videos to skincare advice to productivity books. Food writers and culinary content creators have hopped on the 
+            science-based train more than ever in the last decade or so, publishing home experiments, using fancy lab equipment, and making molecular gastronomy techniques more accessible to the 
+            enterprising home cook.
+            </p>
+            <p className='story'>
+            Personally, I love the fact that people are willing to question conventional wisdom in favor of empirical evidence. However, I think the monetization potential around the science-based 
+            movement has corrupted its intentions. If just one small study comes out regarding the potential negative health impacts of a single ingredient or nutrient, content creators are incentivized 
+            to make a hoopla about it. For instance, take all the nonsense people are spreading about seed oils being bad because their Omega-6's are pro-inflammatory. In reality, Omega-6 fatty acids 
+            are essential for our health. The role of Omega-6's in the body's inflammatory response is a complex subject and needs further study, even by the admissions of the scientists who have 
+            written papers on the subject. But that doesn't stop health nuts on YouTube from asserting that all seed oils are the devil. These are people that are hijacking the science-based train 
+            for engagement, and it leads people to make more uninformed decisions.
+            </p>
+            <p className='story'>
+            Another issue with the science-based approach is that even if the information is accurate, its effects might be sensationalized due to a lack of scientific literacy in the majority of the 
+            public. What happens as a result is that many people waste time fussing and arguing over small tweaks and tips that add only marginal improvements to their food, and their attention 
+            subconsciously strays away from the major details that actually matter. Sure, you can debate whether peanut oil or vegetable oil makes a crispier French fry, but if you're not salting your 
+            potatoes properly or you're not cooking them thoroughly, the meager difference in saturated fat content isn't going to count for much. It's easy for people to obsess over the details, and a 
+            science-based home cook can very easily find themselves in a daunting quagmire of information, making it harder for new cooks to focus on just practicing the fundamentals.
             </p>
             <p className='has-text-centered subtitle is-4 mt-6'>A New Approach</p>
             <p className='story'>
-            For the purposes of entertainers and professional chefs, pushing for the absolute best at all costs may be the right path. But there's a difference between a maximal result and an 
-            optimal result. Maximal results attempt to achieve the highest measurement of a particular variable, like how crispy your fries are, or how much liquid is retained in your chicken 
-            breast after cooking. These are the best results you can theoretically achieve. Optimal results are the best <em>possible</em> outcomes given a variety of factors. For instance, 
-            you can <em>maximize</em> smoothness of mashed potatoes with a blender, but mixing them too much will get you a goopy, gluey mash. For an <em>optimally</em> smooth mashed potato, 
-            use a sieve or strainer and push through the potatoes with a rubber spatula. This will prevent them from getting overworked while ensuring that all the big particles are broken up. 
-            The result? Fluffy, tender, lump-free potatoes, every time. 
+            Evidently, the science-based approach is valid in theory: figure out what works best and just do that. But theory and practice are only the same in theory, not in practice. A lot of the 
+            "scientifically best" methods and ingredients are expensive and/or hard to find. We need an approach that achieves the best results, but also redefines "best" from meaning "maximal" to 
+            meaning "optimal". Maximal results achieve the highest measurement of a particular variable, like how crispy your fries are, or how much liquid is retained in your chicken breast after 
+            cooking. These are the best results one could theoretically achieve. Optimal results are the best <em>possible</em> outcomes given a variety of factors. Sure, making lump-free mashed 
+            potatoes in a food processor maximizes speed, but it incurs the cost of overworking the potatoes, resulting in a gummy, gluey glop. Because maximizing one variable often comes at the cost 
+            of others, it's important to find some balance. Pushing your potatoes through a sieve, although slower, ensures the same level of smoothness but yields a more tender, fluffy mash.
             </p>
             <p className='story'>
-            When running science experiments, it's often the objective to find the maximal result rather than what's necerssarily optimal. In most experiments, especially ones that determine causality 
+            When running science experiments, it's often the objective to find the maximal result rather than what's necessarily optimal. In most experiments, especially ones that determine causality 
             between variables, it's good practice to control for as many variables as possible and isolate the change to a single variable. But real life is very different from the inside of a lab. 
-            Cooking doesn't exist in a vaccuum, it's a part of our daily lives, which is full of confounding obstacles that make things much more unpredictable. For the average home cook, we don't need 
+            Cooking doesn't exist in a vacuum, it's a part of our daily lives, which is full of confounding obstacles that make things much more unpredictable. For the average home cook, we don't need 
             maximal results. Sure, it's nice to have a chocolate mousse that's 2.6% more airy, but if it takes expensive equipment or twice as much time to make, it's not worth the maximal result. 
             Whenever I make a new recipe, I am often severely limited by the fact that I live in an apartment with limited counter and storage space, a budget I can't overspend on, and only so much 
             time in my schedule to make it. I do not have a team of chefs and line cooks working for me. I am not in control of all the variables, and I don't have the time or money to gain that control. 
-            I have to sacrifice a bit of quality for efficiency. After all, I'm not making money off of each meal I make. Home cooking isn't always about the food, it's also about the effect that the 
-            process has on your domestic life. As a home cook, I need balance between quality and efficiency (benefit vs cost). In other words, I need optimization, not maximization. The bottom line is 
-            this: when it comes to finding the best methods, leave it to the scientists and science-based folks. As home cooks, our question isn't "how do I make the best food humanly possible?" It's 
-            "how do I make the best food I can with the constraints and resources at my disposal?" Although this approach is often informed by science, I find that this is the mindset not necessarily 
-            of a scientist, but of an engineer.
+            I have to sacrifice a bit of quality for efficiency. After all, I'm not making money off of each meal I make.
+            </p>
+            <p className='story'>
+            Home cooking isn't always about the food, it's also about the effect that the process has on your domestic life. It's important to find balance between quality and efficiency (benefit vs cost). 
+            In other words, I need optimization, not maximization. The bottom line is this: when it comes to finding the best methods, leave it to the scientists and science-based folks. As home cooks, our 
+            question isn't "how do I make the best food humanly possible?" It's "how do I make the best food I can with the constraints and resources at my disposal?" Although this approach is informed by 
+            science, I find that this is the mindset not necessarily of a scientist, but that of an engineer.
             </p>
             <p className='has-text-centered subtitle is-4 mt-6'>The Engineer's Mindset</p>
             <p className='story'>
@@ -92,12 +93,13 @@ const ScienceBased = () => {
             that scientists may use for testing.
             </p>
             <p className='story'>
-            To me, being a good home cook is being a good engineer. Problem-solving is often at the core of a lot of recipe development. Let's say you want to make a good apple pie. In order to maximize 
-            all the good things people like about apple pie, you'll need ingredients like flour and butter. But what if you or someone you're serving it to has a gluten allergy? You have to figure out 
-            a workaround, but using substitute ingredients provides a different result, which may be subpar. We cannot always maximize quality, but we can optimize it. Maybe using oat flour would work 
-            best since the flavor of oats and apples go hand-in-hand. However, gluten is a key ingredient because it helps provide structure. Oat flour crusts might have more of a crumbly and less of a 
-            traditionally flaky texture as a result. Maybe adding something like egg whites as a binder would help (though it's not required). Notice the process at work here. We had an ideal scenario in 
-            mind, then we modified it to the provided context, took stock of the pros and cons of our solution, then tweaked it to cover for the cons.
+            To me, being a good home cook is being a good engineer. Maybe I'm just biased, as I'm already both of those things. But problem-solving is often at the core of a lot of recipe development. 
+            Let's say you want to make a good apple pie. In order to maximize all the good things people like about apple pie, you'll need ingredients like flour and butter. But what if you or someone 
+            you're serving it to has a gluten allergy? You have to figure out a workaround, but using substitute ingredients provides a different result, which may be subpar. We cannot always maximize 
+            quality, but we can optimize it. Maybe using oat flour would work best since the flavor of oats and apples go hand-in-hand. However, gluten is a key ingredient because it helps provide 
+            structure. Oat flour crusts might have more of a crumbly and less of a traditionally flaky texture as a result. Maybe adding something like egg whites as a binder would help (though it's 
+            not required). Notice the process at work here. We had an ideal scenario in mind, then we modified it to the provided context, took stock of the pros and cons of our solution, then tweaked 
+            it to cover for the cons.
             </p>
             <p className='story'>
             There's more to culinary engineering than ingredient substitutions. When making a feast for Thanksgiving or another holiday that requires multiple dishes to come to the table at once, don't 

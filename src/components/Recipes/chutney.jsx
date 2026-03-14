@@ -37,6 +37,12 @@ const Chutney = () => {
                 </div>
                 </div>
             </div>
+
+            <div className='container mb-6 has-text-centered'>
+                <button className="button is-info" onClick={() => window.print()}>
+                    Download/Print Recipe
+                </button>
+            </div>
             
             {/* About the recipe */}
             <h4 className="subtitle has-text-centered is-4">Story Time</h4>

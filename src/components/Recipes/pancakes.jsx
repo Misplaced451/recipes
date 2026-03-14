@@ -7,7 +7,7 @@ const Pancakes = () => {
             {/* Intro */}
             <div className="has-text-centered section pt-0">
                 <h1 className="has-text-weight-bold is-size-3">Pancakes</h1>
-                <p className="subtitle">Here's my recipe for pancakes. And when I say pancakes, I mean pan CAKES. These bad boys are thick.</p>
+                <p className="subtitle">Here's my recipe for buttermilk pancakes. And when I say pancakes, I mean pan CAKES. These things are Down With The Thickness.</p>
             </div>
 
             <div className="columns mb-6 has-background-light">	
@@ -18,7 +18,7 @@ const Pancakes = () => {
                 <ol>
                     <li>Sift and combine dry ingredients in large bowl.</li>
                     <li>Separate egg whites and yolk into separate bowls.</li>
-                    <li>Whisk egg whites until they form soft peaks. It is not necessary to go quite this far, but it does make a difference.</li>
+                    <li>Whisk egg whites until foamy, almost soft peaks.</li>
                     <li>Stir sugar into yolks until fully combined and color lightens slightly.</li>
                     <li>Add butter and vanilla to yolk mixture and stir until homogenous.</li>
                     <li>Stream buttermilk into yolk, whisking constantly to combine.</li>
@@ -49,14 +49,20 @@ const Pancakes = () => {
                         <li>3 tbsp sugar</li>
                         <li>1 cup buttermilk *</li>
                         <li>1 egg</li>
-                        <li>2 tbsp melted butter **</li>
+                        <li>2 tbsp melted butter</li>
                         <li>0.5 tsp vanilla extract</li>
                     </ul>
                 </div>
-                <p>* Buttermilk can be made at home by thoroughly mixing equal parts yogurt and water</p>
-                <p>** Can be substituted for coconut oil to add subtle coconut flavor if desired</p>
+                <p>* Buttermilk can be made at home by thoroughly mixing equal parts full fat Greek yogurt and water</p>
                 </div>
             </div>
+
+            <div className='container mb-6 has-text-centered'>
+                <button className="button is-info" onClick={() => window.print()}>
+                    Download/Print Recipe
+                </button>
+            </div>
+
             {/* About the recipe */}
             <h4 className="subtitle has-text-centered is-4">Story Time</h4>
             <p className="story">
