@@ -20,7 +20,7 @@ const Lab = () => {
 
                 <Link to="/tikka" className="card cell is-one-quarter recipelink mx-2 mb-4">
                     <div className="card-image">
-                        <img src={"placeholder.jpg"} alt="tikka.jpg" />
+                        <img src={"images/tikka.jpg"} alt="tikka.jpg" />
                     </div>
                     <div className="card-content">
                         <p className="has-text-weight-bold">Chicken Tikka Masala</p>
@@ -29,7 +29,7 @@ const Lab = () => {
 
                 <Link to="/gastrique" className="card cell is-one-quarter recipelink mx-2 mb-4">
                     <div className="card-image">
-                        <img src={"placeholder.jpg"} alt="gastrique.jpg" />
+                        <img src={"images/gastrique.jpg"} alt="gastrique.jpg" />
                     </div>
                     <div className="card-content">
                         <p className="has-text-weight-bold">Apple Cider Gastrique</p>
@@ -38,7 +38,7 @@ const Lab = () => {
 
                 <Link to="/orangeicecream" className="card cell is-one-quarter recipelink mx-2 mb-4">
                     <div className="card-image">
-                        <img src={"placeholder.jpg"} alt="orangeicecream.jpg" />
+                        <img src={"images/orangeicecream.jpg"} alt="orangeicecream.jpg" />
                     </div>
                     <div className="card-content">
                         <p className="has-text-weight-bold">Spiced Orange Ice Cream</p>
@@ -47,7 +47,7 @@ const Lab = () => {
 
                 <Link to="/burgermeatballs" className="card cell is-one-quarter recipelink mx-2 mb-4">
                     <div className="card-image">
-                        <img src={"placeholder.jpg"} alt="burgermeatballs.jpg" />
+                        <img src={"images/burgermeatballs.jpg"} alt="burgermeatballs.jpg" />
                     </div>
                     <div className="card-content">
                         <p className="has-text-weight-bold">Burger Meatballs</p>
