@@ -1,70 +1,53 @@
 import '../../recipes_style.css';
 import '../../bulma.css';
+import RecipeLayout from './recipelayout';
 
 const Chana = () => {
     return (
-        <div className="pt-6 section recipe">
-            {/* Intro */}
-            <div className="has-text-centered section pt-0">
-                <h1 className="has-text-weight-bold is-size-3">Chana Masala</h1>
-                <p className="subtitle">My mom's recipe for chana masala.</p>
-            </div>
-
-            <div className="columns mb-6 has-background-light">
-                {/* Instructions */}
-                <div className="column">
-                <h4 className="subtitle has-text-centered-mobile">Instructions</h4>
-                <div className="content">
-                <ol>
-                    <li>Add cumin seeds and bay leaf to hot oil.</li>
-                    <li>Sautee finely diced onion until fully cooked.</li>
-                    <li>Add grated ginger with minced garlic, diced tomato, and a pinch of salt to release moisture.</li>
-                    <li>Mix until flavors come together, then add cinnamon, cloves, coriander powder, cumin powder, paprika, and cayenne.</li>
-                    <li>Cook down until paste-like and shiny.</li>
-                    <li>Add chickpeas and half as much water.</li>
-                    <li>Bring to a simmer, then leave the lid on for 5-10 minutes.</li>
-                </ol>
-                </div>
-                </div>
-                
-                {/* Ingredients */}
-                <div className="column is-4-desktop has-background-grey-lighter">
-                <h4 className="subtitle has-text-centered-mobile">Ingredients</h4>
-                <div className="content">
-                <ul>
-                    <li>2 cups chickpeas, soaked</li>
-                    <li>1 onion</li>
-                    <li>1 tomato</li>
-                    <li>2 tbsp vegetable oil</li>
-                    <li>0.5 inches ginger (1 tbsp)</li>
-                    <li>2 cloves garlic</li>
-                    <li>1 bay leaf</li>
-                    <li>0.25 tsp cloves</li>
-                    <li>0.25 tsp cinnamon</li>
-                    <li>1 tbsp coriander powder</li>
-                    <li>1 tsp cumin seed</li>
-                    <li>1 tsp cumin powder</li>
-                    <li>0.5 tsp paprika</li>
-                    <li>Cayenne</li>
-                    <li>Salt</li>
-                </ul>
-                </div>
-                </div>
-            </div>
-
-            <div className='container mb-6 has-text-centered'>
-                <button className="button is-info" onClick={() => window.print()}>
-                    Download/Print Recipe
-                </button>
-            </div>
-
-            {/* About the recipe */}
-            <h4 className="subtitle has-text-centered is-4 mt-6">Story Time</h4>
-            <p className="story">
+        <RecipeLayout 
+        name={'Chana Masala'}
+        description={'My mom\'s recipe for chana masala.'}
+        instructions={
+        <div className="content">
+        <ol>
+            <li>Add cumin seeds and bay leaf to hot oil.</li>
+            <li>Sautee finely diced onion until fully cooked.</li>
+            <li>Add grated ginger with minced garlic, diced tomato, and a pinch of salt to release moisture.</li>
+            <li>Mix until flavors come together, then add cinnamon, cloves, coriander powder, cumin powder, paprika, and cayenne.</li>
+            <li>Cook down until paste-like and shiny.</li>
+            <li>Add chickpeas and half as much water.</li>
+            <li>Bring to a simmer, then leave the lid on for 5-10 minutes.</li>
+        </ol>
+        </div>
+        }
+        ingredients={
+        <div className="content">
+        <ul>
+            <li>2 cups chickpeas, soaked</li>
+            <li>1 onion</li>
+            <li>1 tomato</li>
+            <li>2 tbsp vegetable oil</li>
+            <li>0.5 inches ginger (1 tbsp)</li>
+            <li>2 cloves garlic</li>
+            <li>1 bay leaf</li>
+            <li>0.25 tsp cloves</li>
+            <li>0.25 tsp cinnamon</li>
+            <li>1 tbsp coriander powder</li>
+            <li>1 tsp cumin seed</li>
+            <li>1 tsp cumin powder</li>
+            <li>0.5 tsp paprika</li>
+            <li>Cayenne</li>
+            <li>Salt</li>
+        </ul>
+        </div>
+        }
+        story={
+        <div className="story">
+            <p>
             You may have heard this recipe called by the name <em>chole</em>, usually served with a side of fried bread called <em>bhatura</em>. Whatever you call it, this North Indian 
             classic is packed with energy, flavor, and nutrition that is a guaranteed knockout for a simple yet filling weeknight meal.
             </p>
-            <p className="story">
+            <p>
             Start by adding cumin seeds and a bay leaf to a pot with hot oil. This will wake up the flavor compounds in these ingredients. Of course, if you leave your spices frying too 
             long, you risk burning them, so make sure to add some finely diced onion when the cumin becomes fragrant and slightly toasted. The onion is going to need to cook for a little 
             while so you can mince your garlic, peel your ginger, and dice your tomato in the meantime. Make sure the onion doesn't burn by stirring the pot occasionally. You'll know the 
@@ -73,7 +56,7 @@ const Chana = () => {
             the vegetables faster. Once all the ingredients are well-mixed, Add all the rest of the spices. The coriander, cumin, cinnamon, and cloves are common ingredients in garam 
             masala that will give a lot of flavor and warmth to the chana. Then add a bit of paprika for color and cayenne powder to taste.
             </p>
-            <p className="story">
+            <p>
             Mix the ingredients together well, making sure to mash the tomato up as much as possible. The spices will combine with the tomato and create a paste-like substance that will act 
             as the base for our gravy. Let the paste continue to reduce so that it deepens in flavor and the spices have a chance to cook properly. You'll be able to tell that the spices 
             are done cooking when the oil begins to leak out. The paste will have a noticeable sheen and you'll be able to see a little oil sizzling out at the edges of the paste. This 
@@ -81,14 +64,16 @@ const Chana = () => {
             a paste and getting to this leaking-oil stage before adding water. Congratulations, you just discovered the quintessential technique for making a good curry. By mastering this 
             technique, you'll unlock the ability to make a plethora of Indian dishes and even make your own curry recipe if you want.
             </p>
-            <p className="story">
+            <p>
             Add 2 cups of chickpeas and half as much water once the spices are done cooking. I like using canned, drained chickpeas for this recipe, despite the reduction in flavor. I find 
             that it's far easier than soaking the chickpeas overnight and having to cook them for longer. Plus, the can is a great way to measure out the amount of water you need as well. 
             Mix and bring up to a simmer. Continue to simmer with the lid on for 5-10 minutes. You want the chickpeas to soften and absorb as much flavor as possible. Take off the lid and 
             mash some of the chickpeas against the sides of the pot to help thicken the gravy. Adjust for seasoning, then serve with bhature, naan, or rice. Top with chopped cilantro 
             leaves, thin slices of raw red onion, or both.
             </p>
-        </div>    
+        </div>
+        }
+        />
     );
 }
 

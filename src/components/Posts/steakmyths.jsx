@@ -11,9 +11,9 @@ const SteakMyths = () => {
 
             <div className="section pt-0 columns">
             <div className="column is-2-desktop"></div>
-            <div className='column is-8-desktop content'>
-            <p className='has-text-centered subtitle is-4'>The Quest for the Perfect Steak</p>
-            <p className='story'>
+            <div className='column is-8-desktop content story'>
+            <p className='has-text-centered subtitle is-4 no-indent'>The Quest for the Perfect Steak</p>
+            <p>
             I can hardly think of a single dish that's more simple in composition and yet so endlessly complex in its process than steak. Everyone swears by some tradition or another, 
             often at odds with everyone else's. This made it very confusing for me to learn how to make them. I grew up in an Indian household, so steaks were never on the menu at home. 
             Even if I did want to go out for steak, it was way too expensive to get from any decent steakhouse. This meant that the first steak I ever had was one that I cooked for 
@@ -21,7 +21,7 @@ const SteakMyths = () => {
             all like the succulent delicacy that people had hyped it up to be. In my defense, it's impossible to find one ideal method for making steak because of all the myths and 
             traditions around it.
             </p>
-            <p>
+            <p className='no-indent'>
             Here are a few of the things I've heard over the years on how to cook the perfect steak:
             </p>
             <ul>
@@ -43,36 +43,36 @@ const SteakMyths = () => {
                 <li>"Keep flipping your steaks to cook them evenly."</li>
                 <li>"Never ever flip your steak more than once."</li>
             </ul>
-            <p className='story'>
-            The list goes on and on. There’s so much conflicting information here it’s hard to separate fiction from fact. Everyone seems to subscribe to this idea of some legendary 
-            “perfect steak” that only they know how to make. In truth, there is no such thing as a perfect steak: it’s all a myth. Different preparations belong to different cuisines 
-            and traditions, which are valid in their own right. Different cuts of beef behave and feel differently, so they can’t all be treated the same way. Everything has a purpose 
-            and a place, and everyone has their own taste. To say that there’s a “right” and “wrong” way to make a steak is ridiculous, because it robs the dish of all context. Figure 
+            <p>
+            The list goes on and on. There's so much conflicting information here it's hard to separate fiction from fact. Everyone seems to subscribe to this idea of some legendary 
+            “perfect steak” that only they know how to make. In truth, there is no such thing as a perfect steak: it's all a myth. Different preparations belong to different cuisines 
+            and traditions, which are valid in their own right. Different cuts of beef behave and feel differently, so they can't all be treated the same way. Everything has a purpose 
+            and a place, and everyone has their own taste. To say that there's a “right” and “wrong” way to make a steak is ridiculous, because it robs the dish of all context. Figure 
             out how you like your steaks and cook them how you like them, end of story.
             </p>
-            <p className='story'>
-            However, if you’re new to cooking steaks, the whole “everyone has their own style” thing doesn’t really help if you don’t know what your style is yet. How do you get to the 
-            point where you feel comfortable going to the store, picking up a steak, and cooking it up for dinner? I don’t want to get preachy about the way I cook steaks, but I’m willing 
-            to share some of the tips I’ve learned that work for me that could work as an accessible starting point for you too.
+            <p>
+            However, if you're new to cooking steaks, the whole “everyone has their own style” thing doesn't really help if you don't know what your style is yet. How do you get to the 
+            point where you feel comfortable going to the store, picking up a steak, and cooking it up for dinner? I don't want to get preachy about the way I cook steaks, but I'm willing 
+            to share some of the tips I've learned that work for me that could work as an accessible starting point for you too.
             </p>
-            <p className='has-text-centered subtitle is-4 mt-6'>The Right Cut for the Job</p>
-            <p className='story'>
+            <p className='has-text-centered subtitle is-4 mt-6 no-indent'>The Right Cut for the Job</p>
+            <p>
             A good steak begins at the store. If you have a local butcher shop, this is a great way to ensure freshness and quality, get advice from an expert on your steak needs, and support 
             a local business. I don't have access to one, so I just go to the meat aisle at the grocery store, which is fine too. Obviously, you should buy steaks that are sealed in packages 
             without any tears or cracks and are within the expiration date. Make sure they're still red in color (a little browning from oxidation here and there is fine). Unless you're cooking 
             steak for carne asada, cheesesteaks, or other applications that benefit from thinner cuts, try and get something around 1-1.5 inches thick. For me, this is about the length of the 
             joint at the tip of my thumb. That way I can eyeball if a steak is decently thick without bringing a ruler to the store like a psycho. If you can't find anything that thick, that's 
-            okay, just don't get one that's too thin. Getting a thicker steak prevents overcooking the center, and if you’re serving it in slices, it becomes more aesthetically pleasing to show 
+            okay, just don't get one that's too thin. Getting a thicker steak prevents overcooking the center, and if you're serving it in slices, it becomes more aesthetically pleasing to show 
             off the cuisson of the meat a bit better.
             </p>
-            <p className='story'>
+            <p>
             The next thing to consider is marbling, or how much white fat is streaking through the muscle. Something labeled USDA Prime will likely have a lot of little fat streaks running 
             through it, while USDA Select tends to have very few, and USDA Choice will be somewhere in between. High marbling will improve both flavor and tenderness of the meat, so it's very 
             desirable. This is why Wagyu is so prized, its marbling score is absurdly high (too much, for some people). You don't need to spring for a Prime grade to have a good steak, but if 
             you are choosing a Choice or Select steak, try and find one with as much marbling as possible. I also like cooking with boneless steaks for convenience, but you can cook bone-in steaks 
             if you like the visual (it doesn't have any impact on flavor unless you're stewing it).
             </p>
-            <p className='story'>
+            <p>
             As for cuts, different steaks are good for different purposes. Chuck is good for ground beef. Brisket is good for smoking low and slow. Chateubriand is good for beef wellington. 
             Skirt is good for carne asada. When I say "steak" in this post, I'm talking about a thick cut that's seasoned simply, seared quickly over high heat, eaten medium-rare, and has a 
             strong beefy flavor and tender mouthfeel. Out of all the cuts that fit this description, there are three that the average home cook should know:
@@ -116,20 +116,20 @@ const SteakMyths = () => {
                     </li>
                 </ul>
             </ul>
-            <p className='story'>
+            <p>
             As mentioned before, value cuts are hard to find, because the second that consumer demand focuses on an underrated cut, the price skyrockets accordingly. Finding a truly "cheap" cut that 
             doesn't compromise on flavor and texture is next to impossible in the long term. Good steak is an expensive dish, there's no getting around that. Still, having some knowledge of cuts 
             like Tri-Tip and Top Sirloin that tend to be on the more affordable side can be very helpful depending on your needs as a home cook.
             </p>
-            <p className='has-text-centered subtitle is-4 mt-6'>Journey to the Center of the Steak</p>
-            <p className='story'>
+            <p className='has-text-centered subtitle is-4 mt-6 no-indent'>Journey to the Center of the Steak</p>
+            <p>
             So now that you have your steak, what do you do with it? The difference between a mediocre steak and an excellent one is prep time. Because most people will have compromised 
             on tenderness by getting a Select or Choice grade steak over a Prime grade, these steaks need all the help they can get to maximize tenderness and flavor. I've seen 100 diferent 
             ways to accomplish this, but here's the best ways I've found.
             </p>
             <ol>
                 <li className='has-text-weight-bold'>Salt your steaks in advance</li>
-                <p>
+                <p className='no-indent'>
                 Salt helps things taste more like themselves, and raw meat is one of those ingredients that absolutely needs it. By generously salting both sides of your steak and leaving 
                 it in the fridge for about 40-60 mins, this allows the salt to draw up moisture to the surface through osmosis, then the salt dissolves in the water and diffuses back into the 
                 steak. Unlike other seasonings, salt is a very small molecule, so it will penetrate all the way to the center of the steak. This will not only improve the flavor, but the salt 
@@ -138,7 +138,7 @@ const SteakMyths = () => {
                 beyond an hour is past the point of diminishing returns. No need to wait much longer than that.
                 </p>
                 <li className='has-text-weight-bold'>Marinate the steak with ginger</li>
-                <p>
+                <p className='no-indent'>
                 This method is not very common outside of Asia, but ginger contains an enzyme called zingibain which breaks down meat very efficiently. It won't taste strongly of ginger, but will add a 
                 savory je ne sais quois that will elevate your steak game to the next level. Take some ginger (fresh, washed, skin-on) and grate it. Add a little water to the shredded ginger to help it 
                 stick together and plaster it on all surfaces of the meat. Once all sides are covered, let sit for 2 hours. This is enough time to tenderize the meat without it completely falling apart 
@@ -147,7 +147,7 @@ const SteakMyths = () => {
                 has changed the way I cook steaks forever and I can never go back.
                 </p>
                 <li className='has-text-weight-bold'>Cook the center, dry the surface</li>
-                <p>
+                <p className='no-indent'>
                 If your steak is less than an inch thick, this won't make much of a difference. But with a thicker steak, reverse searing helps control temperature and prevent that large, grey band below 
                 the surface of the meat. Popularized by J. Kenji Lopez-Alt, the reverse sear is a technique where you take the traditional searing method (cooking over high heat to develop a crust, then 
                 finishing in the oven to let it come up to temp) and do it in reverse instead (bake gently on a wire rack until just below desired doneness, then sear it hard and fast to finish). The 
@@ -156,7 +156,7 @@ const SteakMyths = () => {
                 using a meat thermometer. This table, along with a lot of other great info on reverse searing can be found 
                 in <a href='https://www.seriouseats.com/reverse-seared-steak-recipe' className='is-underlined' target='_blank'>this article</a> by Kenji himself.
                 </p>
-                <p className='title is-5'>For 1 1/2–Inch Steaks in a 250°F (120°C) Oven</p>
+                <p className='title is-5'>For 1 1/2-Inch Steaks in a 250°F (120°C) Oven</p>
                 <table className="table is-bordered">
                     <thead>
                         <tr>
@@ -193,14 +193,14 @@ const SteakMyths = () => {
                         </tr>
                     </tbody>
                 </table>
-                <p>
+                <p className='no-indent'>
                 When the steak comes out of the oven, make sure to pat the surface dry with a paper towel as much as possible before cooking. Then season with black pepper. 
                 That's all you need. Between the salt, the gentle heat of the pepper, and the subtle savoriness of the ginger, you have more than enough to add flavor while 
                 maintaining the beef as the star of the show. You can season further at the end of the cooking process using saucing and basting as you see fit. Patting the 
                 surface dry also helps the steak surface undergo the Maillard reaction faster, which gives a well-developed crust that isn't uneven or soggy.
                 </p>
                 <li className='has-text-weight-bold'>Sear for a good crust</li>
-                <p>
+                <p className='no-indent'>
                 Heat a stainless steel or cast iron pan to high heat. Non-stick will not work, as the high heat will ruin the coating. You'll know the pan is hot enough when you 
                 flick some water on it and instead of sizzling away in one place, it beads up and skitters around the pan. This is called the Leidenfrost Effect, indicating the pan 
                 is above 379 Fahrenheit (193 Celsius) This is a little higher than the temp needed for the crust to brown, but will ensure that the pan will be hot enough when the 
@@ -213,7 +213,7 @@ const SteakMyths = () => {
                 is one present.
                 </p>
                 <li className='has-text-weight-bold'>Shoot for medium-rare, slice against the grain</li>
-                <p>
+                <p className='no-indent'>
                 Take the internal temp at the center of your steak with your instant-read meat thermometer. Some people have aversions to using thermometers for some reason, thinking 
                 they don't need any fancy tools to get a good steak. But if Michelin-star chefs rely on them, you're not above using them either. Plus, they're not that expensive and 
                 can often be found in your local grocery store. You're shooting for an internal temp of around 130°F (54°C) for medium-rare. This will get you a succulent, pink center 
@@ -229,13 +229,13 @@ const SteakMyths = () => {
                 tenderness of the meat. 
                 </p>
             </ol>
-            <p className='story'>
+            <p>
             There you have it! Just five steps, a total of about 4 hours max, and you have a mind-blowingly good steak. You can use the downtime to make mashed potatoes, sauteed asparagus, 
             or whatever side dish you want to contrast with the steak. No grill, no sous-vide, no 12-hour marinade, no dry-aging, no Wagyu price tag. Just regular ingredients from the 
             grocery store to make a juicy, tender, delicious steak at home. 
             </p>
-            <p className='has-text-centered subtitle is-4 mt-6'>Every Hero Needs a Sidekick</p>
-            <p className='story'>
+            <p className='has-text-centered subtitle is-4 mt-6 no-indent'>Every Hero Needs a Sidekick</p>
+            <p>
             As I mentioned before, you can add flavor at the end by adding sauce to your steak. Some people also like to finish their steaks by basting with butter in the pan. People think 
             that basting "seals in the moisture", but it doesn't really do anything other than help keep the surface temperature high for longer. To be clear, it does add a lot of wonderful 
             flavor, especially when you toast garlic cloves and fresh thyme in the pan along with it. But you get the same effect on flavor when you slice the meat without basting, add the 
@@ -243,14 +243,14 @@ const SteakMyths = () => {
             brown butter over the top of the steak when serving. Spooning it over meat after it's sliced ensures that more surface area of the meat is covered by it, which 
             can improve the taste more than traditional basting.
             </p>
-            <p className='story'>
+            <p>
             In the end, you can serve your steak with whatever topping or sauce you prefer. A nice chimichurri will offer some light herbaceousness and heat. Cowboy butter will be sinfully 
             rich and savory. A red wine pan sauce will work wonders, making great use of the fond left in the pan. I'm not here to tell you which one to do or how, as it depends entirely on 
             the context of your meal. There are plenty of recipes online for the popular options I mentioned above, and every single one of them is far better than A1 sauce or ketchup. 
             Granted, if you like A1 and ketchup on your steak, that's valid, but most people won't enjoy it or be impressed by it, so this is a good opportunity to find a homemade sauce that 
             works well for your needs.
             </p>
-            <p className='story'>
+            <p>
             I hope that by the end of this long-winded post about steak, you have a clear idea of what it takes to get good steaks at home without expensive equipment. With all the traditions 
             and myths around what makes the best steak, it's hard to know the best way to make one at home that combines simplicity and practicality without sacrificing quality. Through principles 
             of food science and experimentation by folks like J. Kenji Lopez-Alt, Chris Young, and Guga Foods, I was able to consolidate the advice that's backed by evidence to make this guide. 

@@ -1,84 +1,67 @@
 import '../../recipes_style.css';
 import '../../bulma.css';
+import RecipeLayout from './recipelayout';
 
 const StirFry = () => {
     return (
-        <div className="pt-6 section recipe">
-            {/* Intro */}
-            <div className="has-text-centered section pt-0">
-                <h1 className="has-text-weight-bold is-size-3">Chicken Stir Fry</h1>
-                <p className="subtitle">Chicken breast can taste good if you know how to cook it</p>
-            </div>
-            
-            <div className="columns mb-6 has-background-light">
-                {/* Instructions */}
-                <div className="column">
-                <h4 className="subtitle has-text-centered-mobile">Instructions</h4>
-                <div className="content">
-                <ol>
-                    <li>Slice chicken against the grain into thin strips and put in a bowl</li>
-                    <li>Add baking soda, soy sauce, MSG, cornstarch, salt to taste, and a splash of water. Massage into chicken until coated in a thick paste</li>
-                    <li>Grate ginger and garlic onto chicken, add white pepper, oil, and vinegar, then massage thoroughly and let sit for 20 mins</li>
-                    <li>Meanwhile, wash broccoli, dice carrots, mince remaining garlic, and thinly slice the onions, scallion whites, and bell pepper</li>
-                    <li>Heat up a tbsp of oil in a wok. Once searing hot, add half the chicken and stir fry until golden on all sides</li>
-                    <li>Remove the chicken for the time being, add another tbsp of oil to the wok and stir fry the rest of the chicken</li>
-                    <li>Once all the chicken has developed color and has been set aside, heat up the last tbsp of oil</li>
-                    <li>Stir fry the vegetables, adding onions first, then garlic, then bell peppers, then broccoli and scallion whites, then carrot</li>
-                    <li>Season with MSG, black pepper, white pepper, and salt to taste. Cook until the vegetables get some color on them</li>
-                    <li>When the vegetables are close to done, add the chicken back in and stir fry together until the flavors get to know each other</li>
-                    <li>Add a tbsp of soy sauce around the outside so it caramelizes on the edges, and stir it into the mix</li>
-                    <li>Deglaze with rice wine vinegar and take off the heat</li>
-                    <li>Thinly slice scallion greens on a bias and use as a garnish when serving</li>
-                </ol>
-                </div>
-                </div>
-                
-                {/* Ingredients */}
-                <div className="column is-4-desktop has-background-grey-lighter">
-                <h4 className="subtitle has-text-centered-mobile">Ingredients</h4>
-                <div className="content">
-                <p>Chicken marinade</p>
-                <ul>
-                    <li>1.5 lbs chicken breast</li>
-                    <li>0.25 tsp MSG</li>
-                    <li>0.5 tsp baking soda</li>
-                    <li>0.25 cups corn starch</li>
-                    <li>0.5 tbsp sugar</li>
-                    <li>1 tbsp soy sauce</li>
-                    <li>0.5 tbsp rice wine vinegar</li>
-                    <li>1 tbsp oil</li>
-                    <li>1 clove garlic</li>
-                    <li>0.5 tbsp ginger</li>
-                    <li>White pepper</li>
-                    <li>Salt</li>
-                </ul>
-                <p>Vegetables</p>
-                <ul>
-                    <li>3 tbsp oil</li>
-                    <li>0.5 yellow onion</li>
-                    <li>1 red bell pepper</li>
-                    <li>1.5 cups broccoli florets</li>
-                    <li>2 carrots</li>
-                    <li>2 scallions</li>
-                    <li>2 cloves garlic</li>
-                    <li>Black pepper</li>
-                    <li>White pepper</li>
-                    <li>1 tbsp soy sauce</li>
-                    <li>0.5 tbsp or rice wine vinegar</li>
-                </ul>
-                </div>
-                </div>
-            </div>
-
-            <div className='container mb-6 has-text-centered'>
-                <button className="button is-info" onClick={() => window.print()}>
-                    Download/Print Recipe
-                </button>
-            </div>
-            
-            {/* About the recipe */}
-            <h4 className="subtitle has-text-centered is-4">Story Time</h4>
-            <p className="story">
+        <RecipeLayout 
+        name={'Chicken Stir Fry'}
+        description={'Chicken breast can taste good if you know how to cook it'}
+        instructions={
+        <div className="content">
+        <ol>
+            <li>Slice chicken against the grain into thin strips and put in a bowl</li>
+            <li>Add baking soda, soy sauce, MSG, cornstarch, salt to taste, and a splash of water. Massage into chicken until coated in a thick paste</li>
+            <li>Grate ginger and garlic onto chicken, add white pepper, oil, and vinegar, then massage thoroughly and let sit for 20 mins</li>
+            <li>Meanwhile, wash broccoli, dice carrots, mince remaining garlic, and thinly slice the onions, scallion whites, and bell pepper</li>
+            <li>Heat up a tbsp of oil in a wok. Once searing hot, add half the chicken and stir fry until golden on all sides</li>
+            <li>Remove the chicken for the time being, add another tbsp of oil to the wok and stir fry the rest of the chicken</li>
+            <li>Once all the chicken has developed color and has been set aside, heat up the last tbsp of oil</li>
+            <li>Stir fry the vegetables, adding onions first, then garlic, then bell peppers, then broccoli and scallion whites, then carrot</li>
+            <li>Season with MSG, black pepper, white pepper, and salt to taste. Cook until the vegetables get some color on them</li>
+            <li>When the vegetables are close to done, add the chicken back in and stir fry together until the flavors get to know each other</li>
+            <li>Add a tbsp of soy sauce around the outside so it caramelizes on the edges, and stir it into the mix</li>
+            <li>Deglaze with rice wine vinegar and take off the heat</li>
+            <li>Thinly slice scallion greens on a bias and use as a garnish when serving</li>
+        </ol>
+        </div>
+        }
+        ingredients={
+        <div className="content">
+            <p>Chicken marinade</p>
+            <ul>
+                <li>1.5 lbs chicken breast</li>
+                <li>0.25 tsp MSG</li>
+                <li>0.5 tsp baking soda</li>
+                <li>0.25 cups corn starch</li>
+                <li>0.5 tbsp sugar</li>
+                <li>1 tbsp soy sauce</li>
+                <li>0.5 tbsp rice wine vinegar</li>
+                <li>1 tbsp oil</li>
+                <li>1 clove garlic</li>
+                <li>0.5 tbsp ginger</li>
+                <li>White pepper</li>
+                <li>Salt</li>
+            </ul>
+            <p>Vegetables</p>
+            <ul>
+                <li>3 tbsp oil</li>
+                <li>0.5 yellow onion</li>
+                <li>1 red bell pepper</li>
+                <li>1.5 cups broccoli florets</li>
+                <li>2 carrots</li>
+                <li>2 scallions</li>
+                <li>2 cloves garlic</li>
+                <li>Black pepper</li>
+                <li>White pepper</li>
+                <li>1 tbsp soy sauce</li>
+                <li>0.5 tbsp or rice wine vinegar</li>
+            </ul>
+        </div>
+        }
+        story={
+        <div className="story">
+            <p>
             When I was cutting weight, I wanted to mealprep something that was high in protein and micronutrients with balanced macros. This recipe makes 3 servings of 
             delicious stir fry, coming out to just 563 calories (56g protein, 24g carbs, 25g fat). In order to make this more satiating and higher in complex carbs, I 
             usually have each serving over a cup of cooked brown rice, which increases the calorie count to 811 (61g protein, 72g carbs, 27g fat). Although I strongly 
@@ -86,7 +69,7 @@ const StirFry = () => {
             surprisingly low amount of fat for stir-fry make it very nutritious. It also has a taste that rivals takeout food to help curb the cravings. And the best part is, 
             it's super easy!
             </p>
-            <p className="story">
+            <p>
             First, slice the chicken breast against the grain into thin slices. If you look closely, you'll see that the muscle fibers in the breast are aligned in a certain 
             direction. Your cuts should be perpendicular to these fibers. The reason why you want to go "against the grain" of the meat in this way is because muscle fibers are 
             easier to separate from one another than they are to break down. This means that when you chew, you want the muscle fibers to be as short as possible. A piece of 
@@ -97,7 +80,7 @@ const StirFry = () => {
             this will reduce the tenderness of those pieces to some extent, it will ensure that the slices are relatively similar in size, allowing them to cook at the same rate. 
             Don't worry though, the marinade will tenderize it even more, so you don't need to worry about those slices getting too tough to chew.
             </p>
-            <p className="story">
+            <p>
             Add the chicken slices to a bowl, and sprinkle over the baking soda, sugar, and MSG. This isn't even half the ingredients of the marinade, but despite the high number 
             of ingredients, each one serves a purpose. Baking soda will help break down the meat fibers and tenderize them. The sugar adds a subtle sweetness and assists in the 
             caramelization of the crust when we fry the chicken. MSG adds an incredible umami (savory) flavor that is quintessential to East Asian cuisine, especially Chinese food. 
@@ -110,7 +93,7 @@ const StirFry = () => {
             In short, MSG is (like everything else) perfectly safe in moderation, and the amount used in this recipe is plenty enough to improve the flavor and not nearly enough to 
             cause any damage to your health.
             </p>
-            <p className="story">
+            <p>
             Now that the MSG rant is over, let's finish the marinade. Add a tablespoon of soy sauce for flavor and saltiness, and season with a little extra salt to taste. Now add a 
             quarter cup of cornstarch to the mix. This will turn the marinade into almost a batter that will brown very nicely when fried. Mix with your hands, massaging the marinade 
             into the chicken until a homogenous liquid paste forms and coats every piece of chicken. You may need a couple tablespoons of water to dissolve all the cornstarch, but 
@@ -124,7 +107,7 @@ const StirFry = () => {
             perfect time to chop up all your vegetables, as stir-fry moves fast. The high heat means you won't have time to wash and slice each ingredient as you cook, so it's better 
             to prep it all beforehand.
             </p>
-            <p className="story">
+            <p>
             Once the chicken is done marinating, heat up 1 tbsp of oil in a wok or a pot on high heat. Once the oil starts to shimmer, add in half the chicken. Stir the pieces as 
             you fry to prevent anything from burning and to separate all the pieces. Cook just until a golden-brown crust forms on all sides of the pieces, then set aside in a bowl. 
             Add another tbsp of oil in the pot and fry the other half of the chicken the same way. The reason we fry it in batches is to avoid overcrowding the pot. By adding fewer 
@@ -132,7 +115,7 @@ const StirFry = () => {
             adding a bunch of cold chicken will immediately drop the temperature of the hot oil, so we mitigate the temperature drop by adding fewer cold things all at once, which 
             lets the chicken cook faster.
             </p>
-            <p className="story"> 
+            <p> 
             When all the chicken is fried and set aside, add one last tbsp of oil and begin stir frying the vegetables. Normally, restaurants would use a lot more oil, but I designed 
             this recipe to be a little more macro-friendly, so I kept it as low-fat as I could while still staying true to the techniques and flavors of stir fry. Start with the onion, 
             as we want it to soften as much as possible. Add the garlic right after. If we added the garlic first, it would be more likely to burn. Even with the onions releasing water 
@@ -146,7 +129,7 @@ const StirFry = () => {
             food to cook quickly and develop a lot of great flavors without breaking down too much and becoming mushy. That's why it's important to pay attention when stir frying, not just 
             to how often you move the ingredients, but timing the addition of the next ones so that they all finish cooking in the pot around the same time.
             </p>
-            <p className="story"> 
+            <p> 
             Once the onion starts to turn translucent, add the bell pepper. Once the pepper and the onion start to develop a little color, add the scallion whites and broccoli. As the 
             broccoli cooks, its color will deepen. Once it goes from a pale green to a more intense green, add the carrots last. I don't like mushy carrots in my stir fry, so I always hold 
             off on adding them until close to the end. This way, they'll cook through but still have some texture to them. Season with salt to taste and a generous helping of white and black 
@@ -157,7 +140,9 @@ const StirFry = () => {
             greens. If you slice the greens thinly on a bias (at a steep diagonal angle), it will help the presentation look a little fancier. If you want to add or remove ingredients to this 
             recipe, go ahead. This is the method that works well for me, but you can adjust to your tastes and nutritional requirements as needed. 
             </p>
-        </div>    
+        </div>
+        }
+        />
     );
 }
 

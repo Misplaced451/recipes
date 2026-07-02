@@ -38,13 +38,13 @@ function App() {
           <Route path='/howtocook' element={<Posts.StartCooking />} />
           <Route path='/plantbasedrant' element={<Posts.PlantRant />} />
           <Route path='/sciencebased' element={<Posts.ScienceBased />} />
+          <Route path='/americanfood' element={<Posts.AmericanFood />} />
           
           {/* Lab Routes */}
           <Route path='/tikka' element={<Lab.Tikka />} />
           <Route path='/gastrique' element={<Lab.Gastrique />} />
           <Route path='/orangeicecream' element={<Lab.OrangeIceCream />} />
           <Route path='/burgermeatballs' element={<Lab.BurgerMeatballs />} />
-          <Route path='/milkcookiepie' element={<Lab.MilkCookiePie />} />
           
           {/* Recipe Routes */}
           <Route path='/pancakes' element={<Recipes.Pancakes />} />
@@ -95,6 +95,8 @@ function App() {
           <Route path='/mushroomparfait' element={<Recipes.MushroomParfait />} />
           <Route path='/autumnchops' element={<Recipes.AutumnPorkChops />} />
           <Route path='/smoresmousse' element={<Recipes.SmoresMousse />} />
+          <Route path='/milkcookiepie' element={<Recipes.MilkCookiePie />} />
+          <Route path='/alooparatha' element={<Recipes.AlooParatha />} />
         </Routes>
       </ScrollUp>
     </div>

@@ -11,8 +11,11 @@ CSS file for recipes project
 
 /* indent and space out story paragraphs for readability */
 .story {
-	text-indent: 24px;
-	margin-bottom: 8px;
+	p:not(.no-indent) {
+		text-indent: 24px;
+		margin-bottom: 8px;
+	}
+	
 }
 
 /* keep navbar stuck to top of page */

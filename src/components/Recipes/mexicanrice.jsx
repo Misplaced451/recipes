@@ -1,5 +1,6 @@
 import '../../recipes_style.css';
 import '../../bulma.css';
+import RecipeLayout from './recipelayout';
 
 const MexicanRice = () => {
     return (
@@ -34,8 +35,8 @@ const MexicanRice = () => {
                     <li>2 tomatoes</li>
                     <li>0.25 yellow onion</li>
                     <li>2 cloves garlic</li>
-                    <li>1 serrano pepper</li>
-                    <li>1 cup chicken stock</li>
+                    <li>1 serrano pepper or jalapeno</li>
+                    <li>1 cup chicken or vegetable stock</li>
                     <li>Salt</li>
                     <li>Garlic Powder</li>
                     <li>Onion Powder</li>

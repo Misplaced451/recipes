@@ -46,9 +46,13 @@ const BurgerMeatballs = () => {
                     <li>Onion powder</li>
                     <li>Mustard powder</li>
                     <li>0.5 tbsp vegetable oil</li>
-                    <li>2 tbsp butter</li>
                     <li>Chopped lettuce</li>
-                    <li>Burger sauce</li>
+                    <li>2 tbsp butter</li>
+                    <li>0.25 tsp liquid smoke</li>
+                    <li>2 tbsp brown sugar</li>
+                    <li>0.25 cups apple cider vinegar</li>
+                    <li>0.5 tsp Worcestershire sauce</li>
+                    <li>Paprika</li>
                 </ul>
                 </div>
                 </div>
@@ -100,7 +104,7 @@ const BurgerMeatballs = () => {
             which is a Korean food where you take lettuce and wrap some meat and other ingredients and eat it in a single bite. Maybe reducing the size of the meatballs and slicing 
             the pickles into matchsticks would be ideal for this. In this way, you could get a really interesting Korean-American fusion and eat a burger like a ssam. I'll have to 
             make it this way and try it out, see what happens. Note: try smaller balls so basting isn't required and they can be eaten in one bite, then make a glaze with brown butter 
-            and homemade bbq sauce/aioli?
+            and homemade bbq sauce? Toss in the sauce and serve with shredded lettuce on the side. You don't need to serve as ssam.
             </p>
         </div>
     );
