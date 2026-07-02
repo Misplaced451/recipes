@@ -1,5 +1,8 @@
 Recipes Website v3.5 - Collection of recipes curated by Mihir Lele
 ===== Release 3.5 =====
+7/2/26 - v3.5.1 Patch Notes
+- Fixed recipe icon paths in the Laboratory page
+- Added sketches for the Lab experiments
 7/2/26 - "The Visual Learner"
 New Additions:
     - Added photo icons for some recipes
