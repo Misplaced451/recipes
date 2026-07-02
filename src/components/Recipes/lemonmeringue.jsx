@@ -1,76 +1,59 @@
 import '../../recipes_style.css';
 import '../../bulma.css';
+import RecipeLayout from './recipelayout';
 
 import { Link } from 'react-router-dom';
 
 const LemonMeringue = () => {
     return (
-        <div className="pt-6 section recipe">
-            {/* Intro */}
-            <div className="has-text-centered section pt-0">
-                <h1 className="has-text-weight-bold is-size-3">Lemon Meringue Pie</h1>
-                <p className="subtitle">The first and hardest dessert I learned to make.</p>
-            </div>
-
-            <div className="columns mb-6 has-background-light">
-                {/* Instructions */}
-                <div className="column">
-                <h4 className="subtitle has-text-centered-mobile">Instructions</h4>
-                <div className="content">
-                <ol>
-                    <li>Follow my <Link to={'/piecrust'} className='is-underlined'>Pie Crust Recipe</Link> to make a fully-baked pie crust</li>
-                    <li>Juice and zest lemons into a bowl.</li>
-                    <li>Add 2 yolks and 1 whole egg, store 2 remaining whites at room temperature in a clean, dry, cool, glass or metal bowl.</li>
-                    <li>Add cornstarch and sugar to lemon mixture, then whisk over double boiler until smooth.</li>
-                    <li>Melt in butter piece by piece. Whisk curd constantly to avoid scrambling the eggs.</li>
-                    <li>Keep whisking until the butter is fully incorporated and the curd coats the back of a spoon and a line can be drawn through it.</li>
-                    <li>Pour curd onto cooled crust, cover with plastic wrap, let set in fridge for at least 30 mins.</li>
-                    <li>Add a tiny splash of vinegar to the egg whites you set aside earlier.</li>
-                    <li>Whisk whites until very frothy.</li>
-                    <li>Add sugar slowly and keep whisking until stiff peaks form.</li>
-                    <li>Gently spread meringue onto pie. Do not disrupt the curd or deflate the meringue.</li>
-                    <li>Swirl meringue into preferred pattern and torch until browned. A broiler may be used instead of a pastry torch, but be careful not to burn the meringue.</li>
-                </ol>
-                </div>
-                </div>
-                
-                {/* Ingredients */}
-                <div className="column is-4-desktop has-background-grey-lighter">
-                <h4 className="subtitle has-text-centered-mobile">Ingredients</h4>
-                <div className="content">
-                    <p>For the Crust:</p>
-                    <ul>
-                        <li>2.5 cups all-purpose flour, chilled</li>
-                        <li>1 tsp salt</li>
-                        <li>1 cup butter, cold, cubed</li>
-                        <li>0.33 cups ice-cold water</li>
-                    </ul>
-                    <p>For the Lemon Curd:</p>
-                    <ul>
-                        <li>3 eggs</li>
-                        <li>2-3 lemons</li>
-                        <li>0.5 cups sugar</li>
-                        <li>3 oz butter, cubed</li>
-                        <li>1 heaped tsp cornstarch</li>
-                    </ul>
-                    <p>For the Meringue:</p>
-                    <ul>
-                        <li>.5 cups sugar</li>
-                        <li>White vinegar</li>
-                    </ul>
-                </div>
-                </div>
-            </div>
-            
-            <div className='container mb-6 has-text-centered'>
-                <button className="button is-info" onClick={() => window.print()}>
-                    Download/Print Recipe
-                </button>
-            </div>
-
-            {/* About the recipe */}
-            <h4 className="subtitle has-text-centered is-4">Story Time</h4>
-            <p className="story">
+        <RecipeLayout 
+        name={'Lemon Meringue Pie'}
+        description={'The first and hardest dessert I learned to make.'}
+        instructions={
+        <div className="content">
+        <ol>
+            <li>Follow my <Link to={'/piecrust'} className='is-underlined'>Pie Crust Recipe</Link> to make a fully-baked pie crust</li>
+            <li>Juice and zest lemons into a bowl.</li>
+            <li>Add 2 yolks and 1 whole egg, store 2 remaining whites at room temperature in a clean, dry, cool, glass or metal bowl.</li>
+            <li>Add cornstarch and sugar to lemon mixture, then whisk over double boiler until smooth.</li>
+            <li>Melt in butter piece by piece. Whisk curd constantly to avoid scrambling the eggs.</li>
+            <li>Keep whisking until the butter is fully incorporated and the curd coats the back of a spoon and a line can be drawn through it.</li>
+            <li>Pour curd onto cooled crust, cover with plastic wrap, let set in fridge for at least 30 mins.</li>
+            <li>Add a tiny splash of vinegar to the egg whites you set aside earlier.</li>
+            <li>Whisk whites until very frothy.</li>
+            <li>Add sugar slowly and keep whisking until stiff peaks form.</li>
+            <li>Gently spread meringue onto pie. Do not disrupt the curd or deflate the meringue.</li>
+            <li>Swirl meringue into preferred pattern and torch until browned. A broiler may be used instead of a pastry torch, but be careful not to burn the meringue.</li>
+        </ol>
+        </div>
+        }
+        ingredients={
+        <div className="content">
+        <p>For the Crust:</p>
+            <ul>
+                <li>2.5 cups all-purpose flour, chilled</li>
+                <li>1 tsp salt</li>
+                <li>1 cup butter, cold, cubed</li>
+                <li>0.33 cups ice-cold water</li>
+            </ul>
+            <p>For the Lemon Curd:</p>
+            <ul>
+                <li>3 eggs</li>
+                <li>2-3 lemons</li>
+                <li>0.5 cups sugar</li>
+                <li>3 oz butter, cubed</li>
+                <li>1 heaped tsp cornstarch</li>
+            </ul>
+            <p>For the Meringue:</p>
+            <ul>
+                <li>0.5 cups sugar</li>
+                <li>White vinegar</li>
+            </ul>
+        </div>
+        }
+        story={
+        <div className="story">
+            <p>
             I'm not really a baking guy, I'm a cooking guy. Baking requires precision, while cooking is more forgiving with improvisation. Because I tend to favor flexibility in the 
             kitchen, I'm a decent cook, but a terrible baker. That being said, I wanted to try baking a dessert when I was still learning how to cook, and I'm the type of person to go big 
             or go home. So I settled on lemon meringue pie. The first time I made it was horrible. Our springform pan was too big, so I had to triple the recipe, and I ended up forgetting 
@@ -80,7 +63,7 @@ const LemonMeringue = () => {
             where I had an idea: I wanted to create the perfect lemon meringue pie recipe with no leftover ingredients and no waste. And that's exactly what I did. This is one of the first 
             recipes I engineered on my own and I must say, I'm quite proud of it.
             </p>
-            <p className="story">
+            <p>
             There are 3 main components to a lemon meringue pie. Crust, lemon curd, and meringue. The three of these work together in perfect harmony to create a perfect dessert. 
             It can even show us a lesson in philosophy, if you replace these components with Ethos, Logos, and Pathos. This rhetorical triangle, proposed by Aristotle, illustrates the 3 main 
             components of rhetoric. Ethos is authority: to deliver a strong message you must be credible. Logos is logic: to deliver a sound message you must use factual arguments. 
@@ -88,7 +71,7 @@ const LemonMeringue = () => {
             incomplete. For instance, scientists can't convince people of facts because they are trained only to use Ethos and Logos. Without Pathos, who will listen to reason? 
             All three are equally important in rhetoric, just as crust, curd, and meringue are equally important in a lemon meringue pie.
             </p>
-            <p className="story">
+            <p>
             The crust is like Ethos: it provides definition and stability. Without it, the pie wouldn't hold up and people would question if it even counts as a pie anymore. That's why 
             it's important to make a solid crust. It should be flaky, buttery, and tender, but still be sturdy enough to hold the filling. This recipe makes enough dough for 2 pie crusts 
             on a standard 9-inch pie dish. The most important thing when making pie crust is to keep it COLD. Warmth will melt the butter, which is bad because we want little bits of solid butter 
@@ -97,20 +80,21 @@ const LemonMeringue = () => {
             prevent water in the dough from evaporating too quickly in the oven, which would otherwise cause the crust to shrink as it bakes. I prefer making my dough the night before I want pie. 
             This allows me to work in a cool environment and give me plenty of time to rest the dough while I sleep.
             </p>
-            <p className="story">
+            <p>
             The lemon curd is like the Logos of our rhetorical pie, because people mistakenly assume it's more essential than the other components. Much like how we put lemon first in our minds 
             when thinking of lemon meringue pie, we often focus too much on logic when delivering a message. But it's so bright and tart that an audience would find it unpleasant to experience on 
             its own. It needs the substance of the crust and the sweetness of the meringue to balance it out. This balance will allow us to make the curd as tart as we like, without worrying 
             about it being too overpowering. Juice and zest 2-3 lemons (depending on size) into a mixing bowl (preferably glass or metal). Add 2 egg yolks and 1 whole egg to the bowl. Leave the 
             2 remaining egg whites at room temperature in a clean, dry, cool, bowl made of metal or glass. These whites will be needed to make the meringue, and any moisture, dirt, oil, plastic, 
-            soap, etc. will prevent the meringue from whipping to stiff peaks. Add cornstarch and sugar to the lemon mixture, then whisk over a double boiler until smooth. Melt in butter one cube 
-            at a time. Adding too many at once will cool down the mixture too fast and make it harder to melt. Make sure to whisk constantly. Do not stop even for 5 seconds, or else you risk scrambling 
-            the eggs in the curd. Once all the butter is fully incorporated, you can test if the curd is ready by dipping the back of a spoon in it. If it thickly coats the back of a spoon and a 
-            clear line can be drawn through it with your finger that holds its shape, then it's ready. Pour it into the crust, cover with plastic wrap, making sure the plastic makes contact with 
-            the surface of the curd, which will prevent it from forming a skin on the surface. For the curd to set, you will need to refrigerate it for 30 minutes, giving you plenty of time to 
+            soap, etc. will prevent the meringue from whipping to stiff peaks. Add cornstarch and sugar to the lemon mixture, then whisk over a double boiler until smooth. Sometimes I get tiny 
+            undissolved pockets of cornstarch no matter how hard I whisk. To avoid this, put the starch and sugar in a bowl and mix to disperse the cornstarch evenly before adding to the liquid. 
+            Melt in butter one cube at a time. Adding too many at once will cool down the mixture too fast and make it harder to melt. Make sure to whisk constantly. Do not stop even for 5 seconds, 
+            or else you risk scrambling the eggs in the curd. Once all the butter is fully incorporated, you can test if the curd is ready by dipping the back of a spoon in it. If it thickly coats 
+            the back of a spoon and a clear line can be drawn through it with your finger, then it's ready. Pour it into the crust and cover with plastic wrap, making sure the plastic makes contact 
+            with the surface of the curd, which will prevent it from forming a skin on the surface. For the curd to set, you will need to refrigerate it for 30 minutes, giving you plenty of time to 
             make the meringue with the 2 egg whites from before.
             </p>
-            <p className="story">
+            <p>
             The meringue is like Pathos, the final piece of the triangle. The swirling, toasted peaks and delicate sweetness make the pie a true work of art and offset the sourness of the curd, giving 
             an aesthetic appeal that also makes the harsh lemon more palatable. This functions much the same as the aesthetically pleasing role of Pathos in rhetoric. To start off the meringue, Add 
             a tiny splash of white vinegar to the egg whites and whip until very frothy. The vinegar will help to stabilize the structure of the meringue. Please avoid making a meringue using a 
@@ -120,14 +104,16 @@ const LemonMeringue = () => {
             it up, you should see a peak of meringue on the whisk. If the tip of the peak is floppy, it's soft peaks. If it points up, then it's stiff peaks. If it looks puffy, you've over-beaten it 
             by shearing the proteins too much and you need to start over.
             </p>
-            <p className="story">
+            <p>
             Once your meringue is done, take the plastic off of your lemon curd and gently place the meringue on top using a spatula. Use a fork to create swirls and peaks; this is the time to 
             really get creative! Then use a pastry torch to toast the top of the meringue. It should be browned, but not blackened. If you're like me and you don't have a pastry torch, set the 
             rack in your oven to a high placement and set it to broil. Once it's preheated, place your pie on the top rack and watch carefully as the meringue toasts. This will take only 
             30-60 seconds, so keep the oven light on and watch it at all times. Pull out the pie when toasted to your ideal look and serve. Now look upon the culinary beauty you've created. 
             Not only is it a showstopping dessert, it's an allegory for how to balance rhetoric too! Hours of work, philosophical perfection.
             </p>
-        </div>    
+        </div>
+        }
+        />
     );
 }
 

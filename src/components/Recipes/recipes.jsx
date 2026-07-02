@@ -49,13 +49,16 @@ import PorkPie from './porkpie';
 import SeedCake from './seedcake';
 import BakedBeans from './bakedbeans';
 import BlackberryTart from './blackberrytart';
-import RecipeData from '../../recipe-data';
 import Vinaigrette from './vinaigrette';
 import PieCrust from './piecrust';
 import Arayes from './arayes';
 import MushroomParfait from './mushroomparfait';
 import AutumnPorkChops from './autumnchops';
 import SmoresMousse from './smoresmousse';
+import MilkCookiePie from './milkcookiepie';
+import AlooParatha from './alooparatha';
+
+import RecipeData from '../../recipe-data';
 
 const Recipes = () => {
     const handlePizza = () => {
@@ -71,7 +74,6 @@ const Recipes = () => {
         // if query contains a recipe name, return all recipes that contain that name
         return recipes.filter(recipe => recipe.tags.includes(query));
     };
-
     
 
     // useState hook to get query
@@ -82,6 +84,9 @@ const Recipes = () => {
     // get filtered recipes based on query
     const filteredItems = getFilteredItems(query, recipes);
 
+    // get category arrays for buttons
+    const categories = RecipeData.categories;
+
     return (
         <div className="section has-text-centered">
             <div className="has-text-centered section pt-0">
@@ -90,81 +95,14 @@ const Recipes = () => {
             </div>
             <div className='container pb-5'>
             <div className='grid is-centered is-two-thirds'>
-                <div className={`cell button py-2 ${query ? '' : 'is-active'}`} onClick={() => setQuery("")}>
-                    <h3>All</h3>
-                </div>
-                <div 
-                    className={`cell button py-2 ${query === 'favorite' ? 'is-active' : ''}`} 
-                    onClick={() => setQuery("favorite")}
+                {categories.map(value => 
+                    <div 
+                    className={`cell button py-2 ${query === `${value.query}` ? 'is-active' : ''}`} 
+                    onClick={() => setQuery(`${value.query}`)}
                 >
-                    <h3>Mihir's Favorites</h3>
+                    <h3>{value.name}</h3>
                 </div>
-                <div 
-                    className={`cell button py-2 ${query === 'original' ? 'is-active' : ''}`} 
-                    onClick={() => setQuery("original")}
-                >
-                    <h3>Originals</h3>
-                </div>
-                <div 
-                    className={`cell button py-2 ${query === 'indian' ? 'is-active' : ''}`}
-                    onClick={() => setQuery("indian")}
-                >
-                    <h3>Indian</h3>
-                </div>
-                <div
-                    className={`cell button py-2 ${query === 'italian' ? 'is-active' : ''}`}
-                    onClick={() => setQuery("italian")}
-                >
-                    <h3>Italian</h3>
-                </div>
-                <div 
-                    className={`cell button py-2 ${query === 'beginner' ? 'is-active' : ''}`} 
-                    onClick={() => setQuery("beginner")}
-                >
-                    <h3>Beginner Friendly</h3>
-                </div>
-                <div
-                    className={`cell button py-2 ${query === 'weeknight' ? 'is-active' : ''}`} 
-                    onClick={() => setQuery("weeknight")}
-                >
-                    <h3>Weeknight Meals</h3>
-                </div>
-                <div
-                    className={`cell button py-2 ${query === 'fancy' ? 'is-active' : ''}`}
-                    onClick={() => setQuery("fancy")}
-                >
-                    <h3>Fancy Meals</h3>
-                </div>
-                <div
-                    className={`cell button py-2 ${query === 'breakfast' ? 'is-active' : ''}`}
-                    onClick={() => setQuery("breakfast")}
-                >
-                    <h3>Breakfast</h3>
-                </div>
-                <div
-                    className={`cell button py-2 ${query === 'dessert' ? 'is-active' : ''}`}
-                    onClick={() => setQuery("dessert")}
-                >
-                    <h3>Desserts</h3>
-                </div>
-                <div 
-                    className={`cell button py-2 ${query === 'thanksgiving' ? 'is-active' : ''}`}
-                    onClick={() => setQuery("thanksgiving")}
-                >
-                    <h3>Thanksgiving</h3>
-                </div>
-                <div 
-                    className={`cell button py-2 ${query === 'vegetarian' ? 'is-active' : ''}`}
-                    onClick={() => setQuery("vegetarian")}
-                >
-                    <h3>Vegetarian</h3>
-                </div>
-                <div 
-                    className={`cell button py-2 ${query === 'vegan' ? 'is-active' : ''}`}
-                    onClick={() => setQuery("vegan")}
-                >
-                    <h3>Vegan</h3>
-                </div>
+                )}
                 <Link 
                     className={'cell button py-2 has-background-link has-text-white'}
                     to={filteredItems[Math.floor(Math.random() * filteredItems.length)].path}
@@ -179,7 +117,7 @@ const Recipes = () => {
                 {filteredItems.map(value => 
                     <Link to={value.path} className="card cell recipelink mx-2 mb-4">
                         <div className="card-image">
-                            <img src={"placeholder.jpg"} alt={`${value.path}.jpg`} />
+                            <img src={value.has_image ? `images${value.path}.jpg` : 'images/placeholder.jpg'} alt={`${value.path}.jpg`} />
                         </div>
                         <div className="card-content">
                             <p className="has-text-weight-bold">{value.name}</p>
@@ -189,7 +127,7 @@ const Recipes = () => {
 
                 <div className={`card cell recipelink mx-2 mb-4 ${query ? "is-hidden" : ""}`} onClick={handlePizza}>
                     <div className="card-image">
-                        <img src={"placeholder.jpg"} alt="nobake.jpg" />
+                        <img src={"images/placeholder.jpg"} alt="nobake.jpg" />
                     </div>
                     <div className="card-content">
                         <p className="has-text-weight-bold">No-Bake Pizza</p>
@@ -211,5 +149,5 @@ export {
     Pizza, Coffee, Ricotta, PopcornChicken, MugCake, TofuWrap, ChickenBurrito, 
     JerkChicken, StirFry, MexicanRice, ChickenStock, ConeyStew, PorkPie, 
     SeedCake, BakedBeans, BlackberryTart, Vinaigrette, PieCrust, Arayes, 
-    MushroomParfait, AutumnPorkChops, SmoresMousse
+    MushroomParfait, AutumnPorkChops, SmoresMousse, MilkCookiePie, AlooParatha, 
 };

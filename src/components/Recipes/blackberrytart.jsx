@@ -1,62 +1,45 @@
 import '../../recipes_style.css';
 import '../../bulma.css';
+import RecipeLayout from './recipelayout';
 
 import { Link } from 'react-router-dom';
 
 const BlackberryTart = () => {
     return (
-        <div className="pt-6 section recipe">
-            {/* Intro */}
-            <div className="has-text-centered section pt-0">
-                <h1 className="has-text-weight-bold is-size-3">Blackberry Tart</h1>
-                <p className="subtitle">Adapted from <em>Recipes from the World of Tolkien</em>.</p>
+        <RecipeLayout 
+        name={'Blackberry Tart'}
+        description={<p>Adapted from <em>Recipes from the World of Tolkien</em>.</p>}
+        instructions={
+            <div className="content">
+            <ol>
+                <li>Follow my <Link to={'/piecrust'} className='is-underlined'>Pie Crust Recipe</Link>, stopping after Step 6. You don't need to crimp or dock the dough.</li>
+                <li>Use 200g blackberries, the juice and zest of the lemon, and the sugar to make a compote</li>
+                <li>When the blackberries start to soften add the cornstarch slurry</li>
+                <li>Once thickened, let cool, then pour into pie crust and add the rest of the blackberries on top</li>
+                <li>Add a bit of water to the edge of the crust and bake at 375F for 25 mins</li>
+            </ol>
             </div>
-            
-            <div className="columns mb-6 has-background-light">
-                {/* Instructions */}
-                <div className="column">
-                <h4 className="subtitle has-text-centered-mobile">Instructions</h4>
-                <div className="content">
-                <ol>
-                    <li>Follow my <Link to={'/piecrust'} className='is-underlined'>Pie Crust Recipe</Link>, stopping after Step 6. You don't need to crimp or dock the dough.</li>
-                    <li>Use 200g blackberries, the juice and zest of the lemon, and the sugar to make a compote</li>
-                    <li>When the blackberries start to soften add the cornstarch slurry</li>
-                    <li>Once thickened, let cool, then pour into pie crust and add the rest of the blackberries on top</li>
-                    <li>Add a bit of water to the edge of the crust and bake at 375F for 25 mins</li>
-                </ol>
-                </div>
-                </div>
-
-                {/* Ingredients */}
-                <div className="column is-4-desktop has-background-grey-lighter">
-                <h4 className="subtitle has-text-centered-mobile">Ingredients</h4>
-                <div className="content">
-                <p>For the Crust:</p>
-                <ul>
-                    <li>2.5 cups all-purpose flour, chilled</li>
-                    <li>1 tsp salt</li>
-                    <li>1 cup butter, cold, cubed</li>
-                    <li>0.33 cups ice-cold water</li>
-                </ul>
-                <p>For the Filling:</p>
-                <ul>
-                    <li>500g blackberries</li>
-                    <li>0.5 lemon</li>
-                    <li>100g sugar</li>
-                    <li>2 tbsp cornstarch</li>
-                </ul>
-                </div>
-                </div>
+        }
+        ingredients={
+            <div className="content">
+            <p>For the Crust:</p>
+            <ul>
+                <li>2.5 cups all-purpose flour, chilled</li>
+                <li>1 tsp salt</li>
+                <li>1 cup butter, cold, cubed</li>
+                <li>0.33 cups ice-cold water</li>
+            </ul>
+            <p>For the Filling:</p>
+            <ul>
+                <li>500g blackberries</li>
+                <li>0.5 lemon</li>
+                <li>100g sugar</li>
+                <li>2 tbsp cornstarch</li>
+            </ul>
             </div>
-
-            <div className='container mb-6 has-text-centered'>
-                <button className="button is-info" onClick={() => window.print()}>
-                    Download/Print Recipe
-                </button>
-            </div>
-            
-            {/* About the recipe */}
-            <h4 className="subtitle has-text-centered is-4">Story Time</h4>
+        }
+        story={
+            <div className="story">
             <p className="story">
             What's the difference between a pie and a tart? A pie will sometimes have a top crust, while a tart always has an open face. A tart also usually has a more crumbly, 
             sweet crust while pie crusts are flakier and take fewer ingredients. This recipe was adapted from <em>Recipes from the World of Tolkien</em>, a cookbook that takes inspiration 
@@ -82,7 +65,9 @@ const BlackberryTart = () => {
             the blackberries will be soft, but not mushy. Let cool by the windowsill for at least 30 minutes before serving to make sure the filling sets up nicely. This is a great dessert 
             for any occassion, very easy to make, and tastes delicious!
             </p>
-        </div>    
+            </div>
+        }
+        />
     );
 }
 

@@ -1,4 +1,19 @@
-Recipes Website v3.4 - Collection of recipes curated by Mihir Lele
+Recipes Website v3.5 - Collection of recipes curated by Mihir Lele
+===== Release 3.5 =====
+7/2/26 - "The Visual Learner"
+New Additions:
+    - Added photo icons for some recipes
+    - New Recipes:
+        - Aloo Paratha
+    - New Posts:
+        - American Food Rant
+Changes:
+    - Updated Arayes recipe
+    - Updated Pineapple Upside Down Deep Dish Pizza recipe
+    - Finished Milk and Cookie Pie recipe
+    - Improved efficiency of recipe and blog post pages
+    - Revised recipes and blog posts
+
 ===== Release 3.4 =====
 3/14/26 - "On the Go"
 New Additions:

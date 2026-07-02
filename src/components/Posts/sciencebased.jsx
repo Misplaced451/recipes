@@ -13,39 +13,46 @@ const ScienceBased = () => {
 
             <div className="section pt-0 columns">
             <div className="column is-2-desktop"></div>
-            <div className='column is-8-desktop content'>
-            <p className='has-text-centered subtitle is-4'>The Traditional Mindset</p>
-            <p className='story'>
+            <div className='column is-8-desktop content story'>
+            <p className='has-text-centered subtitle is-4 no-indent'>The Traditional Mindset</p>
+            <p>
             Although cooking (like everything else) works based on scientific laws and principles, the idea of a "science-based" home cook is relatively recent. Many recipes were made in households 
             by mothers and grandmothers and passed on through families. Others were made for courts or wealthy homeowners by professional chefs, then passed down to apprentices. Whether from family 
             tradition or pedagogy, the art of cooking was steeped in a respect for one's culture and predecessors. Obviously innovation existed, but it was always based on personal preference or 
             dictated by supply and demand. There was little investigation into the <em>why</em> of cooking, you just kind of had to accept sometimes that this is the way that things were done.
             </p>
-            <p className='story'>
+            <p>
             I think tradition can be a powerful thing, and it unites people across time and space beautifully, but I also think traditional thinking can sometimes hold us back. For instance, washing 
             chicken before cooking it is a common household practice around the world. It makes sense intuitively: raw meat contains pathogens, so rinse the meat and remove the pathogens. You still 
             need to cook your meat thoroughly, especially poultry, but it should theoretically lower your risk of infection, right? Wrong. Water isn't enough to kill bacteria. If you're washing raw 
-            chicken under your tap, all you're doing is spreading that salmonella all over the inside of your sink, and maybe your counter too, if the water splashes on there as well. This actually 
-            might <em>increase</em> your risk of infection in the long-run, so it's best to throw that tradition out the window. Just wash your hands with soap before and after cooking, disinfect 
-            anything that has been touched by raw meat, and use separate surfaces for cutting meat and vegetables, and you should be just fine. 
+            chicken under your tap, all you're doing is spreading that bacteria all over the inside of your sink and a little on your counter as well. This actually might <em>increase</em> your risk 
+            of infection in the long-run, so the science doesn't support the rationale behind that tradition. Just wash your hands with soap before and after cooking, disinfect anything that has been 
+            touched by raw meat, use separate surfaces for cutting meat and vegetables, and you should be just fine. If you still want to maintain that tradition, it's your prerogative, but know that 
+            you're not doing it because it has any practical benefit, but purely for the sake of connection to your culture and heritage (which is still perfectly valid).
             </p>
-            <p className='story'>
-            Other traditions, however, like blooming spices in hot oil before adding other ingredients, allows for flavors to spread evenly, develop some depth, and meld together well with each 
-            other. In cuisines (e.g., Indian cuisine) that add lots of spices in a single dish, this technique allows those spices to meld together in a symphony of aroma. There's no way that ancient 
-            Indians understood the chemistry of how volatile active compounds react to heat and bond to nonpolar molecules more easily than polar molecules. But through some trial and error, they 
-            developed a tradition that worked well with their own style of cuisine and helped make Indian food what it is today: delicious.
+            <p>
+            Other traditions, however, are backed by scientific principles. Take for instance, the practice of blooming spices in hot oil before adding other ingredients. It allows for the flavors to 
+            spread evenly, develop some depth, and meld together well with each other. In cuisines (e.g., Indian cuisine) that add lots of spices in a single dish, this technique allows those spices 
+            to sing together in a symphony of aroma. There's no way that ancient Indians understood the precise chemistry of how volatile active compounds react to heat and bond to nonpolar molecules 
+            more easily than polar molecules. But through some trial and error, they developed a tradition that worked well with their own style of cuisine and helped make Indian food what it is 
+            today: delicious.
             </p>
-            <p className='story'>
-            
+            <p>
+            The bottom line is this: there's nothing wrong with using traditional methods for the sake of maintaining cultural heritage and connection, but a lot of these methods were developed without 
+            an understanding of underlying mechanisms or thorough testing to confirm their efficacy. Which is why in some cases, blindly following tradition may even be counterproductive. Ideally, you 
+            want to find ways to pass on tradition where you can while also questioning how things work and why. We think of tradition as something written in stone, but it's a very mutable thing, 
+            just like every other social construct. Throwing ancestral wisdom out the window is extreme, but it's important to give traditions enough room to evolve based on different contexts and 
+            intentions for which they're applied. We need a more rigorous way of verifying which traditions should be maintained as is and which ones still need a little work to get the results we want. 
+            And there's no better method to put our assumptions to the test than science.
             </p>
-            <p className='has-text-centered subtitle is-4 mt-6'>The Science-Based Mindset</p>
-            <p className='story'>
+            <p className='has-text-centered subtitle is-4 mt-6 no-indent'>The Science-Based Mindset</p>
+            <p>
             Food science is not a new concept. People have been applying the principles of physics and chemistry to food for hundreds of years. However, there has been a recent surge online in 
             "science-based" content. I've seen it in everything from workout videos to skincare advice to productivity books. Food writers and culinary content creators have hopped on the 
             science-based train more than ever in the last decade or so, publishing home experiments, using fancy lab equipment, and making molecular gastronomy techniques more accessible to the 
             enterprising home cook.
             </p>
-            <p className='story'>
+            <p>
             Personally, I love the fact that people are willing to question conventional wisdom in favor of empirical evidence. However, I think the monetization potential around the science-based 
             movement has corrupted its intentions. If just one small study comes out regarding the potential negative health impacts of a single ingredient or nutrient, content creators are incentivized 
             to make a hoopla about it. For instance, take all the nonsense people are spreading about seed oils being bad because their Omega-6's are pro-inflammatory. In reality, Omega-6 fatty acids 
@@ -53,23 +60,24 @@ const ScienceBased = () => {
             written papers on the subject. But that doesn't stop health nuts on YouTube from asserting that all seed oils are the devil. These are people that are hijacking the science-based train 
             for engagement, and it leads people to make more uninformed decisions.
             </p>
-            <p className='story'>
+            <p>
             Another issue with the science-based approach is that even if the information is accurate, its effects might be sensationalized due to a lack of scientific literacy in the majority of the 
             public. What happens as a result is that many people waste time fussing and arguing over small tweaks and tips that add only marginal improvements to their food, and their attention 
             subconsciously strays away from the major details that actually matter. Sure, you can debate whether peanut oil or vegetable oil makes a crispier French fry, but if you're not salting your 
             potatoes properly or you're not cooking them thoroughly, the meager difference in saturated fat content isn't going to count for much. It's easy for people to obsess over the details, and a 
             science-based home cook can very easily find themselves in a daunting quagmire of information, making it harder for new cooks to focus on just practicing the fundamentals.
             </p>
-            <p className='has-text-centered subtitle is-4 mt-6'>A New Approach</p>
-            <p className='story'>
+            <p className='has-text-centered subtitle is-4 mt-6 no-indent'>A New Approach</p>
+            <p>
             Evidently, the science-based approach is valid in theory: figure out what works best and just do that. But theory and practice are only the same in theory, not in practice. A lot of the 
             "scientifically best" methods and ingredients are expensive and/or hard to find. We need an approach that achieves the best results, but also redefines "best" from meaning "maximal" to 
             meaning "optimal". Maximal results achieve the highest measurement of a particular variable, like how crispy your fries are, or how much liquid is retained in your chicken breast after 
             cooking. These are the best results one could theoretically achieve. Optimal results are the best <em>possible</em> outcomes given a variety of factors. Sure, making lump-free mashed 
             potatoes in a food processor maximizes speed, but it incurs the cost of overworking the potatoes, resulting in a gummy, gluey glop. Because maximizing one variable often comes at the cost 
-            of others, it's important to find some balance. Pushing your potatoes through a sieve, although slower, ensures the same level of smoothness but yields a more tender, fluffy mash.
+            of others, it's important to find some balance. Pushing your potatoes through a sieve, although slower, ensures the same level of smoothness but yields a more tender, fluffy mash. In 
+            other words, we are optimizing the overall quality of our potatoes by making some concessions and determining whether the resultant benefits are worth it.
             </p>
-            <p className='story'>
+            <p>
             When running science experiments, it's often the objective to find the maximal result rather than what's necessarily optimal. In most experiments, especially ones that determine causality 
             between variables, it's good practice to control for as many variables as possible and isolate the change to a single variable. But real life is very different from the inside of a lab. 
             Cooking doesn't exist in a vacuum, it's a part of our daily lives, which is full of confounding obstacles that make things much more unpredictable. For the average home cook, we don't need 
@@ -78,40 +86,39 @@ const ScienceBased = () => {
             time in my schedule to make it. I do not have a team of chefs and line cooks working for me. I am not in control of all the variables, and I don't have the time or money to gain that control. 
             I have to sacrifice a bit of quality for efficiency. After all, I'm not making money off of each meal I make.
             </p>
-            <p className='story'>
+            <p>
             Home cooking isn't always about the food, it's also about the effect that the process has on your domestic life. It's important to find balance between quality and efficiency (benefit vs cost). 
             In other words, I need optimization, not maximization. The bottom line is this: when it comes to finding the best methods, leave it to the scientists and science-based folks. As home cooks, our 
             question isn't "how do I make the best food humanly possible?" It's "how do I make the best food I can with the constraints and resources at my disposal?" Although this approach is informed by 
             science, I find that this is the mindset not necessarily of a scientist, but that of an engineer.
             </p>
-            <p className='has-text-centered subtitle is-4 mt-6'>The Engineer's Mindset</p>
-            <p className='story'>
+            <p className='has-text-centered subtitle is-4 mt-6 no-indent'>The Engineer's Mindset</p>
+            <p>
             It's a scientist's job to answer questions: How does this process work? What would happen if we did this? What's the relationship between these two variables? An engineer is someone 
             who solves problems. They figure out not just how things work, but how to make them work. They often find the easiest path to optimal results, taking practical feasibility into account. 
-            In science, you want to control as many variables as possible. In engineering, you often need to account for the fact that you <em>can't</em> control all the variables all the time. 
-            There isn't a feud between scientists and engineers, they're not on opposite sides. Their relationship is symbiotic: scientists provide knowledge that engineers use to design things 
-            that scientists may use for testing.
+            In science, you want to control as many variables as possible. In engineering, you often need to account for the fact that you <em>can't</em> control all the variables. 
+            There isn't a feud between scientists and engineers, they're not on opposite sides. Their relationship is symbiotic: scientists provide knowledge that engineers can use to design things 
+            that scientists can use for testing.
             </p>
-            <p className='story'>
+            <p>
             To me, being a good home cook is being a good engineer. Maybe I'm just biased, as I'm already both of those things. But problem-solving is often at the core of a lot of recipe development. 
             Let's say you want to make a good apple pie. In order to maximize all the good things people like about apple pie, you'll need ingredients like flour and butter. But what if you or someone 
             you're serving it to has a gluten allergy? You have to figure out a workaround, but using substitute ingredients provides a different result, which may be subpar. We cannot always maximize 
-            quality, but we can optimize it. Maybe using oat flour would work best since the flavor of oats and apples go hand-in-hand. However, gluten is a key ingredient because it helps provide 
-            structure. Oat flour crusts might have more of a crumbly and less of a traditionally flaky texture as a result. Maybe adding something like egg whites as a binder would help (though it's 
-            not required). Notice the process at work here. We had an ideal scenario in mind, then we modified it to the provided context, took stock of the pros and cons of our solution, then tweaked 
-            it to cover for the cons.
+            quality, but we can optimize it to make the best of the situation we have. Maybe using oat flour would work best since the flavor of oats and apples go hand-in-hand. However, gluten is a 
+            key ingredient because it helps provide structure. Oat flour crusts might have more of a crumbly and less of a traditionally flaky texture as a result. Maybe adding something like egg whites 
+            as a binder would help (though it's not required). Notice the process at work here. We had an ideal scenario in mind, then we modified it to fit the provided context, took stock of the pros and 
+            cons of our solution, then tweaked it to cover for the cons.
             </p>
-            <p className='story'>
+            <p>
             There's more to culinary engineering than ingredient substitutions. When making a feast for Thanksgiving or another holiday that requires multiple dishes to come to the table at once, don't 
             you hate the scramble of having so many things going at once? You don't have a professional kitchen staff helping you out, and sometimes you're on your own in the kitchen. This is where 
             logistics comes into play. Think about how many pots you have, or how many things you can fit in the oven at the same temperature. Which things need to be served hot and fresh, and which 
             things can be made ahead of time? Maybe chopping your vegetables the day before and placing them in deli containers in the fridge would prevent a lot of counter clutter. Make as much as you 
             can beforehand, and when you have to do multiple things at once, calculate downtime. Have something in the oven for 30 mins? That's the perfect amount of time to whip up somehting else on the 
-            stove. Need to let a stew simmer a long time, but you only have the one pot? Let it simmer while you do all the prep for any other dishes that would need to use the pot after. Maybe you can't 
-            boil potatoes for your mash while your cranberry sauce is cooking, but you can put them in a tray in the oven, or even use the microwave if you know how to cook potatoes in one. Whatever the 
+            stove. Need to let a stew simmer a long time, but you only have the one pot? Let it simmer while you do all the prep for any other dishes that would need to use the pot after. Whatever the 
             case may be, find out ways for the jigsaw pieces of the cooking process of each dish to fit together as nicely as possible.
             </p>
-            <p className='story'>
+            <p>
             This is exactly how I came up with my <Link className='is-underlined' to="/thanksgivingpie">Thanksgiving Cottage Pie Recipe</Link>. Thanksgiving is so hectic, and people often end up with dry 
             turkey and lackluster side dishes as a result of all the chaos. But what if you could combine as many Thanksgiving dishes into one to save on time, counter space, and utensils? After thinking 
             on this, I found that the solution is cottage pie made with turkey instead of beef. The ground turkey stands in for whole turkey (and because it's cooked in stock there's no chance of dryness). 
@@ -119,21 +126,21 @@ const ScienceBased = () => {
             speaks for itself. So you get the flavor of turkey, stuffing, peas, gravy, and mashed potato all in one bite. It's as if you had a fully loaded Thanksgiving plate and you got a little bit of 
             everything on the fork! The only way I was able to make this recipe was through the mindset of an engineer. Once I spot a problem, I figure out how to solve it.
             </p>
-            <p className='story'>
+            <p>
             Every engineering profession has a different workflow, but I've found that there seems to be a common thread for most engineers (and also applies for resolving problems in other fields as well). 
             Below are what I call the Basic Rules of Engineering:
             </p>
             <ol>
                 <li className='has-text-weight-bold'>Play the Detective</li>
-                <p>
+                <p className='no-indent'>
                 Good problem finders make better problem solvers. Keep your eyes open for things that could be better, processes that could be improved, frictions in the system that stand out or results that 
                 are inconsistent or subpar. You'll find them because you're looking for them. Once you do find a clue that something's not right, follow it to the source. Engineers call this Root Cause Analysis. 
-                Sometimes problems occur at an early step of a process and you don't see the impact until a later step. Rather than fixing the effect, fix the cause. This would be like a detective cleaning up 
-                the crime scene rather than tracking down the perpetrator. If you want to prevent more crime scenes, catch the killer, don't just clean up after them. Gather all the information you can, figure 
-                out <em>why</em> this problem is there, and follow it to the root cause.
+                Sometimes problems occur at an early step of a process and you don't see the impact until a later step. Too often, people focus on fixing the effect rather than the cause. This would be like a detective 
+                cleaning up the crime scene rather than tracking down the perpetrator. If you want to prevent more crime scenes, catch the killer, don't just clean up after them. Gather all the information you can, 
+                figure out <em>why</em> this problem is there, and follow it to the root cause.
                 </p>
                 <li className='has-text-weight-bold'>Use the Four Tenets of Design</li>
-                <p>
+                <p className='no-indent'>
                 The best way to solve a problem is not to tackle it head-on, but to break it down into smaller pieces. Brainstorm ideas and write up a solution you think will work. When designing a solution, 
                 there are four tenets to keep in mind: <span className='has-text-weight-bold'>Modularity, Flexibility, Feasibility, and Simplicity</span>. Modularity is the ability to separate and recombine 
                 different components. Flexibility is the potential to adapt to different situations. Feasibility is how easily something can be done in terms of effort, time, or cost. Simplicity is how 
@@ -151,20 +158,20 @@ const ScienceBased = () => {
                 Sometimes the simplest solutions are the best. That's why engineers love to KISS (Keep It Simple, Stupid).
                 </p>
                 <li className='has-text-weight-bold'>Perfection is the Enemy of Progress</li>
-                <p>
+                <p className='no-indent'>
                 I think we need to rethink perfection as a society. Originally, the word "perfect" comes from the Latin <em>perfectum</em>, where it means something more akin to "complete" or "finished" rather 
                 than the absolute best that something could ever be. To me, perfection is attained when the work is finished, not the other way around. We're often tempted to tinker with things until they're just 
-                right. But knowing when to stop (or knowing when not to start at all) is just as important as identifying a problem in the first place. Consider the cost-benefit of moving forward. If the icing on 
+                right. But knowing when to stop (or knowing when not to start at all) is just as important as identifying a problem in the first place. Consider the cost-benefit of your actions. If the icing on 
                 your cake doesn't look completely smooth, is it really impacting the quality that much? Or is constantly getting finicky with it only going to waste time and you're never going to get it up to the 
                 ideal standard in your head? There's a common saying in the software engineering world: "it's not a bug, it's a feature!" I don't fuss over complete smoothness of icing or cutting precisely even cubes of 
-                vegetables. Instead, I just do a reasonable job, and chalk up the margin of error post-hoc to intentional design choice. It's not misshapen, it's "rustic", I tell myself. I'm not saying to be lazy, 
+                vegetables. Instead, I just do a reasonable job, and chalk up the margin of error post-hoc to intentional design choice. "It's not 'misshapen', it's 'rustic'," I tell myself. I'm not saying to be lazy, 
                 but once you reach the point where further effort is only going to yield marginal progress if any, it's time to stop. It's perfect the way it is. In cooking, as with most endeavors, the benefits 
                 you get from additional effort follow the law of diminishing returns. The more you focus on getting it flawless, the less you focus on actually getting it done, which is the most important part. It's 
-                good to seek out improvement where the costs are worth the benefits, but don't get bogged down in the little things. I would rather make a cake that's 90% perfect (which is still a really good cake) than 
+                good to seek out improvement where the costs are worth the benefits, but don't get bogged down in the little things. I would rather make a cake that's 90% flawless (which is still a really good cake) than 
                 tear my hair out for hours over minute details that nobody can pick up on for a marginally better result.
                 </p>
                 <li className='has-text-weight-bold'>Implement Small Before Implementing Big</li>
-                <p>
+                <p className='no-indent'>
                 Sometimes you get a little fancy with the experimentation and you end up messing something up. It happens. But you don't want it to happen if you're making a massive portion of food. Or worse, if 
                 you're cooking for other people. Always do a dry run first with a smaller batch before committing yourself to a more risky endeavor. One time I made a potato garlic soup for a big feast, and I didn't 
                 end up liking it. But I made so much I had several deli containers full of it that I ended up having to eat throughout the week. Always implement small before you implement big. I should have done a 
@@ -173,7 +180,7 @@ const ScienceBased = () => {
                 production, no matter how knowledgeable they are. 
                 </p>
                 <li className='has-text-weight-bold'>Documentation, Documentation, Documentation</li>
-                <p>
+                <p className='no-indent'>
                 If there's one thing you take away from this post, let it be this point. As the author Mark Batterson once said, "The shortest pencil is longer than the longest memory." You think you'll be smart enough 
                 to keep everything in that steel-trap noggin of yours, but believe me, writing it down always helps. Engineers rely on good documentation, both as a reference for creating new designs and as a system of 
                 accountability in delivering consistent results. In the kitchen, I constantly come up with recipes that I forget about until weeks or even months later. I've found that the only way they get translated 
@@ -185,7 +192,7 @@ const ScienceBased = () => {
                 when I make them something, and I love sharing my recipes with others. A website where everything's well-documented makes it easy.
                 </p>
             </ol>
-            <p className='story'>
+            <p>
             I created this concept of The Engineer's Mindset as a way to change our approach to how we do things in our daily lives. I see too many people relying blindly on tradition or instinct without knowing what they're 
             doing or why. I see people try and fix this by jumping on the science-based train where it's easy to get wrapped up in obsessing over minute details and trends as new research comes out. The Engineer's Mindset is 
             a way to not just take an informed approach to life, but to prioritize practicality, adaptation, and problem-solving over trying to maximize every variable in isolation. Essentially, it's important to do what works, 

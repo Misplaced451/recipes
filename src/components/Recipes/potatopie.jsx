@@ -1,72 +1,56 @@
 import '../../recipes_style.css';
 import '../../bulma.css';
+import RecipeLayout from './recipelayout';
 
 import { Link } from 'react-router-dom';
 
 const PotatoPie = () => {
     return (
-        <div className="pt-6 section recipe">
-            {/* Intro */}
-            <div className="has-text-centered section pt-0">
-                <h1 className="has-text-weight-bold is-size-3">Sweet Potato Pie</h1>
-                <p className="subtitle">Recipe courtesy of my friend's mom.</p>
-            </div>
-            
-            <div className="columns mb-6 has-background-light">
-                {/* Instructions */}
-                <div className="column">
-                <h4 className="subtitle has-text-centered-mobile">Instructions</h4>
-                <div className="content">
-                <ol>
-                    <li>Follow my <Link to={'/piecrust'} className='is-underlined'>Pie Crust Recipe</Link>, stopping after Step 6. You don't need to dock the dough.</li>
-                    <li>Boil sweet potato until tender and remove skin.</li>
-                    <li>Add sweet potato to a bowl and mash slightly.</li>
-                    <li>Add butter and mix well.</li>
-                    <li>Stir in sugar, eggs, milk, nutmeg, cinnamon, and vanilla.</li>
-                    <li>Beat on medium speed until smooth.</li>
-                    <li>Pour into pie crust.</li>
-                    <li>Bake at 350F for an hour or until set.</li>
-                </ol>
-                </div>
-                </div>
-                
-                {/* Ingredients */}
-                <div className="column is-4-desktop has-background-grey-lighter">
-                <h4 className="subtitle has-text-centered-mobile">Ingredients</h4>
-                <div className="content">
-                <p>For the Crust:</p>
-                <ul>
-                    <li>2.5 cups all-purpose flour, chilled</li>
-                    <li>1 tsp salt</li>
-                    <li>1 cup butter, cold, cubed</li>
-                    <li>0.33 cups ice-cold water</li>
-                </ul>
-                <p>For the Filling:</p>
-                <ul>
-                    <li>1 pound sweet potato</li>
-                    <li>0.5 cup butter, softened</li>
-                    <li>1 cup sugar</li>
-                    <li>0.5 cup whole milk</li>
-                    <li>2 eggs</li>
-                    <li>0.5 tsp ground nutmeg</li>
-                    <li>.5 tsp cinnamon</li>
-                    <li>1 tsp vanilla extract</li>
-                </ul>
-                </div>
-                </div>
-            </div>
-
-            <div className='container mb-6 has-text-centered'>
-                <button className="button is-info" onClick={() => window.print()}>
-                    Download/Print Recipe
-                </button>
-            </div>
-            
-            {/* About the recipe */}
-            <h4 className="subtitle has-text-centered is-4">Story Time</h4>
+        <RecipeLayout 
+        name={'Sweet Potato Pie'}
+        description={'Recipe courtesy of my friend\'s mom.'}
+        instructions={
+        <div className="content">
+        <ol>
+            <li>Follow my <Link to={'/piecrust'} className='is-underlined'>Pie Crust Recipe</Link>, stopping after Step 6. You don't need to dock the dough.</li>
+            <li>Boil sweet potato until tender and remove skin.</li>
+            <li>Add sweet potato to a bowl and mash slightly.</li>
+            <li>Add butter and mix well.</li>
+            <li>Stir in sugar, eggs, milk, nutmeg, cinnamon, and vanilla.</li>
+            <li>Beat on medium speed until smooth.</li>
+            <li>Pour into pie crust.</li>
+            <li>Bake at 350F for an hour or until set.</li>
+        </ol>
+        </div>
+        }
+        ingredients={
+        <div className="content">
+            <p>For the Crust:</p>
+            <ul>
+                <li>2.5 cups all-purpose flour, chilled</li>
+                <li>1 tsp salt</li>
+                <li>1 cup butter, cold, cubed</li>
+                <li>0.33 cups ice-cold water</li>
+            </ul>
+            <p>For the Filling:</p>
+            <ul>
+                <li>1 pound sweet potato</li>
+                <li>0.5 cup butter, softened</li>
+                <li>1 cup sugar</li>
+                <li>0.5 cup whole milk</li>
+                <li>2 eggs</li>
+                <li>0.5 tsp ground nutmeg</li>
+                <li>.5 tsp cinnamon</li>
+                <li>1 tsp vanilla extract</li>
+            </ul>
+        </div>
+        }
+        story={
+        <div className="story">
             <p className="story">
-            I remember telling my friend about how I made a recipe for lemon meringue pie. He wanted to learn to make it, and in exchange for my recipe, he told me his mom's special recipe 
-            for sweet potato pie. Thank you George, and many thanks to your mom as well for this delicious recipe.
+            I remember being in high school a week before Thanksgiving, telling my friend about how much I loved sweet potato pie. Everyone always talks about pumpkin pie around the holidays, 
+            but not enough people talk about how good sweet potato pie is. As it turns out, his mom just happened to have her own special recipe! I asked him for it, and he told me he'd 
+            give it to me in exchange for my lemon meringue pie recipe. Thank you George, and many thanks to your mom as well for this delicious recipe.
             </p>
             <p>
             I like making the pie dough the night before to give it plenty of time to rest in the freezer before making the rest of the pie. Once you're ready to make the filling, thaw and roll 
@@ -84,10 +68,9 @@ const PotatoPie = () => {
             minutes before serving. Top with whipped cream or serve plain. A final piece of advice: don't just wait around for Thanksgiving to make this. Sweet potato pie is amazing and deserves 
             more love all year round. Besides, if you plan to have this on your holiday menu, you should probably practice it a few times before the big day.
             </p>
-            <p className="story">
-            
-            </p>
-        </div>    
+        </div>
+        }
+        />
     );
 }
 

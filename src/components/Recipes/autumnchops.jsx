@@ -1,72 +1,54 @@
 import '../../recipes_style.css';
 import '../../bulma.css';
+import RecipeLayout from './recipelayout';
 
 const AutumnPorkChops = () => {
     return (
-        <div className="pt-6 section recipe">
-            {/* Intro */}
-            <div className="has-text-centered section pt-0">
-                <h1 className="has-text-weight-bold is-size-3">Autumn Pork Chops</h1>
-                <p className="subtitle">Sweet and savory pork chops with classic Fall flavors</p>
+        <RecipeLayout 
+        name={'Autumn Pork Chops'}
+        description={'Sweet and savory pork chops with classic Fall flavors'}
+        instructions={
+            <div className="content">
+            <ol>
+                <li>Salt pork chops and set aside for an hour</li>
+                <li>Blend ginger with a splash of water and a pinch of salt</li>
+                <li>Cover pork with ginger marinade, let sit 3 hrs</li>
+                <li>Clean off ginger and pat completely dry</li>
+                <li>Place a few incisions along the fat cap and season with black pepper</li>
+                <li>Cook on high heat with a bit of oil until seared and it reaches an internal temp of 145F</li>
+                <li>Set chops aside to rest, turn the heat down, and add butter with a whacked garlic clove</li>
+                <li>Once the butter browns, remove the garlic and add the sage</li>
+                <li>When the sage begins to crisp, remove it and deglaze with brandy and apple cider vinegar, scraping the fond as you go</li>
+                <li>Reduce the vinegar to minimize the pungent fumes, then add maple syrup, paprika, red pepper flake, and a hint of cinnamon</li>
+                <li>Add Dijon to a small bowl, add a bit of sauce to it and mix to temper before adding it back to the pan</li>
+                <li>Cook until a cohesive sauce forms that coats the back of a spoon</li>
+                <li>Serve with pork chops sliced against the grain and garnish with chopped crispy sage</li>
+            </ol>
             </div>
-            
-            <div className="columns mb-6 has-background-light">
-                {/* Instructions */}
-                <div className="column">
-                <h4 className="subtitle has-text-centered-mobile">Instructions</h4>
-                <div className="content">
-                <ol>
-                    <li>Heat the cream and milk until at 200°F, stirring occasionally</li>
-                    <li>Salt pork chops and set aside for an hour</li>
-                    <li>Blend ginger with a splash of water and a pinch of salt</li>
-                    <li>Cover pork with ginger marinade, let sit 3 hrs</li>
-                    <li>Clean off ginger and pat completely dry</li>
-                    <li>Place a few incisions along the fat cap and season with black pepper</li>
-                    <li>Cook on high heat with a bit of oil until seared and it reaches an internal temp of 145F</li>
-                    <li>Set chops aside to rest, turn the heat down, and add butter with a whacked garlic clove</li>
-                    <li>Once the butter browns, remove the garlic and add the sage</li>
-                    <li>When the sage begins to crisp, remove it and deglaze with brandy and apple cider vinegar, scraping the fond as you go</li>
-                    <li>Reduce the vinegar to minimize the pungent fumes, then add maple syrup, paprika, red pepper flake, and a hint of cinnamon</li>
-                    <li>Add Dijon to a small bowl, add a bit of sauce to it and mix to temper before adding it back to the pan</li>
-                    <li>Cook until a cohesive sauce forms that coats the back of a spoon</li>
-                    <li>Serve with pork chops sliced against the grain and garnish with chopped crispy sage</li>
-                </ol>
-                </div>
-                </div>
-                
-                {/* Ingredients */}
-                <div className="column is-4-desktop has-background-grey-lighter">
-                <h4 className="subtitle has-text-centered-mobile">Ingredients</h4>
-                <div className="content">
-                <ul>
-                    <li>2 thick-cut pork chops</li>
-                    <li>0.25 cups apple cider vinegar</li>
-                    <li>0.25 cups brandy (optional)</li>
-                    <li>1 tbsp maple syrup</li>
-                    <li>3 tbsp butter</li>
-                    <li>1 clove garlic</li>
-                    <li>1 tbsp Dijon mustard</li>
-                    <li>Ginger</li>
-                    <li>Smoked paprika</li>
-                    <li>Fresh sage</li>
-                    <li>Cinnamon</li>
-                    <li>Salt</li>
-                    <li>Pepper</li>
-                    <li>Red pepper flakes</li>
-                    <li>Vegetable oil</li>
-                </ul>
-                </div>
-                </div>
+        }
+        ingredients={
+            <div className="content">
+            <ul>
+                <li>2 thick-cut pork chops</li>
+                <li>0.25 cups apple cider vinegar</li>
+                <li>0.25 cups brandy (optional)</li>
+                <li>1 tbsp maple syrup</li>
+                <li>3 tbsp butter</li>
+                <li>1 clove garlic</li>
+                <li>1 tbsp Dijon mustard</li>
+                <li>Ginger</li>
+                <li>Smoked paprika</li>
+                <li>Fresh sage</li>
+                <li>Cinnamon</li>
+                <li>Salt</li>
+                <li>Pepper</li>
+                <li>Red pepper flakes</li>
+                <li>Vegetable oil</li>
+            </ul>
             </div>
-
-            <div className='container mb-6 has-text-centered'>
-                <button className="button is-info" onClick={() => window.print()}>
-                    Download/Print Recipe
-                </button>
-            </div>
-            
-            {/* About the recipe */}
-            <h4 className="subtitle has-text-centered is-4">Story Time</h4>
+        }
+        story={
+            <div className="story">
             <p className="story">
             The first time I cooked pork chops, they were dry and tough. Part of it was because I was too scared to cook them below well-done, but also because pork chops are fairly 
             lean, and are therefore prone to drying out. Unlike steaks, however, pork has a very unique flavor profile that lends itself well to everything from sweet and sour sauce 
@@ -88,7 +70,7 @@ const AutumnPorkChops = () => {
             </p>
             <p classname="story">
             Once your pork is done tenderizing, wipe off all the ginger with a wet paper towel and pat the chops completely dry. Surface moisture is the enemy of a good sear. Make 
-            about 3 incisions along the fat cap ( perpendicular to the direction of the fat cap, distributed evenly across the entire cap, cutting all the way through it) to prevent 
+            about 3 incisions along the fat cap (perpendicular to the direction of the fat cap, distributed evenly across the entire cap, cutting all the way through it) to prevent 
             the classic pork chop curl when cooking. Season with some black pepper to taste and get a stainless steel pan ripping hot over high heat. You'll know it's ready when some 
             water flicked onto the pan begins to bead up and skitter around the pan while evaporating. Coat the pan with a thin layer of vegetable oil and add in the chops. Sear both 
             sides, flipping every 30 seconds or so, until you get a good crust. Make sure to sear the fat cap as well. Using an instant-read thermometer, check the internal temp and 
@@ -120,7 +102,9 @@ const AutumnPorkChops = () => {
             the mark. Slice up your pork chops against the grain for max tenderness and serve with your sauce and chopped sage. Although this is meant to be a seasonal dish, there's no law against 
             enjoying it at any time of year. Even if there was such a law, this dish is so good it's worth breaking the rules from time to time.
             </p>
-        </div>    
+            </div>
+        }
+        />
     );
 }
 
