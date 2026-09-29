@@ -308,7 +308,7 @@ const RecipeData = {
             id:22,
             name:"Rajma",
             path:"/rajma",
-            has_image: false,
+            has_image: true,
             tags:['indian', 'favorite', 'vegetarian', 'vegan']
         },
 
