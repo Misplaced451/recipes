@@ -97,29 +97,26 @@ const AmericanFood = () => {
             to mention frybread because of its importance in history, but I do so tentatively for a couple reasons. The concept of frying bread is not native to the Americas, but after 
             the massacres and displacements of their people, many Native American communities had to rely on cheap government staples like flour, lard, and salt to prevent themselves 
             from starving. Frybread is a cultural touchstone that unites a lot of Native tribes and represents not only the history of their struggles, but also their perseverance through 
-            it. Still, because it's calorically dense with little nutritive value, having to rely on foods like frybread to get by for so long is one of the many reasons Native American 
-            populations are still at a disproportionately high risk of health issues like obesity and diabetes even to this day. It's a food with a brutal history, and although it is 
-            indeed American food, I didn't want to mention it without discussing the nuance and controversy behind its development and prevalence.
+            them. Although frybread is indeed American food, I didn't want to mention it without discussing the nuance and controversy behind its development and prevalence.
             </p>
             <p>
-            Another major contribution to American cuisine is soul food. When slaves were brought to the Americas from West Africa, their language, customs, and identity sort of blended 
-            together over the years, making it difficult for Black Americans to identify with their specific ancestral lineage from Africa. This, combined with a century of segregation 
-            even after emancipation, forced them to develop their own cultural identities as Black Americans. Part of that was building off of vestigial influences from their West/Central 
-            African heritage, part of that was making the best of what they had in the American South. Foods like Southern fried chicken, jambalaya, gumbo, Hoppin' John, collard greens, 
-            red beans and rice, and sweet potato pie are all great examples. You may notice an intersection between some of these foods with Cajun and Creole cuisines from Louisiana, 
-            and there is a lot of mutual influence and overlap between various Southern American and Black American cultures. 
+            Another major contribution to American cuisine is soul food. When slaves were brought to the Americas from West Africa, they had no access to quality food and had to make the 
+            best of whatever they were given. This, combined with a century of segregation even after emancipation, forced them to develop their own distinct cultural cuisines over 
+            centuries. Much of soul food was built on techniques and influences from West/Central Africa combined with whatever ingredients people had access to in the American South. 
+            Foods like Southern fried chicken, jambalaya, gumbo, Hoppin' John, collard greens, red beans and rice, and sweet potato pie have all become hallmark examples of soul food. You 
+            may notice an intersection between some of these foods with Cajun and Creole cuisines from Louisiana, and there is indeed a lot of mutual influence and overlap between various 
+            Southern American and Black American cultures in general. 
             </p>
             <p>
-            Thankfully, the entire culinary history of the United States isn't all stained with the blood of marginalized peoples. There are so many foods that have been brought 
-            by immigrants and taken on a unique style to fit American tastes. I mentioned the hamburger before, but there's variations like the smashburger, cheeseburger, etc. that are 
-            undisputably American. Regional variants of the hot dog like the Coney dog, Chicago dog, Seattle dog, etc. are also American (even though we got the frankfurter from German 
-            immigrants). Italian immigrants have also played a big role in shaping American cuisine with spaghetti and meatballs, pizza, and chicken parmesan amongst other 
-            things. Although spaghetti al pomodoro (spaghetti with tomato sauce) and polpette (Italian meatballs) are an Italian dishes, they are served as different courses entirely in 
-            Italy. It's distinctly American to toss the spaghetti with the meatballs in sauce and serve it all together. Similarly, pizza is an Italian invention, but 
-            American pizza has significant differences in crust, sauce, cheese, and toppings. Cities with a large Italian-American population also tend to have their own regional styles. 
+            In addition, There are so many foods that have been brought by immigrants and taken on a unique style to fit American tastes. I mentioned the hamburger before, but there's 
+            variations like the smashburger, cheeseburger, etc. that are undisputably American. Regional variants of the hot dog like the Coney dog, Chicago dog, Seattle dog, etc. are also 
+            American (even though we got the frankfurter from German immigrants). Italian immigrants have also played a big role in shaping American cuisine with spaghetti and meatballs, pizza, 
+            and chicken parmesan amongst other things. Although spaghetti al pomodoro (spaghetti with tomato sauce) and polpette (Italian meatballs) are Italian dishes, they are served as 
+            different courses entirely in Italy. It's distinctly American to toss the spaghetti with the meatballs in sauce and serve it all together. Similarly, pizza is an Italian invention, 
+            but American pizza has significant differences in crust, sauce, cheese, and toppings. Cities with a large Italian-American population also tend to have their own regional pizzas too. 
             Whether it's the Chicago deep-dish, the New York slice, Detroit-style pizza, New Haven pizza, etc., there are so many unique styles of pizza that mean so much to the communities 
-            that make them. There's also foods from American Chinese restaurants (e.g., orange chicken and crab rangoons) and Japanese-American restaurants (e.g., Western-style sushi) 
-            that have also become popular in the U.S. but are distinctly different from the dishes that inspired them in China and Japan respectively.
+            that make them. There's also foods from American Chinese restaurants (e.g., orange chicken and crab rangoons) and Japanese-American restaurants (e.g., Western-style sushi) that 
+            have also become popular in the U.S. but are distinctly different from the dishes that inspired them in China and Japan respectively.
             </p>
             <p>
             You can't bring up influences on American cuisine without also mentioning Mexico. Much of Southwestern cuisine (including Tex-Mex and New Mexican cuisine) borrows strongly 
@@ -133,18 +130,16 @@ const AmericanFood = () => {
             cuisine as other states and has a strong connection to Polynesian and East Asian cuisines. Foods like spam musubi, mocoloco, and poke demonstrate this clearly. Hawaii may 
             be the only state that is entirely insular (even Rhode Island is mostly connected to the mainland), but we also have other territories under U.S. federal jurisdiction 
             that are separated from the mainland as well. I hesitate to include cuisines from Puerto Rico, American Samoa, Guam, the Northern Mariana Islands, and the U.S. Virgin 
-            Islands in this discussion because it feels weird to claim the food and culture from these places as American when a large portion of their populations don't identify 
+            Islands in this discussion because it feels weird to claim the food and culture from these places as American when large portions of their populations don't identify 
             with American culture as a whole despite technically being citizens. For the purposes of this discussion, I want to stick to the 50 states to try and simplify the definition 
-            of where American food begins and ends, but I couldn't move on without at least acknowledging the existence and importance of the many distinct cultural cuisines in U.S. 
-            territories as well.
+            of where American food begins and ends, but I couldn't move on without at least mentioning the existence of the many distinct cultural cuisines in U.S. territories as well.
             </p>
             <p className='has-text-centered subtitle is-4 mt-6 no-indent'>The American Classics</p>
             <p>
             Despite how many foods I've named that are American, it doesn't do a lot to debunk the stereotype that American food is only stuff that's appropriated, stolen, or made by 
             people who were brought here against their will. Much of the previous section had to be handled delicately, and I did my best in that regard (though I'm still unsure of 
-            whether I handled the topics appropriately). Still, even setting the previously mentioned foods aside, there's plenty of American food out there, you just need to know 
-            where to look. Here's a list of some of the most popular foods and drinks invented in the United States. Not born as a direct result of human rights violations or credited 
-            to the diaspora of foreign cultures, just a list of American food in no particular order.
+            whether I handled the topics appropriately). Still, even setting the previously mentioned dishes aside, there's plenty of American food out there, you just need to know 
+            where to look. Here's a list of some of the most popular foods and drinks invented in the United States in no particular order.
             </p>
             <ul>
                 <li>Clam chowder</li>
@@ -171,7 +166,7 @@ const AmericanFood = () => {
                 <li>Biscuits and gravy</li>
                 <li>Bananas foster</li>
                 <li>Étouffée</li>
-                <li>French dip (not French, but named after their use of baguettes)</li>
+                <li>French dip (not French in orgin, it's named after the style of bread)</li>
                 <li>Banana bread</li>
                 <li>Muffins (specifically quickbread/"American" muffins)</li>
                 <li>Cupcakes</li>
@@ -191,7 +186,7 @@ const AmericanFood = () => {
             </ul>
             <p>
             If you still want to say there's "no such thing" as American food, not only are you erasing the culinary history and tradition of the Indigenous populations that have been 
-            here for millennia, but also diminishing the rich histories of Black American cultures and various diasporas of immigrants. Even beyond that, the deliberate choice to outright 
+            here for millennia, but you're also diminishing the rich histories of Black American cultures and various diasporas of immigrants. Even beyond that, the deliberate choice to outright 
             dismiss the work of American chefs, families, and innovators over centuries and the lack of curiosity to learn about regional cuisine that makes every community unique is 
             absolutely reprehensible. It's true that I may not know a lot about some other cuisines around the world. Ask me anything about Hungarian cuisine and I'm at a loss. However, 
             I would never assert that Hungarians just steal their foods from Slavic and Balkan countries without any evidence to support such an absurd claim. I would instead 
@@ -215,13 +210,13 @@ const AmericanFood = () => {
             "Okay," I hear you say, "America does <em>have</em> food, but it's all processed poison and nutritionless garbage." I'm not sure why people think this. And yes, I have heard this 
             opinion echoed several times online by both Americans and non-Americans alike. Yes, we do have processed food, but processing food isn't inherently bad (another rant entirely). 
             According to the GFSI (Global Food Score Index) that scores countries based on a plethora of factors including nutritional standards, food safety, agricultural R&D funding, protein 
-            quality, food loss, GDP per capita, diet diversification, etc. The United States ranks 13th in the world overall. Our affordability and availability subscores aren't great, but 
+            quality, food loss, GDP per capita, diet diversification, etc. The United States ranks 13th in the world overall as of 2026. Our affordability and availability subscores aren't great, but 
             we're 12th in the world for sustainability & adaptation and 3rd in the world for quality & safety (close behind Canada and Denmark). Granted, we have no excuse not to be higher on 
             the list (especially in the affordability and availability subscores), and I'm not going to shy away from the fact that the U.S. has a myriad of political issues that are making it 
-            harder for people to access nutrient-dense foods. But to say things like, "American food is garbage because their bread is so artificial that it doesn't rot within a week," (yes, 
+            harder for people to access nutritious foods. But to say things like, "American food is garbage because their bread is so artificial that it doesn't rot within a week," (yes, 
             this is an unironic take I've heard before) is just silly. American wheat was bred to survive a different range of climates, leading to a higher gluten content, and we tend to use a 
-            faster fermentation process for bread dough than traditional methods in Europe. The result is bread that is a lot less delicate in texture and harder to digest than most bread across 
-            the EU, (which makes it look and taste "fake" to people that aren't used to it) but it's still nutritious food. The fact that a small amount of preservatives help increase the shelf 
+            faster fermentation process for bread dough than traditional methods in Europe. The result is that our bread is often a lot less delicate in texture and harder to digest than most breads across 
+            the EU (which makes it look and taste "fake" to people that aren't used to it), but it's still nutritious food. The fact that a small amount of preservatives help increase the shelf 
             life doesn't change that either. American bread isn't inherently bad, it was just developed differently than other styles due to consumer demand. Speaking of additives, I've also 
             heard the take that U.S. regulatory agencies let you put any amount of scary artificial food additives in everything, so the food quality must be worse. Again, this commits the 
             logical sin of making an appeal to nature as the basis of the argument. It also commits the logical sin of being wrong. The FDA approves food-safe additives after thorough testing 

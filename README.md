@@ -10,9 +10,8 @@ I originally kept all my recipes in a notes app on my phone, but I was frustrate
 This project serves as a compendium for all the recipes I've collected. Some are "borrowed" from others (credit is given where appropriate), some were passed down to me by my mother, and some are creations of my own. The cookbook is divided into sections: Blog Posts, Recipes, The Laboratory (experimental recipes), and Links to my favorite cooking resources on the internet. Each section is denoted by a tab at the top of the page.
 
 My remaining goals for this project:
-1. Add blog posts
-2. Upload images of the food instead of using a placeholder image
-3. Add a "recommended recipes" section to each recipe so people know what else to check out
-4. Create more goals along the way. There's always something to improve!
+1. Upload more images for my recipes, too many of them still have placeholders
+2. Add a "recommended recipes" section to each recipe so people know what else to check out
+3. Create more goals along the way. There's always something to improve!
 
 You can view the current version of the recipe at: https://mihirs-recipes.netlify.app/

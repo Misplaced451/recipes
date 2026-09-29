@@ -9,6 +9,7 @@ import StartCooking from './howtocook';
 import PlantRant from './plantrant';
 import ScienceBased from './sciencebased';
 import AmericanFood from './americanfood';
+import FiveSenses from './fivesenses';
 
 import RecipeData from '../../recipe-data';
 
@@ -58,5 +59,5 @@ const Posts = () => {
 
 export default Posts;
 export {
-    SteakMyths, Lotr, StartCooking, PlantRant, ScienceBased, AmericanFood
+    SteakMyths, Lotr, StartCooking, PlantRant, ScienceBased, AmericanFood, FiveSenses, 
 };

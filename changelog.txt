@@ -1,5 +1,16 @@
 Recipes Website v3.5 - Collection of recipes curated by Mihir Lele
+
 ===== Release 3.5 =====
+9/29/26 - v3.5.2 Patch Notes
+New Additions:
+    New Recipes:
+    - Chimichurri
+    New Posts:
+    - Cooking with the Five Senses
+Changes:
+- Fixed homepage quick links icons
+- Made some updates to blog posts
+- Fixed a bug where the Cane's Sauce recipe didn't load
 7/2/26 - v3.5.1 Patch Notes
 - Fixed recipe icon paths in the Laboratory page
 - Added sketches for the Lab experiments

@@ -66,7 +66,7 @@ const Home = () => {
                 <div className='columns is-centered has-text-centered'>
                     <Link to="/rajma" className="card column is-2-desktop recipelink mx-4 mb-4">
                         <div className="card-image">
-                            <img src={"placeholder.jpg"} alt="rajma.jpg" />
+                            <img src={"images/placeholder.jpg"} alt="rajma.jpg" />
                         </div>
                         <div className="card-content">
                             <p className="has-text-weight-bold">Rajma</p>
@@ -74,7 +74,7 @@ const Home = () => {
                     </Link>
                     <Link to="/thanksgivingpie" className="card column is-2-desktop recipelink mx-4 mb-4">
                         <div className="card-image">
-                            <img src={"placeholder.jpg"} alt="thanksgivingpie.jpg" />
+                            <img src={"images/thanksgivingpie.jpg"} alt="thanksgivingpie.jpg" />
                         </div>
                         <div className="card-content">
                             <p className="has-text-weight-bold">Thanksgiving Cottage Pie</p>
@@ -82,7 +82,7 @@ const Home = () => {
                     </Link>
                     <Link to="/pineapplepizza" className="card column is-2-desktop recipelink mx-4 mb-4">
                         <div className="card-image">
-                            <img src={"placeholder.jpg"} alt="pineapplepizza.jpg" />
+                            <img src={"images/pineapplepizza.jpg"} alt="pineapplepizza.jpg" />
                         </div>
                         <div className="card-content">
                             <p className="has-text-weight-bold">Pineapple Upside-Down Deep-Dish Pizza</p>

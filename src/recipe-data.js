@@ -97,6 +97,14 @@ const RecipeData = {
         },
 
         {
+            id:51,
+            name:"Chimichurri",
+            path:"/chimichurri",
+            has_image: true,
+            tags:['weeknight', 'beginner', 'original', 'vegetarian', 'vegan']
+        },
+
+        {
             id:30,
             name:"Chocolate Mug Cake",
             path:"/mugcake",
@@ -502,6 +510,12 @@ const RecipeData = {
             title:"A Defense of American Food",
             description:"Is there really such a thing as \"American food\"? Or did we just take it all from other countries?",
             path:"/americanfood"
+        },
+        {
+            id: 7,
+            title:"Cooking With The Five Senses",
+            description:"Cooking is a multisensory experience. How can we use all five senses to make our food better?",
+            path:"/fivesenses"
         },
     ]
 }

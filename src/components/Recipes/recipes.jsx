@@ -57,6 +57,7 @@ import AutumnPorkChops from './autumnchops';
 import SmoresMousse from './smoresmousse';
 import MilkCookiePie from './milkcookiepie';
 import AlooParatha from './alooparatha';
+import Chimichurri from './chimichurri';
 
 import RecipeData from '../../recipe-data';
 
@@ -150,4 +151,5 @@ export {
     JerkChicken, StirFry, MexicanRice, ChickenStock, ConeyStew, PorkPie, 
     SeedCake, BakedBeans, BlackberryTart, Vinaigrette, PieCrust, Arayes, 
     MushroomParfait, AutumnPorkChops, SmoresMousse, MilkCookiePie, AlooParatha, 
+    Chimichurri
 };

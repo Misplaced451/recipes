@@ -1,6 +1,6 @@
 import '../../recipes_style.css';
 import '../../bulma.css';
-import Recipelayout from './recipelayout';
+import RecipeLayout from './recipelayout';
 
 const Canes = () => {
     return (

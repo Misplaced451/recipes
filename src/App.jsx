@@ -39,6 +39,7 @@ function App() {
           <Route path='/plantbasedrant' element={<Posts.PlantRant />} />
           <Route path='/sciencebased' element={<Posts.ScienceBased />} />
           <Route path='/americanfood' element={<Posts.AmericanFood />} />
+          <Route path='/fivesenses' element={<Posts.FiveSenses />} />
           
           {/* Lab Routes */}
           <Route path='/tikka' element={<Lab.Tikka />} />
@@ -97,6 +98,7 @@ function App() {
           <Route path='/smoresmousse' element={<Recipes.SmoresMousse />} />
           <Route path='/milkcookiepie' element={<Recipes.MilkCookiePie />} />
           <Route path='/alooparatha' element={<Recipes.AlooParatha />} />
+          <Route path='/chimichurri' element={<Recipes.Chimichurri />} />
         </Routes>
       </ScrollUp>
     </div>
