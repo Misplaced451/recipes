@@ -27,10 +27,11 @@ const AmericanFood = () => {
             How do we decide which country a food should call home? If more people eat it there? If it originated there? If it took on its modern, recognizable form there? What if 
             two languages in two different countries have two different words for a practically identical dish? Does food belong to culture, region, ethnicity, or country? What about 
             a diaspora that transforms over time into distinct cultures or countries? Let me put it like this: I am a Canadian immigrant in the United States from an Indian family. 
-            If I make my own version of a pizza recipe, is that pizza Italian, Canadian, American, or Indian food? The question of a dish's origin isn't a well-formulated question. To 
-            quote my discrete math professor, "A good definition is worth its weight in gold." So, let's define a food's origin as follows: the extant nation presiding over the region in 
-            which the first documented creation of a dish originates in its modern, recognizable form. In cases for which the legitimacy of a nation is not universally recognized, the 
-            correct answer depends on the political stance of the speaker. Unfortunately, this isn't a perfect definition, but it's the best start we've got.
+            If I make my own version of a pizza recipe, is that pizza Italian, Canadian, American, or Indian food? The question of a dish's origin isn't a well-formulated question, 
+            because "origin" lacks a reliable definition. To quote my discrete math professor, "A good definition is worth its weight in gold." So, let's define a food's origin as follows: 
+            the extant nation presiding over the region in which the first documented creation of a dish originates in its modern, recognizable form. In cases for which the legitimacy 
+            of a nation is not universally recognized, the correct answer depends on the political stance of the speaker. Unfortunately, this isn't a perfect definition, but it's the 
+            best start we've got.
             </p>
             <p>
             With this in mind, let's take a look at vadapav, a classic street food from Mumbai. It's a spiced potato patty covered in chickpea batter and deep-fried, then served on a roll 
@@ -67,19 +68,19 @@ const AmericanFood = () => {
             borders, united by rice.
             </p>
             <p>
-            So what's the point of all this? What I'm trying to say is that the central question of whether American food exists at all is an absurd one. The idea that food should retain 
-            its origin despite moving and transforming over time is ridiculous. Was the hamburger really invented in Germany? Some people say yes, but it's equally plausible that with a 
-            high number of German immigrants in the U.S., Hamburg steaks were eaten in the U.S. enough that Americans could have also invented the hamburger. It's even possible that the 
-            hamburger was invented in both countries independently around the same time. Believe it or not, putting meat in bread is not a revolutionary concept. There are a dozen origin 
-            stories for who "definitively" invented the burger, but all of them are apocryphal at best. Based on that, I would consider the hamburger to be American food as well as German 
-            food, in the way that pilaf is also from multiple countries (not because it was definitively invented in both places, but because both places have their own stylistic 
+            So what's the point of all this? What I'm trying to say is that the central question of whether American food exists at all is an absurd one. Of course American food exists, 
+            despite taking influence from other cuisines, because every cuisine does that! So was the hamburger really invented in Germany? Some people say yes, but it's equally plausible 
+            that with a high number of German immigrants in the U.S., Hamburg steaks were eaten in the U.S. enough that Americans could have also invented the hamburger. It's even possible 
+            that the hamburger was invented in both countries independently around the same time. Believe it or not, putting meat in bread is not a revolutionary concept. There are a dozen 
+            origin stories for who "definitively" invented the burger, but all of them are apocryphal at best. Based on that, I would consider the hamburger to be American food as well as 
+            German food, in the way that pilaf is also from multiple countries (not because it was definitively invented in both places, but because both places have their own stylistic 
             interpretations and cultural histories that have developed around it).
             </p>
             <p>
             For the people who still insist that hamburgers CANNOT be American because it's based on the Hamburg steak (the ground beef patty), which is a German invention, riddle me this: 
             is the bun also a German invention? I don't think so. Leavened wheat bread was around in ancient Egypt, so its production is well-documented there, but we don't know if they were 
             the first to ever do it. In any case, it appears that Germanic tribes relied more on rye and barley, because wheat wasn't as readily available up north. So leavened wheat bread is 
-            decisively not German, and yet people insist Germans have the absolute claim over the hamburger with that type of bread as one of the fundamental ingredients. Germany also isn't 
+            decisively not German, and yet people insist Germans have the absolute claim over the hamburger with wheat-based buns as one of the fundamental ingredients. Germany also isn't 
             credited with the domestication of cattle either, so they didn't invent cooked beef. If you want to claim that America "stole" the burger from Germany because one of the key 
             ingredients was invented there, are you ready to admit that Germans "stole" all the techniques and ingredients to make the burger too? This game of kicking the culinary can could 
             be played forever and we will never get anywhere with any productive discussion. To give any sense of meaning to the idea that food is "from" somewhere, we have to interpret the 
@@ -95,9 +96,9 @@ const AmericanFood = () => {
             derived from Indigenous dishes and agricultural practices. Maple syrup, cornbread, succotash, and hominy (which is used in grits and hushpuppies) are all as American 
             as can be. There are so many more dishes from all over America like akutaq, pemmican, acorn bread, etc. that still exist, but are not as widely known. Of course, I also have 
             to mention frybread because of its importance in history, but I do so tentatively for a couple reasons. The concept of frying bread is not native to the Americas, but after 
-            the massacres and displacements of their people, many Native American communities had to rely on cheap government staples like flour, lard, and salt to prevent themselves 
+            the massacres and displacements of their peoples, many Native American communities had to rely on cheap government staples like flour, lard, and salt to prevent themselves 
             from starving. Frybread is a cultural touchstone that unites a lot of Native tribes and represents not only the history of their struggles, but also their perseverance through 
-            them. Although frybread is indeed American food, I didn't want to mention it without discussing the nuance and controversy behind its development and prevalence.
+            them. Although frybread is indeed American food, I didn't want to mention it as such without discussing the nuance and controversial history behind its development and prevalence.
             </p>
             <p>
             Another major contribution to American cuisine is soul food. When slaves were brought to the Americas from West Africa, they had no access to quality food and had to make the 
@@ -109,20 +110,20 @@ const AmericanFood = () => {
             </p>
             <p>
             In addition, There are so many foods that have been brought by immigrants and taken on a unique style to fit American tastes. I mentioned the hamburger before, but there's 
-            variations like the smashburger, cheeseburger, etc. that are undisputably American. Regional variants of the hot dog like the Coney dog, Chicago dog, Seattle dog, etc. are also 
+            variations like the smashburger, cheeseburger, etc. that are indisputably American. Regional variants of the hot dog like the Coney dog, Chicago dog, Seattle dog, etc. are also 
             American (even though we got the frankfurter from German immigrants). Italian immigrants have also played a big role in shaping American cuisine with spaghetti and meatballs, pizza, 
             and chicken parmesan amongst other things. Although spaghetti al pomodoro (spaghetti with tomato sauce) and polpette (Italian meatballs) are Italian dishes, they are served as 
             different courses entirely in Italy. It's distinctly American to toss the spaghetti with the meatballs in sauce and serve it all together. Similarly, pizza is an Italian invention, 
             but American pizza has significant differences in crust, sauce, cheese, and toppings. Cities with a large Italian-American population also tend to have their own regional pizzas too. 
             Whether it's the Chicago deep-dish, the New York slice, Detroit-style pizza, New Haven pizza, etc., there are so many unique styles of pizza that mean so much to the communities 
             that make them. There's also foods from American Chinese restaurants (e.g., orange chicken and crab rangoons) and Japanese-American restaurants (e.g., Western-style sushi) that 
-            have also become popular in the U.S. but are distinctly different from the dishes that inspired them in China and Japan respectively.
+            have also become popular in the U.S. and are distinct from the dishes that inspired them in China and Japan respectively.
             </p>
             <p>
             You can't bring up influences on American cuisine without also mentioning Mexico. Much of Southwestern cuisine (including Tex-Mex and New Mexican cuisine) borrows strongly 
             from Mexican and Native American influences, to the point where it's unclear where most foods originated. Turns out, if you have people of similar lifestyles, ancestries, 
-            tastes, and environments on both sides of the border for centuries, eventually it's not going to be clear which side of the line invented things like fajitas or queso dip. 
-            Especially since the American Southwest belonged to Mexico until the Mexican-American War in the mid-1800s. Still, Mexican food has made a life of its own here, diverging 
+            tastes, and environments on both sides of the border for centuries, eventually it's not going to be clear which side of the line invented things like fajitas or queso dip, 
+            especially since the American Southwest belonged to Mexico until the Mexican-American War in the mid-1800s. Still, Mexican food has made a life of its own here, diverging 
             from its roots especially amongst big chain and fast food restaurants.
             </p>
             <p>
@@ -132,7 +133,7 @@ const AmericanFood = () => {
             that are separated from the mainland as well. I hesitate to include cuisines from Puerto Rico, American Samoa, Guam, the Northern Mariana Islands, and the U.S. Virgin 
             Islands in this discussion because it feels weird to claim the food and culture from these places as American when large portions of their populations don't identify 
             with American culture as a whole despite technically being citizens. For the purposes of this discussion, I want to stick to the 50 states to try and simplify the definition 
-            of where American food begins and ends, but I couldn't move on without at least mentioning the existence of the many distinct cultural cuisines in U.S. territories as well.
+            of where American food begins and ends, but I couldn't move on without at least acknowledging the existence of the many unique cultural cuisines in U.S. territories as well.
             </p>
             <p className='has-text-centered subtitle is-4 mt-6 no-indent'>The American Classics</p>
             <p>
@@ -158,7 +159,7 @@ const AmericanFood = () => {
                 <li>Meatball subs</li>
                 <li>Pecan pie</li>
                 <li>Root beer</li>
-                <li>Coca-Cola</li>
+                <li>Cola</li>
                 <li>Alligator bites</li>
                 <li>Key lime pie</li>
                 <li>Milkshakes</li>
@@ -186,14 +187,14 @@ const AmericanFood = () => {
             </ul>
             <p>
             If you still want to say there's "no such thing" as American food, not only are you erasing the culinary history and tradition of the Indigenous populations that have been 
-            here for millennia, but you're also diminishing the rich histories of Black American cultures and various diasporas of immigrants. Even beyond that, the deliberate choice to outright 
-            dismiss the work of American chefs, families, and innovators over centuries and the lack of curiosity to learn about regional cuisine that makes every community unique is 
-            absolutely reprehensible. It's true that I may not know a lot about some other cuisines around the world. Ask me anything about Hungarian cuisine and I'm at a loss. However, 
-            I would never assert that Hungarians just steal their foods from Slavic and Balkan countries without any evidence to support such an absurd claim. I would instead 
+            here for millennia, but you're also diminishing the rich histories of Black American cultures and various diasporas of immigrants. Even beyond that, the deliberate choice 
+            to outright dismiss the work of American chefs, families, and innovators over centuries and the lack of curiosity to learn about regional cuisine that makes every community 
+            unique is absolutely reprehensible. It's true that I may not know a lot about some other cuisines around the world. Ask me anything about Hungarian cuisine and I'm at a loss. 
+            However, I would never assert that Hungarians just steal their foods from Slavic and Balkan countries without any evidence to support such an absurd claim. I would instead 
             try and dig a little deeper than my basic assumptions and do the due diligence to learn more before I bandy around dismissive statements like that. I know that Americans 
-            are loud, ignorant, and annoying at times, but that's no reason not to give credit where credit's due. As a side note, after doing a bit of reading, I just found out that 
-            chicken paprikash is Hungarian, and paprika is a quintessential spice to much of Hungarian cuisine. I love paprika! Maybe if I experiment with some Hungarian recipes and 
-            learn a bit more about their history, I can learn how to use that spice better and gain a new appreciation for a different culture.
+            can be ignorant about other cultures at times, but that's no reason not to give credit where credit's due for us. As a side note, after doing a bit of reading, I just found 
+            out that chicken paprikash is Hungarian, and paprika is a quintessential spice to much of Hungarian cuisine. I love paprika! Maybe if I experiment with some Hungarian recipes 
+            and learn a bit more about their history, I can learn how to use that spice better and gain a new appreciation for a different culture.
             </p>
             <p>
             The final word on the existence/originality of American food is this: culture talks. We draw borders through lines in the sand, but that doesn't stop people from exchanging 
@@ -213,17 +214,18 @@ const AmericanFood = () => {
             quality, food loss, GDP per capita, diet diversification, etc. The United States ranks 13th in the world overall as of 2026. Our affordability and availability subscores aren't great, but 
             we're 12th in the world for sustainability & adaptation and 3rd in the world for quality & safety (close behind Canada and Denmark). Granted, we have no excuse not to be higher on 
             the list (especially in the affordability and availability subscores), and I'm not going to shy away from the fact that the U.S. has a myriad of political issues that are making it 
-            harder for people to access nutritious foods. But to say things like, "American food is garbage because their bread is so artificial that it doesn't rot within a week," (yes, 
+            harder for people to access nutritious foods. But to say things like, "American food is garbage, because their bread has preservatives in it and doesn't go bad in a week," (yes, 
             this is an unironic take I've heard before) is just silly. American wheat was bred to survive a different range of climates, leading to a higher gluten content, and we tend to use a 
-            faster fermentation process for bread dough than traditional methods in Europe. The result is that our bread is often a lot less delicate in texture and harder to digest than most breads across 
-            the EU (which makes it look and taste "fake" to people that aren't used to it), but it's still nutritious food. The fact that a small amount of preservatives help increase the shelf 
-            life doesn't change that either. American bread isn't inherently bad, it was just developed differently than other styles due to consumer demand. Speaking of additives, I've also 
-            heard the take that U.S. regulatory agencies let you put any amount of scary artificial food additives in everything, so the food quality must be worse. Again, this commits the 
-            logical sin of making an appeal to nature as the basis of the argument. It also commits the logical sin of being wrong. The FDA approves food-safe additives after thorough testing 
-            of its potential harmful effects, then sets the maximum allowed amount per serving to be way lower than that threshold (often 1% or less of the amount it would take to see any 
-            significant effect on you). There's also plenty of food additives banned in the U.S. that the EU considers perfectly fine. All this to say, I'm not sure where we got the stereotype 
-            that all our food is unhealthy and unsafe, but it clearly isn't true. I'll never say American food is the best in the world, we certainly have our fair share of problems, but I 
-            think we can leave some of these misconceptions and misunderstandings in the past.
+            faster fermentation process for bread dough than traditional methods in Europe. The result is that our bread is often a lot less delicate in texture and harder to digest than 
+            most breads across the EU (which makes it look and taste "fake" to people that aren't used to it), but it's still nutritious food. The fact that a small amount of preservatives 
+            help increase the shelf life doesn't change that either. American bread isn't inherently bad, it was just developed differently than other styles due to consumer demand. Speaking 
+            of additives, I've also heard the take that U.S. regulatory agencies let you put any amount of scary artificial food additives in everything, so the food quality must be worse. 
+            Again, this commits the logical sin of making an appeal to nature as the basis of the argument. It also commits the logical sin of being wrong. The FDA approves food-safe additives 
+            after thorough testing of its potential harmful effects, then sets the maximum allowed amount per serving to be way lower than that threshold (often 1% or less of the amount it would 
+            take to see any significant effect on you). There's also plenty of food additives banned in the U.S. that the EU considers perfectly fine. No system is perfect, but it works well enough 
+            to ensure that the foods we get at the grocery store are safe when consumed in moderation. All this to say, I'm not sure where we got the stereotype that all our food is unhealthy and 
+            unsafe, but it clearly isn't true. I'll never say American food is the best in the world, we certainly have our fair share of problems, but I think we can leave some of these misconceptions 
+            and misunderstandings in the past.
             </p>
             </div>
             </div>

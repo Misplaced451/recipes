@@ -16,7 +16,6 @@ const FiveSenses = () => {
             <div className='column is-8-desktop content story'>
             <p className='has-text-centered subtitle is-4 no-indent'>Cooking: A Multisensory Experience</p>
             <p>
-            I always say cooking is the best hobby, because it's the only one you're allowed to eat. But the thing is, you don't really smell or touch a lot of artworks either. 
             Cooking is a multisensory art form, and there are strong evolutionary reasons as to why. Unlike other hobbies or art forms, the procurement of food is integral to 
             basic survival. Every sense we have is doing its best to try and figure out what's safe to eat, and more importantly, what isn't. Because of how intertwined the 
             experience of food is with survival, it's also a deeply emotional process. Sometimes just mentioning food, like a tea-soaked madeleine, the smell of a backyard 
@@ -183,9 +182,9 @@ const FiveSenses = () => {
             <p>
             So what happens if you're missing one or more of the five senses, am I saying you can't be a good cook? Quite the opposite. For example, if you lack a sense of smell, that would indeed make 
             it a challenge to adjust the flavor of your food. However, you can still compensate for that by focusing on what you <em>can</em> sense. Food isn't just about flavor. Learn to plate your food 
-            nicely and focus on creating a satisfying mouthfeel, and you'll still be able to cook pretty well. The point is, cooking and eating should never be limited to just one or two senses, it should be 
-            a symphony of experiences. The next time you're cooking, and the next time you're eating, pay attention to all five senses and what they're all telling you. You will gain a new appreciation for the 
-            culinary arts, I guarantee it.
+            nicely and focus on creating a satisfying texture, and you'll still be able to cook pretty well. The point is, cooking and eating should never be limited to just one or two senses, it should be 
+            a symphony of experiences. The next time you're cooking, and the next time you're eating, pay attention to all five major senses and what they're all telling you. You will gain a new appreciation 
+            for the culinary arts, I guarantee it.
             </p>
             </div>
             </div>
